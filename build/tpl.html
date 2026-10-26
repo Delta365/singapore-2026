@@ -116,7 +116,7 @@ select.btn{padding-right:9px}
 .fact.fest{border-left-color:var(--c-activity)}
 
 /* ---------- body ---------- */
-.main{display:grid; grid-template-columns:366px 1fr; min-height:0; position:relative}
+.main{display:grid; grid-template-columns:476px 1fr; min-height:0; position:relative}
 aside{
   background:var(--surface); border-right:1px solid var(--line);
   display:flex; flex-direction:column; min-height:0; z-index:500;
@@ -345,12 +345,6 @@ aside{
         <button class="btn" id="home">Hillview</button>
       </div>
     </div>
-    <div class="facts" id="facts">
-      <div class="wxrow" id="wxstrip" aria-label="Weather for each day"></div>
-      <div class="wxsep"></div>
-      <div class="fact warn"><b>Haze</b><span>PSI has been in the unhealthy range since September. Pack N95 masks and keep an indoor fallback.</span></div>
-      <div class="fact"><b>Flights</b><span>You land on the evening of Mon 2 Nov and fly home early on Mon 9 Nov from T3: book a taxi for about 04:30.</span></div>
-    </div>
   </header>
 
   <div class="main">
@@ -499,7 +493,7 @@ function wxSourceLine(){
     : `Forecast fetched ${WX.fetched}, 8 to 15 days ahead: read it as the pattern, not a promise. Rerun nearer the trip.`;
 }
 function renderWxStrip(){
-  const box = document.getElementById('wxstrip'); box.innerHTML = '';
+  const box = document.getElementById('wxstrip'); if(!box) return; box.innerHTML = '';
   DATA.days.forEach(D => {
     const w = wxFor(D.d); if(!w) return;
     const [k] = wxKind(w);
