@@ -244,6 +244,20 @@ aside{
 .dpin.spare{width:12px;height:12px;margin:4px;font-size:0;opacity:.8}
 .dpin.sel{transform:scale(1.35);box-shadow:0 0 0 4px color-mix(in srgb,var(--dot) 40%,transparent)}
 
+/* ---------- day filter on the map ---------- */
+.dayfilter{display:flex;gap:4px;align-items:center;padding:5px;background:color-mix(in srgb,var(--surface) 95%,transparent);
+  backdrop-filter:blur(8px);border:1px solid var(--line-strong);border-radius:999px;box-shadow:var(--shadow);
+  max-width:calc(100vw - 24px);overflow-x:auto;scrollbar-width:none}
+.dayfilter::-webkit-scrollbar{display:none}
+.leaflet-top.leaflet-left .dayfilter{margin:8px 0 0 10px}
+.dfb{flex:0 0 auto;min-width:30px;height:30px;padding:0 9px;border-radius:999px;border:1.5px solid var(--dot);background:var(--surface);
+  color:var(--text);font:700 12.5px/1 'Karla',sans-serif;cursor:pointer;transition:background .15s,color .15s}
+.dfb.all{border-color:var(--line-strong);font-weight:600}
+.dfb:hover{background:color-mix(in srgb,var(--dot) 14%,var(--surface))}
+.dfb.on{background:var(--dot);color:#fff;border-color:var(--dot)}
+.dfb.all.on{background:var(--text);color:var(--surface)}
+.dfb:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
 /* ---------- haze ---------- */
 .hzl{display:flex;align-items:center;gap:5px;font-size:10.5px;color:var(--muted);white-space:nowrap;margin-top:2px}
 .hzl i,.hzdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--hz);flex:0 0 auto}
@@ -1078,11 +1092,11 @@ function wireDrag(){
 }
 function applyMarkers(){
   DATA.places.forEach((p,i)=>{
-    const show = !p._del && matches(p);
+    const show = !p._del && matches(p) && (dayFilter===null || p._day===dayFilter || p.cat==='stay');
     show ? markers[i].addTo(placeGroup) : placeGroup.removeLayer(markers[i]);
     markers[i].setIcon(pinIcon(p));
     const inDay = dayFilter!==null && p._day===dayFilter;
-    markers[i].setOpacity(dayFilter!==null && !inDay && p.cat!=='stay' ? .2 : 1);
+    markers[i].setOpacity(1);
     markers[i].setZIndexOffset(p.cat==='stay' ? 1000 : inDay ? 500 : 0);
   });
 }
@@ -1135,6 +1149,25 @@ function renderDays(){
     listEl.appendChild(det);
   }
 }
+const dayFilterBox = L.DomUtil.create('div', 'dayfilter');
+dayFilterBox.setAttribute('role', 'toolbar'); dayFilterBox.setAttribute('aria-label', 'Show one day on the map');
+L.DomEvent.disableClickPropagation(dayFilterBox); L.DomEvent.disableScrollPropagation(dayFilterBox);
+const DayFilterCtl = L.Control.extend({ onAdd: () => dayFilterBox });
+new DayFilterCtl({position:'topleft'}).addTo(map);
+function renderDayFilter(){
+  const opts = [{d:null, label:'All', title:'Show every day'}]
+    .concat(DATA.days.map(D => ({d:D.d, label:String(D.d), title:`Day ${D.d}, ${D.date}: ${D.title}`})))
+    .concat([{d:0, label:'Spare', title:'Spare and swaps'}]);
+  dayFilterBox.innerHTML = '';
+  opts.forEach(o => {
+    const b = document.createElement('button'); b.type = 'button';
+    b.className = 'dfb' + (o.d === null ? ' all' : '') + (dayFilter === o.d ? ' on' : '');
+    b.style.setProperty('--dot', o.d === null ? 'var(--text)' : DAY_COL[o.d]);
+    b.textContent = o.label; b.title = o.title; b.setAttribute('aria-pressed', dayFilter === o.d);
+    b.onclick = () => setDayFilter(o.d === null || dayFilter === o.d ? null : o.d);
+    dayFilterBox.appendChild(b);
+  });
+}
 function render(){
   if(dragging){ pendingRender = true; return; }
   applyMarkers();
@@ -1144,10 +1177,14 @@ function render(){
   listEl.scrollTop = top;
   wireDrag();
   renderWxStrip();
+  renderDayFilter();
 }
-function pickDay(d){
-  dayFilter = dayFilter===d ? null : d;
+function pickDay(d){ setDayFilter(dayFilter===d ? null : d); }
+function setDayFilter(d){
+  dayFilter = d;
   render();
+  const sel = d === null ? null : listEl.querySelector('.day.sel');
+  if(sel) listEl.scrollTo({top: sel.offsetTop - listEl.offsetTop, behavior: 'smooth'});
   const ps = DATA.places.filter(p => !p._del && (dayFilter===null || p._day===dayFilter));
   if(ps.length) map.flyToBounds(L.latLngBounds(ps.map(p=>[p.lat,p.lon])).pad(.18), {duration:.7, maxZoom:15});
 }
