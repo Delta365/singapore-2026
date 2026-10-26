@@ -163,7 +163,7 @@ Rest through the hottest hours, then head for Marina Bay.
 - Why: the travellers want to buy the iPhone early in the trip. This store sits between Chinatown and the Esplanade, three stops on the Downtown Line from Chinatown to Bayfront with no change.
 - Duration: about an hour (estimate).
 - Cost: the iPhone 18 Pro 256 GB is S$1,899 (₹1,40,716) including GST. It is not in the trip budget.
-- Tips: open 10am to 10pm in late October; November hours were not yet published. The buyer brings the original passport and a card in the same name. Before paying, ask the Specialist to confirm that an eTRS (tourist refund) transaction will be issued, pay in SGD, and check that the receipt shows the serial number and the eTRS ticket. Keep the box sealed until the GST refund at Changi on 9 November, and declare the phone at Mumbai (allowance ₹75,000 per person). The worked example in `budget_summary.md` saves about ₹11,000 on a 256 GB Pro and is roughly break-even at 1 TB and above; `safety_and_tips.md` has the steps. Apple Orchard Road is the backup on Day 4.
+- Tips: open 10am to 10pm in late October; November hours were not yet published. Bring the original passport and a card in the same name, and pay in SGD. Open and test the phone in the store, so any fault is caught while it can still be exchanged. Using it on the trip means there is no GST refund. Keep the receipt and box, and declare the phone at Mumbai (allowance ₹75,000 per person). On price it is about level with Apple India for a 256 GB Pro and dearer for the larger models; `budget_summary.md` has the table.
 
 ### Evening
 
@@ -347,7 +347,6 @@ Finish at the Zoo, then take the shuttle back to Khatib. The North South Line ru
 
 ### Also on Day 4
 
-- Apple Orchard Road, 270 Orchard Road: the backup iPhone stop if Tuesday's purchase falls through.
 - Uncle Chieng ice cream: a block of ice cream in a wafer or a slice of bread, about S$1.50 to S$2 (₹148). The cart is usually outside Takashimaya from about 1pm to 10pm (Eatbook), but it moves along Orchard Road and its 2026 hours were not confirmed. He has worked this junction for more than 30 years.
 - ION Orchard: LiXin Teochew Fishball Noodles has an outlet at Food Opera on B4, daily 10am to 10pm. The Bib Gourmand LiXin stall in Toa Payoh is closed for works throughout the trip.
 - Night Safari: S$58 (₹4,298) each on a regular night (Thursday counts). Open 7:15pm to midnight, last entry 11:15pm. The 2 Attractions pass at S$98 (₹7,262) each saves S$9 each against buying the Zoo and Night Safari separately. If you choose it, skip Orchard and budget a taxi or Grab home, about S$20 to S$25 (₹1,482 to ₹1,853 estimate). It is a very long day after a 7am start.
@@ -643,11 +642,11 @@ Weather, early forecast (low confidence, recheck around 31 Oct): high 30.4°C, l
 
 #### Changi Airport Terminal 3
 
-- What: check-in, the GST refund and breakfast before the early-morning flight home.
+- What: check-in and breakfast before the early-morning flight home.
 - Why: SIA counters close 40 minutes before departure.
 - Duration: about 2.5 hours from arrival to departure.
 - Cost: coffee and a snack for two about S$15 (₹1,112 estimate); SQ serves breakfast on board.
-- Tips: for a GST refund on goods in your checked bag, use the eTRS kiosk in the check-in hall before you drop the bag. For goods in your hand luggage, including the iPhone, use the kiosk in the transit area after immigration. Goods must leave on a flight within 12 hours of approval. If you are flagged for inspection, show the goods, passport, original receipts and boarding pass at the Customs Inspection Counter. The Terminal 3 GST refund counters, open 24 hours, are in the public departure hall between check-in rows 5 and 6. Ya Kun and Kopitiam in Basement 2 are open 24 hours; Singapore Food Street, airside on Level 3, opens at 6am.
+- Tips: for a GST refund on goods in your checked bag, use the eTRS kiosk in the check-in hall before you drop the bag. For goods in your hand luggage, use the kiosk in the transit area after immigration. Goods must leave on a flight within 12 hours of approval. If you are flagged for inspection, show the goods, passport, original receipts and boarding pass at the Customs Inspection Counter. The Terminal 3 GST refund counters, open 24 hours, are in the public departure hall between check-in rows 5 and 6. Ya Kun and Kopitiam in Basement 2 are open 24 hours; Singapore Food Street, airside on Level 3, opens at 6am.
 
 ---
 
@@ -739,6 +738,5 @@ Restrictions to know: no photography in the fourth-floor relic chamber of the Bu
 - GoCycling's free second hour comes from an undated report.
 - The Klook price for Gardens by the Bay comes from an affiliate blog.
 - NUS canteens: public access and payment methods were not confirmed.
-- iPhone: whether Apple's Singapore stores issue eTRS tickets for iPhones, the tourist-side refund handling fee, and the Indian duty rate (35 or 38.5 percent) are unconfirmed. Ask in the store before paying.
-- Day 4: the plan says Kranji to Khatib is five stops on the North South Line; it is seven.
+- iPhone: the Indian duty rate (35 or 38.5 percent) is unconfirmed, and so is warranty service in India for a Singapore-bought phone. Ask in the store before paying.
 - Day 7: Heap Seng Leong may close at 4pm, which is tight after the 2pm mosque visit.

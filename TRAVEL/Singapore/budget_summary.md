@@ -107,15 +107,18 @@ None of these include the optional extras.
 Source: the `iphone_purchase.md` research note (25 October 2026). It uses S$1 = ₹74.29, so its rupee figures are slightly higher than this file's. The purchase is not in any total above.
 
 - Price at Apple Marina Bay Sands: the iPhone 18 Pro 256 GB is S$1,899 including GST (₹1,41,069 at the note's rate). The Apple India price is ₹1,64,900.
-- GST refund: keep the box sealed and claim at the eTRS kiosk after immigration at Changi on 9 November. The net refund after the handling fee is about S$133 to S$142 (₹9,875 to ₹10,580). Choose a refund to the credit card. The minimum spend is S$100 on same-day receipts from one retailer, which any iPhone meets.
+- GST refund: none. You will use the phone during the trip, and the refund only covers goods not used in Singapore.
 - Indian customs: the allowance is ₹75,000 per person under the Baggage Rules, 2026, and cannot be pooled. Duty is about 35 percent on the value above it (one source says 38.5 percent). Declare the phone in the red channel at Mumbai.
-- Worked example: one 256 GB Pro, paid with a zero-markup card, refunded and declared: price ₹1,41,069, duty about ₹23,124 on the ₹66,069 above the allowance, landed cost about ₹1,53,966. That saves about ₹11,000 against the Apple India price.
+- Worked example: one 256 GB Pro, paid with a zero-markup card and declared: price ₹1,41,069, duty about ₹23,124 on the ₹66,069 above the allowance, landed cost about ₹1,64,193. That is about ₹700 below the Apple India price of ₹1,64,900, so roughly level.
 
-| Model | Saving against Apple India, zero-markup card, duty 35% | If duty is 38.5% | With a 3.5% markup card |
+| Model (Apple Singapore price) | Against Apple India, zero-markup card, duty 35% | If duty is 38.5% | With a 3.5% markup card |
 |---|---|---|---|
-| 18 Pro 256 GB | ₹10,934 | ₹8,621 | ₹5,108 |
-| 18 Pro 512 GB | ₹7,464 | ₹4,371 | ₹717 |
-| 18 Pro 1 TB | ₹523 | minus ₹4,129 | minus ₹8,064 |
+| 18 Pro 256 GB (S$1,899) | ₹707 cheaper | ₹1,606 more | ₹5,119 more |
+| 18 Pro 512 GB (S$2,199) | ₹4,379 more | ₹7,472 more | ₹11,126 more |
+| 18 Pro Max 256 GB (S$2,099) | ₹4,351 more | ₹7,184 more | ₹10,791 more |
+| 18 Pro 1 TB (S$2,799) | ₹14,551 more | ₹19,204 more | ₹23,138 more |
+
+These are my recalculations without the refund, at the note's rate of S$1 = ₹74.29; the 3.5 percent markup carries 18 percent GST, so it costs 4.13 percent of the price.
 | 18 Pro Max 256 GB | ₹6,954 | ₹4,121 | ₹514 |
 | 18 Pro Max 512 GB | ₹3,483 | minus ₹129 | minus ₹3,877 |
 | 18 Pro Max 1 TB | minus ₹3,457 | minus ₹8,629 | minus ₹12,658 |

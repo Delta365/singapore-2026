@@ -50,7 +50,7 @@
     "Blair Road",
     "Tanjong Pagar Railway Station"
    ],
-   "tip": "Tiong Bahru Market when the chicken rice stall opens at 10am, then a walk through the 1930s estate. Go on to Amoy Street before lunch: J2's curry puffs sell out early and the stall is shut at weekends. Then Maxwell, five minutes away: Tian Tian chicken rice (Ah Tai is closed on Tuesdays), rojak, popiah, cockles, oyster cake and Old Nyonya laksa. Kokuyo stationery on Ann Siang Road. Temples need shoulders and knees covered. Chinatown Complex for Ann Chin Popiah, Old Amoy Chendol and CMY satay, with your bakeries close by: Pretty Good Muffins in Hong Lim (until 3:30pm), Rise Bakehouse and Dome Bakery on South Bridge Road. Then the iPhone at Apple Marina Bay Sands: keep the box sealed until the GST refund at Changi. The free Soundtracks performance at the Esplanade is at 6:45pm or 7:45pm, then Satay Street at Lau Pa Sat. The Food Playground cooking class on Sago Street (9:30 to 12:30, about S$120 each) can replace the Tiong Bahru morning.",
+   "tip": "Tiong Bahru Market when the chicken rice stall opens at 10am, then a walk through the 1930s estate. Go on to Amoy Street before lunch: J2's curry puffs sell out early and the stall is shut at weekends. Then Maxwell, five minutes away: Tian Tian chicken rice (Ah Tai is closed on Tuesdays), rojak, popiah, cockles, oyster cake and Old Nyonya laksa. Kokuyo stationery on Ann Siang Road. Temples need shoulders and knees covered. Chinatown Complex for Ann Chin Popiah, Old Amoy Chendol and CMY satay, with your bakeries close by: Pretty Good Muffins in Hong Lim (until 3:30pm), Rise Bakehouse and Dome Bakery on South Bridge Road. Then the iPhone at Apple Marina Bay Sands: open and test it in the store, and keep the receipt and box for Indian customs. The free Soundtracks performance at the Esplanade is at 6:45pm or 7:45pm, then Satay Street at Lau Pa Sat. The Food Playground cooking class on Sago Street (9:30 to 12:30, about S$120 each) can replace the Tiong Bahru morning.",
    "wx": "Mornings are usually the driest part of the day, which suits Tiong Bahru and Maxwell. Storms tend to build in the late afternoon, when you are resting. The Esplanade Concourse is indoors; if Satay Street is wet, eat inside the Lau Pa Sat pavilion."
   },
   {
@@ -93,13 +93,12 @@
     "Emerald Hill"
    ],
    "also": [
-    "Apple Orchard Road",
     "Uncle Chieng ice cream",
     "ION Orchard",
     "Night Safari",
     "Newton Food Centre"
    ],
-   "tip": "Sungei Buloh at 7am for the migratory birds; there is no guided walk on a Thursday. Then the North South Line from Kranji five stops to Khatib and the M2 Mandai shuttle (S$2.50) to the Zoo for late morning (S$49 each), three to four hours. From Khatib the North South Line runs straight to Orchard, eight stops, for an evening indoors: the Takashimaya food hall, City Bakery in Mandarin Gallery, dinner at Sun with Moon in Wheelock Place (book), and a walk up Emerald Hill's Peranakan terraces. Uncle Chieng's ice cream cart is usually outside Takashimaya from about 1pm to 10pm, and Apple Orchard Road is the iPhone backup. If you choose the Night Safari instead (S$58 each), skip Orchard and budget a taxi home. A long day: carry water and an N95 in case of haze.",
+   "tip": "Sungei Buloh at 7am for the migratory birds; there is no guided walk on a Thursday. Then the North South Line from Kranji seven stops to Khatib and the M2 Mandai shuttle (S$2.50) to the Zoo for late morning (S$49 each), three to four hours. From Khatib the North South Line runs straight to Orchard, eight stops, for an evening indoors: the Takashimaya food hall, City Bakery in Mandarin Gallery, dinner at Sun with Moon in Wheelock Place (book), and a walk up Emerald Hill's Peranakan terraces. Uncle Chieng's ice cream cart is usually outside Takashimaya from about 1pm to 10pm. If you choose the Night Safari instead (S$58 each), skip Orchard and budget a taxi home. A long day: carry water and an N95 in case of haze.",
    "wx": "Sungei Buloh at 7am is the coolest and usually driest slot of the day. The Zoo has covered walkways and Orchard is indoors in the evening, so this day copes well with a late storm."
   },
   {
@@ -307,7 +306,7 @@
    "note": "Direct from Hillview, no change of train",
    "day": 4,
    "opt": true,
-   "ord": 104,
+   "ord": 103,
    "near": "Newton",
    "route": "Direct, no change",
    "time": "about 25 min",
@@ -817,7 +816,7 @@
    "note": "LiXin Teochew fishball noodles has a food-court outlet here",
    "day": 4,
    "opt": true,
-   "ord": 102,
+   "ord": 101,
    "near": "Orchard",
    "route": "1 change at Newton",
    "time": "about 30 min",
@@ -862,7 +861,7 @@
    "note": "Undecided. Getting home to Hillview late is the problem",
    "day": 4,
    "opt": true,
-   "ord": 103,
+   "ord": 102,
    "near": "",
    "route": "Downtown Line to Newton, North South Line to Khatib, then the M2 Mandai shuttle",
    "time": "about 70 min",
@@ -1117,7 +1116,7 @@
    "note": "Ice cream block in a wafer or a slice of bread, around S$2. A cart, so it moves along Orchard Road",
    "day": 4,
    "opt": true,
-   "ord": 101,
+   "ord": 100,
    "near": "Orchard",
    "route": "1 change at Newton",
    "time": "about 35 min",
@@ -1594,7 +1593,7 @@
   {
    "label": "Apple Marina Bay Sands",
    "cat": "shop",
-   "note": "The iPhone stop. For the 9% GST refund, keep the box sealed and claim at the kiosk after immigration at Changi; declare it at Mumbai (allowance Rs 75,000 per person)",
+   "note": "The iPhone stop. Open and test it in the store; you will use it on the trip, so there is no GST refund. Declare it at Mumbai (allowance Rs 75,000 per person)",
    "day": 2,
    "opt": false,
    "ord": 8,
@@ -1605,21 +1604,6 @@
    "addr": "Apple Marina Bay Sands, 2, Bayfront Avenue, Bayfront Subzone, Civic District, Downtown Core, Central Region",
    "lat": 1.283311,
    "lon": 103.857571
-  },
-  {
-   "label": "Apple Orchard Road",
-   "cat": "shop",
-   "note": "Backup for the iPhone on Thursday evening. Same refund rule: keep the box sealed",
-   "day": 4,
-   "opt": true,
-   "ord": 100,
-   "near": "Orchard",
-   "route": "1 change at Newton",
-   "time": "about 35 min",
-   "walk": 7,
-   "addr": "270 Orchard Road Knightsbridge",
-   "lat": 1.302983,
-   "lon": 103.836284
   },
   {
    "label": "Pretty Good Muffins",

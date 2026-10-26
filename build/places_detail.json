@@ -579,10 +579,8 @@
   "confidence": "medium"
  },
  "Apple Marina Bay Sands": {
-  "warn": "No store details in the notes. For goods in hand luggage, claim GST at the eTRS kiosk after immigration",
-  "confidence": "low"
- },
- "Apple Orchard Road": {
+  "hours": "About 10am to 10pm",
+  "warn": "Using it on the trip means no GST refund; keep the receipt for Mumbai customs",
   "confidence": "low"
  }
 }

@@ -119,7 +119,7 @@ S$1 = ₹74.10 (22 October 2026). Expect your bank's rate to be 1 to 2 percent w
 
 ## The iPhone
 
-Keep the box sealed. Claim the GST refund at the eTRS kiosk after immigration at Changi Terminal 3, with the receipt, passport and boarding pass. At Mumbai, declare it in the red channel: the allowance is ₹75,000 per person and cannot be pooled. Details are in `safety_and_tips.md`.
+You will use it during the trip, so there is no GST refund. Test it in the store and keep the receipt and box. At Mumbai, declare it in the red channel: the allowance is ₹75,000 per person and cannot be pooled. Details are in `safety_and_tips.md`.
 
 ## Plugs
 

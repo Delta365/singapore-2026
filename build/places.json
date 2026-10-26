@@ -891,18 +891,10 @@
  {
   "label": "Apple Marina Bay Sands",
   "cat": "shop",
-  "note": "The iPhone stop. For the 9% GST refund, keep the box sealed and claim at the kiosk after immigration at Changi; declare it at Mumbai (allowance Rs 75,000 per person)",
+  "note": "The iPhone stop. Open and test it in the store; you will use it on the trip, so there is no GST refund. Declare it at Mumbai (allowance Rs 75,000 per person)",
   "lat": 1.283311,
   "lon": 103.857571,
   "addr": "Apple Marina Bay Sands, 2, Bayfront Avenue, Bayfront Subzone, Civic District, Downtown Core, Central Region"
- },
- {
-  "label": "Apple Orchard Road",
-  "cat": "shop",
-  "note": "Backup for the iPhone on Thursday evening. Same refund rule: keep the box sealed",
-  "lat": 1.302983,
-  "lon": 103.836284,
-  "addr": "270 Orchard Road Knightsbridge"
  },
  {
   "label": "Pretty Good Muffins",
