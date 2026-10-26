@@ -248,7 +248,7 @@ aside{
 .cchip{display:inline-block;margin-left:8px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:600;color:var(--muted);
   background:var(--surface-2);border:1px solid var(--line);vertical-align:1px;white-space:nowrap}
 .cchip.off{color:var(--faint);font-weight:500}
-.costpanel{position:absolute;top:12px;right:12px;bottom:12px;width:min(440px,calc(100% - 24px));z-index:640;display:flex;flex-direction:column;
+.costpanel{position:absolute;top:12px;right:12px;bottom:12px;width:min(440px,calc(100% - 24px));z-index:1100;display:flex;flex-direction:column;
   background:var(--surface);border:1px solid var(--line-strong);border-radius:8px;box-shadow:var(--shadow);overflow:hidden}
 .costpanel[hidden]{display:none}
 .cph{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 4px}
@@ -282,7 +282,7 @@ aside{
 .cpr.tr .cpn{font-weight:600}
 .cpfoot{padding:9px 14px 12px;border-top:1px solid var(--line);background:var(--surface-2)}
 .cpfoot p{margin:0 0 6px;font-size:11px;color:var(--faint);line-height:1.45}
-@media (max-width:860px){ .costpanel{position:fixed;inset:0;width:auto;border-radius:0;z-index:900} }
+@media (max-width:860px){ .costpanel{position:fixed;inset:0;width:auto;border-radius:0;z-index:1100} }
 
 /* ---------- day filter on the map ---------- */
 .dayfilter{display:flex;gap:4px;align-items:center;padding:5px;background:color-mix(in srgb,var(--surface) 95%,transparent);
@@ -343,7 +343,7 @@ aside{
 .removed summary{cursor:pointer;font-size:12.5px;color:var(--muted)}
 .rrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0;border-top:1px solid var(--line);font-size:13px}
 .rrow:first-of-type{margin-top:8px}
-.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:900;display:flex;align-items:center;gap:14px;
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:1200;display:flex;align-items:center;gap:14px;
   background:var(--raised);color:var(--text);border:1px solid var(--line-strong);border-radius:6px;padding:10px 14px;box-shadow:var(--shadow);font-size:13px;max-width:calc(100vw - 32px)}
 .toast[hidden]{display:none}
 .toast button{font:inherit;font-weight:700;color:var(--gold);background:none;border:0;cursor:pointer;padding:0}
@@ -1079,7 +1079,647 @@ resetBtn.onclick = async () => {
 /* ---------- trip cost calculator ----------
    Estimates per person come from the research (places_cost.json). Edits to a place's figure or inclusion are saved
    with that place in the plan; the people count and each day's getting-around figure are saved as cost settings. */
-const COST = {"places":{},"transport":{}};
+const COST = {
+  "currency": "SGD",
+  "rate_inr": 74.10,
+  "places": {
+    "Hillview MRT": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Home base station; fares are in the daily transport line",
+      "confidence": "high"
+    },
+    "Maxwell Food Centre": {
+      "pp": 15,
+      "kind": "food",
+      "basis": "Tian Tian chicken rice plus shared rojak, popiah, oyster cake, laksa, drink; est.",
+      "confidence": "medium"
+    },
+    "Amoy Street Food Centre": {
+      "pp": 4,
+      "kind": "food",
+      "basis": "Two J2 curry puffs at about S$1.40-2 each, est. 2026 price",
+      "confidence": "medium"
+    },
+    "Old Airport Road Food Centre": {
+      "pp": 13,
+      "kind": "food",
+      "basis": "Oats pancakes, otah nasi lemak, small Nam Sing Hokkien mee (S$5), drink; est.",
+      "confidence": "medium"
+    },
+    "Golden Mile Food Centre": {
+      "pp": 11,
+      "kind": "food",
+      "basis": "Chef Lup three-meat rice S$8.80 (Sep 2025) or the S$10 set, plus a drink",
+      "confidence": "medium"
+    },
+    "Tiong Bahru Market": {
+      "pp": 9,
+      "kind": "food",
+      "basis": "Chicken rice (S$4.50-6 in 2026), shui kueh and kopi, est.",
+      "confidence": "medium"
+    },
+    "Lau Pa Sat": {
+      "pp": 19,
+      "kind": "food",
+      "basis": "Half of Best Satay Set A (S$31.20) plus a drink; budget S$38 for two",
+      "confidence": "high"
+    },
+    "Newton Food Centre": {
+      "pp": 20,
+      "kind": "food",
+      "basis": "Dinner without crab, about S$20 each (budget estimate)",
+      "confidence": "medium"
+    },
+    "Takashimaya / Ngee Ann City": {
+      "pp": 8,
+      "kind": "food",
+      "basis": "Snack at the B2 food hall, est.; budget S$15 for two",
+      "confidence": "low"
+    },
+    "Jewel Changi Airport": {
+      "pp": 18,
+      "kind": "food",
+      "basis": "Supper for one at Devil Chicken or Food Republic, est.; bag storage S$11-16 a bag extra",
+      "confidence": "medium"
+    },
+    "Gardens by the Bay": {
+      "pp": 46,
+      "kind": "ticket",
+      "basis": "Flower Dome plus Cloud Forest, non-resident adult; Garden Rhapsody free",
+      "confidence": "high"
+    },
+    "Merlion Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free waterfront park",
+      "confidence": "high"
+    },
+    "Chinatown": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Streets and temples free; Chinatown Heritage Centre (about S$25) not counted",
+      "confidence": "high"
+    },
+    "Buddha Tooth Relic Temple": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free; donations welcome",
+      "confidence": "high"
+    },
+    "Sri Mariamman Temple": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free entry; no fee found in the notes",
+      "confidence": "medium"
+    },
+    "Thian Hock Keng Temple": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free entry; dress modestly",
+      "confidence": "high"
+    },
+    "Sultan Mosque": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free; robes lent at the counter",
+      "confidence": "high"
+    },
+    "Arab Street": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Street walk; textile and rug shopping not counted",
+      "confidence": "high"
+    },
+    "Haji Lane": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free lane of murals and small shops",
+      "confidence": "high"
+    },
+    "Singapore Zoo": {
+      "pp": 49,
+      "kind": "ticket",
+      "basis": "Non-resident adult, weekday; lunch in the park (budget S$22.50 each) not counted",
+      "confidence": "high"
+    },
+    "Singapore Botanic Gardens": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free; only the National Orchid Garden is ticketed",
+      "confidence": "high"
+    },
+    "National Orchid Garden": {
+      "pp": 15,
+      "kind": "ticket",
+      "basis": "Standard (non-local) adult; no need to prebook",
+      "confidence": "high"
+    },
+    "Changi Village": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Village and coastal walk free; food and bumboat listed separately",
+      "confidence": "high"
+    },
+    "Clarke Quay": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Riverside walk free; river cruise (about S$25-28) not counted",
+      "confidence": "medium"
+    },
+    "Fort Canning Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Park and Tree Tunnel free; Battlebox (S$20) not counted",
+      "confidence": "high"
+    },
+    "Tanjong Pagar Railway Station": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Facade seen from outside; not open to visitors",
+      "confidence": "high"
+    },
+    "National Gallery Singapore": {
+      "pp": 20,
+      "kind": "ticket",
+      "basis": "General admission, other nationalities",
+      "confidence": "high"
+    },
+    "Marina Bay Sands": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Bayfront promenade free; CATS (S$68-238) not counted",
+      "confidence": "high"
+    },
+    "Esplanade Theatres on the Bay": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free Soundtracks show on the Concourse, Tue 3 Nov at 6:45pm or 7:45pm",
+      "confidence": "high"
+    },
+    "Baba House": {
+      "pp": 0,
+      "kind": "excluded",
+      "basis": "Closed for restoration until 2027 at the earliest; not costed",
+      "confidence": "high"
+    },
+    "Koon Seng Road": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free street of Peranakan terraces",
+      "confidence": "high"
+    },
+    "Blair Road": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Street walk past conservation shophouses",
+      "confidence": "high"
+    },
+    "Emerald Hill": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free walk past the Peranakan terraces",
+      "confidence": "high"
+    },
+    "Dempsey Hill": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Walk among the black-and-white buildings; cafe spend not counted",
+      "confidence": "high"
+    },
+    "Rochester Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free walk past the colonial bungalows",
+      "confidence": "high"
+    },
+    "East Coast Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free park; bike hire listed separately",
+      "confidence": "high"
+    },
+    "Sungei Buloh Wetland Reserve": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Treated as free; no 2026 entry fee found in the notes",
+      "confidence": "medium"
+    },
+    "Singapore Indoor Stadium": {
+      "pp": 140,
+      "kind": "ticket",
+      "basis": "LANY: budget S$190-370 for two incl. fees; face value from S$138",
+      "confidence": "low"
+    },
+    "Bugis Street": {
+      "pp": 0,
+      "kind": "shopping",
+      "basis": "browse; purchases not counted",
+      "confidence": "high"
+    },
+    "Ann Siang Road": {
+      "pp": 0,
+      "kind": "shopping",
+      "basis": "browse; purchases not counted",
+      "confidence": "high"
+    },
+    "Funan": {
+      "pp": 19,
+      "kind": "activity",
+      "basis": "GV Funan movie: S$16 standard on Sat, more for Deluxe Plus; budget S$32-45 for two",
+      "confidence": "medium"
+    },
+    "ION Orchard": {
+      "pp": 7,
+      "kind": "food",
+      "basis": "LiXin fishball noodles at Food Opera B4, est.; mall browsing not counted",
+      "confidence": "low"
+    },
+    "VivoCity": {
+      "pp": 0,
+      "kind": "shopping",
+      "basis": "browse; purchases not counted",
+      "confidence": "high"
+    },
+    "Henderson Waves": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free; lit 7pm to 2am",
+      "confidence": "high"
+    },
+    "Night Safari": {
+      "pp": 58,
+      "kind": "ticket",
+      "basis": "Non-resident adult, regular night (Thu); late taxi home not in Day 4 transport",
+      "confidence": "high"
+    },
+    "The Rail Mall": {
+      "pp": 10,
+      "kind": "food",
+      "basis": "Supper such as prata at Springleaf, est.; budget S$20 for two",
+      "confidence": "medium"
+    },
+    "HillV2": {
+      "pp": 0,
+      "kind": "shopping",
+      "basis": "browse; purchases not counted",
+      "confidence": "high"
+    },
+    "Dairy Farm Nature Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free nature park",
+      "confidence": "high"
+    },
+    "Bukit Timah Nature Reserve": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free nature reserve",
+      "confidence": "high"
+    },
+    "Singapore Quarry": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free, inside Dairy Farm Nature Park",
+      "confidence": "high"
+    },
+    "Chestnut Nature Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free trails",
+      "confidence": "high"
+    },
+    "Bukit Batok Town Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free park and quarry viewpoint",
+      "confidence": "high"
+    },
+    "Bukit Timah Railway Station": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Station and Rail Corridor free; cafe not counted",
+      "confidence": "high"
+    },
+    "Former Ford Factory": {
+      "pp": 6,
+      "kind": "ticket",
+      "basis": "Visitor admission not in the notes; est. small museum fee",
+      "confidence": "low"
+    },
+    "Little India": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Deepavali light-up and streets, free",
+      "confidence": "high"
+    },
+    "Chinatown Complex Food Centre": {
+      "pp": 9,
+      "kind": "food",
+      "basis": "Ann Chin popiah, Old Amoy chendol (S$2.80) and five CMY satay sticks, est.",
+      "confidence": "medium"
+    },
+    "Victoria Theatre & Concert Hall": {
+      "pp": 40,
+      "kind": "ticket",
+      "basis": "Classic Memories S$35-45 (SISTIC), Fri 6 Nov only; nothing listed Sat",
+      "confidence": "medium"
+    },
+    "Changi Chapel & Museum": {
+      "pp": 10,
+      "kind": "ticket",
+      "basis": "S$9 adult plus GST (S$9.81), cashless only",
+      "confidence": "medium"
+    },
+    "Kampong Lorong Buangkok": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Quiet walk along the shared lane; free",
+      "confidence": "high"
+    },
+    "Hundred Grains": {
+      "pp": 12,
+      "kind": "food",
+      "basis": "About 300 g at S$3.98 per 100 g; rice and drinks free-flow (Oct 2023), est.",
+      "confidence": "medium"
+    },
+    "Heap Seng Leong": {
+      "pp": 5,
+      "kind": "food",
+      "basis": "Kopi gu you and kaya-butter toast (budget S$4) plus a curry puff, est.",
+      "confidence": "medium"
+    },
+    "Uncle Chieng ice cream": {
+      "pp": 2,
+      "kind": "food",
+      "basis": "Ice cream in wafer or bread, about S$1.50-2",
+      "confidence": "medium"
+    },
+    "328 Katong Laksa": {
+      "pp": 8,
+      "kind": "food",
+      "basis": "Large laksa S$7.50-8.30 (small S$6.30); budget S$15 for two",
+      "confidence": "medium"
+    },
+    "Joo Chiat Road": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Street walk; Eurasian Heritage Gallery (S$5) not counted",
+      "confidence": "high"
+    },
+    "Hawker Chan": {
+      "pp": 7,
+      "kind": "food",
+      "basis": "Soy sauce chicken rice about S$6.80 (outlet and date unclear)",
+      "confidence": "medium"
+    },
+    "Changi Village Hawker Centre": {
+      "pp": 8,
+      "kind": "food",
+      "basis": "Nasi lemak with chicken and a drink, est.; no price in the notes",
+      "confidence": "low"
+    },
+    "Mount Faber Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free park at the eastern end of the Southern Ridges",
+      "confidence": "high"
+    },
+    "HortPark": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free gardens on the Southern Ridges",
+      "confidence": "high"
+    },
+    "Pulau Ubin": {
+      "pp": 8,
+      "kind": "activity",
+      "basis": "Bumboat S$4 each way, cash; island bike hire not priced in the notes",
+      "confidence": "medium"
+    },
+    "Tiong Bahru Estate": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Self-guided walk through the 1930s SIT blocks",
+      "confidence": "high"
+    },
+    "Ya Kun Kaya Toast": {
+      "pp": 6,
+      "kind": "food",
+      "basis": "Kaya toast set (toast, two eggs, kopi), about S$6.20 in 2026",
+      "confidence": "high"
+    },
+    "Changi Airport Terminal 3": {
+      "pp": 10,
+      "kind": "food",
+      "basis": "Breakfast and coffee at Ya Kun B2 or Food Street, est.; taxi is in Day 8",
+      "confidence": "medium"
+    },
+    "Singapore Chinese Cultural Centre": {
+      "pp": 10,
+      "kind": "activity",
+      "basis": "Clay Festival drop-in workshop from S$10",
+      "confidence": "medium"
+    },
+    "Food Playground": {
+      "pp": 120,
+      "kind": "activity",
+      "basis": "Cooking class, S$120 nett each for two or more (own page, valid to Jun 2027)",
+      "confidence": "high"
+    },
+    "GoCycling C4 bike hire": {
+      "pp": 20,
+      "kind": "activity",
+      "basis": "Two hours at S$10 an hour; S$50 cash deposit refunded",
+      "confidence": "high"
+    },
+    "Chick-fil-A": {
+      "pp": 12,
+      "kind": "food",
+      "basis": "Chicken sandwich meal, est. from chain meal prices in the notes",
+      "confidence": "low"
+    },
+    "Sushidan (Parkway Parade)": {
+      "pp": 24,
+      "kind": "food",
+      "basis": "About eight pieces from S$1.99++ or the S$19.90++ omakase, with ++, est.",
+      "confidence": "medium"
+    },
+    "Sushidan (Raffles City)": {
+      "pp": 24,
+      "kind": "food",
+      "basis": "About eight pieces from S$1.99++ or the S$19.90++ omakase, with ++, est.",
+      "confidence": "medium"
+    },
+    "Candlenut": {
+      "pp": 81,
+      "kind": "food",
+      "basis": "Tasting menu S$65-70++ (dated) with service and GST, no drinks; S$118++ menu is S$141",
+      "confidence": "low"
+    },
+    "Hill Street Tai Hwa Pork Noodle": {
+      "pp": 10,
+      "kind": "food",
+      "basis": "Bak chor mee bowl, est.; no price in the notes",
+      "confidence": "low"
+    },
+    "Kent Ridge Park": {
+      "pp": 0,
+      "kind": "free",
+      "basis": "Free park and Canopy Walk",
+      "confidence": "high"
+    },
+    "Tanglin Crispy Curry Puff": {
+      "pp": 4,
+      "kind": "food",
+      "basis": "Two curry puffs at about S$2 each (undated)",
+      "confidence": "medium"
+    },
+    "Bee Cheng Hiang": {
+      "pp": 0,
+      "kind": "shopping",
+      "basis": "browse; purchases not counted",
+      "confidence": "high"
+    },
+    "Hwa Kee Chicken Rice": {
+      "pp": 10,
+      "kind": "food",
+      "basis": "Half of the S$20 lemon and steamed chicken set for two (Feb 2024)",
+      "confidence": "medium"
+    },
+    "Keng Eng Kee": {
+      "pp": 75,
+      "kind": "food",
+      "basis": "Chilli crab (~1 kg at ~S$100/kg) for two, mantou, rice, a vegetable, incl. ++",
+      "confidence": "medium"
+    },
+    "Geylang Claypot Rice": {
+      "pp": 22,
+      "kind": "food",
+      "basis": "Claypot rice for two, a vegetable and drinks, est.; no price in the notes",
+      "confidence": "low"
+    },
+    "Hjh Maimunah": {
+      "pp": 10,
+      "kind": "food",
+      "basis": "Nasi padang plate with two or three dishes and a drink, est.",
+      "confidence": "low"
+    },
+    "Keng Wah Sung": {
+      "pp": 6,
+      "kind": "food",
+      "basis": "Kaya toast set with kopi and a sugar doughnut, est.; budget S$12 for two",
+      "confidence": "medium"
+    },
+    "Standing Sushi Bar": {
+      "pp": 12,
+      "kind": "food",
+      "basis": "S$3.90 salmon deal plus a roll and tea, with ++, est.",
+      "confidence": "low"
+    },
+    "Sun with Moon": {
+      "pp": 45,
+      "kind": "food",
+      "basis": "Kamameshi set, a shared side and tea, with ++, est.; no price in the notes",
+      "confidence": "low"
+    },
+    "Kou Teppan": {
+      "pp": 94,
+      "kind": "food",
+      "basis": "Eight-course dinner omakase, S$82-105 each after ++; lunch about S$70",
+      "confidence": "medium"
+    },
+    "City Bakery": {
+      "pp": 5,
+      "kind": "food",
+      "basis": "Pretzel croissant S$5 (Aug 2026)",
+      "confidence": "high"
+    },
+    "NUS Frontier canteen": {
+      "pp": 6,
+      "kind": "food",
+      "basis": "One dish (S$2.30-5.90, Oct 2025) and a drink, est.; guide S$12 for two",
+      "confidence": "medium"
+    },
+    "Apple Marina Bay Sands": {
+      "pp": 0,
+      "kind": "excluded",
+      "basis": "iPhone purchase excluded from the trip cost",
+      "confidence": "high"
+    },
+    "Pretty Good Muffins": {
+      "pp": 8,
+      "kind": "food",
+      "basis": "One muffin (S$1.40-4.50) and a matcha latte (S$5-6), Jun 2026 prices",
+      "confidence": "medium"
+    },
+    "Rise Bakehouse": {
+      "pp": 9,
+      "kind": "food",
+      "basis": "One teacake or cake slice, S$8.20-9.20 (Apr 2025 prices)",
+      "confidence": "medium"
+    },
+    "Dome Bakery": {
+      "pp": 6,
+      "kind": "food",
+      "basis": "One fudge-filled brownie, S$6-6.80 (Apr 2023 prices)",
+      "confidence": "medium"
+    },
+    "Tarik": {
+      "pp": 3,
+      "kind": "food",
+      "basis": "Saffron teh tarik, S$2 on an older listing; est. 2026 price",
+      "confidence": "medium"
+    },
+    "Fort Canning walking tour": {
+      "pp": 40,
+      "kind": "activity",
+      "basis": "Sat 9:30am Fort Canning and Battlebox walk, about S$40 each",
+      "confidence": "high"
+    },
+    "Birds of Paradise (Katong)": {
+      "pp": 6,
+      "kind": "food",
+      "basis": "Single scoop in a thyme cone, about S$6; budget S$13 for two",
+      "confidence": "medium"
+    }
+  },
+  "transport": {
+    "1": {
+      "amount": 65,
+      "basis": "Taxi Changi to Hillview at night: meter, 25% evening peak and S$8 airport surcharge; no MRT"
+    },
+    "2": {
+      "amount": 15,
+      "basis": "4 MRT trips each (to Tiong Bahru, to Maxwell, Chinatown-Bayfront, Telok Ayer home), S$0.60 fee each"
+    },
+    "3": {
+      "amount": 22,
+      "basis": "3 MRT trips each (Botanic Gardens, Kent Ridge, Queenstown home), S$0.60 fee each, taxi to KEK est. S$10"
+    },
+    "4": {
+      "amount": 28,
+      "basis": "4 MRT and bus trips each incl. bus 925, M2 shuttle S$2.50 each way each, S$0.60 fee each"
+    },
+    "5": {
+      "amount": 13,
+      "basis": "3 trips each (Paya Lebar, bus to Old Airport Road, Dakota home), S$0.60 fee each; rest on foot"
+    },
+    "6": {
+      "amount": 12,
+      "basis": "3 MRT trips each (Telok Ayer, Fort Canning, Bayfront home), S$0.60 fee each; the bay on foot"
+    },
+    "7": {
+      "amount": 21,
+      "basis": "3 trips each (Buangkok, Nicoll Highway, Bugis home), S$0.60 fee each, optional kampong taxi est. S$7"
+    },
+    "8": {
+      "amount": 60,
+      "basis": "Pre-booked 04:30 taxi to T3 with 50% midnight surcharge and booking fee; no trains that early"
+    }
+  }
+}
+;
 const RATE = COST.rate_inr || 74.10;
 let costSettings = {people:2, transport:{}};
 const COST_LS = 'sg26-costs-v1';
