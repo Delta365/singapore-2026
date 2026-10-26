@@ -185,7 +185,7 @@ print("places:",len(places),"| per day:",dict(sorted(collections.Counter(p['day'
 import os
 _here=os.path.dirname(os.path.abspath(__file__))
 _tpl=open(os.path.join(_here,'tpl.html')).read()
-_out=_tpl.replace('__DATA__', open(os.path.join(_here,'mapdata.json')).read()).replace('__BASE__', open(os.path.join(_here,'basemap.json')).read()).replace('__WX__', open(os.path.join(_here,'weather.json')).read())
-assert '__DATA__' not in _out and '__BASE__' not in _out and '__WX__' not in _out
+_out=_tpl.replace('__DATA__', open(os.path.join(_here,'mapdata.json')).read()).replace('__BASE__', open(os.path.join(_here,'basemap.json')).read()).replace('__WX__', open(os.path.join(_here,'weather.json')).read()).replace('__COST__', open(os.path.join(_here,'places_cost.json')).read() if os.path.exists(os.path.join(_here,'places_cost.json')) else '{"places":{},"transport":{}}')
+assert '__DATA__' not in _out and '__BASE__' not in _out and '__WX__' not in _out and '__COST__' not in _out
 open(os.path.join(_here,'..','singapore-2026-map.html'),'w').write(_out)
 print('wrote singapore-2026-map.html', len(_out))

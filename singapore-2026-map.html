@@ -244,6 +244,46 @@ aside{
 .dpin.spare{width:12px;height:12px;margin:4px;font-size:0;opacity:.8}
 .dpin.sel{transform:scale(1.35);box-shadow:0 0 0 4px color-mix(in srgb,var(--dot) 40%,transparent)}
 
+/* ---------- cost calculator ---------- */
+.cchip{display:inline-block;margin-left:8px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:600;color:var(--muted);
+  background:var(--surface-2);border:1px solid var(--line);vertical-align:1px;white-space:nowrap}
+.cchip.off{color:var(--faint);font-weight:500}
+.costpanel{position:absolute;top:12px;right:12px;bottom:12px;width:min(440px,calc(100% - 24px));z-index:640;display:flex;flex-direction:column;
+  background:var(--surface);border:1px solid var(--line-strong);border-radius:8px;box-shadow:var(--shadow);overflow:hidden}
+.costpanel[hidden]{display:none}
+.cph{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 4px}
+.cph h2{margin:0;font-family:'Fraunces',serif;font-size:20px;font-weight:600}
+.cpx{font:inherit;font-size:22px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px;border-radius:4px}
+.cpx:hover{color:var(--text);background:var(--surface-2)}
+.cpsum{padding:2px 14px 6px}
+.cptotal{font-family:'Fraunces',serif;font-size:28px;font-weight:600;font-variant-numeric:tabular-nums}
+.cptotal small{font-family:'Karla',sans-serif;font-size:13px;color:var(--muted);font-weight:500;margin-left:8px}
+.cppp{font-size:12.5px;color:var(--muted)}
+.cppeople{display:flex;align-items:center;gap:8px;padding:6px 14px 10px;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+.cppeople button{font:inherit;width:28px;height:28px;border-radius:50%;border:1px solid var(--line-strong);background:var(--surface-2);color:var(--text);cursor:pointer}
+.cppeople b{min-width:16px;text-align:center;color:var(--text);font-size:14px}
+.cpbody{overflow-y:auto;flex:1;padding:4px 0 8px}
+.cpd{padding:8px 14px 6px;border-bottom:1px solid var(--line)}
+.cpdh{display:flex;align-items:center;gap:9px;margin-bottom:4px}
+.cpdh .dnum{flex:0 0 24px;height:24px;font-size:12.5px}
+.cpdt{flex:1;font-size:12.5px;color:var(--muted);min-width:0}
+.cpdt b{color:var(--dot);font-weight:700;letter-spacing:.03em;margin-right:4px}
+.cpds{font-weight:700;font-variant-numeric:tabular-nums;font-size:13.5px}
+.cpr{display:grid;grid-template-columns:16px minmax(0,1fr) 96px 64px;gap:0 9px;align-items:center;padding:5px 0;border-top:1px dashed var(--line)}
+.cpr.off .cpn,.cpr.off .cpt{opacity:.45}
+.cpr .chk{margin:0}
+.cpn{font-size:12.5px;line-height:1.3;min-width:0}
+.cpn small{display:block;font-size:11px;color:var(--faint);line-height:1.35}
+.cpa{display:flex;align-items:center;gap:3px;font-size:12px;color:var(--muted)}
+.cpa input{width:52px;font:inherit;font-size:12.5px;color:var(--text);background:var(--ink);border:1px solid var(--line-strong);border-radius:4px;padding:4px 5px;text-align:right}
+.cpa input:focus{outline:none;border-color:var(--gold)}
+.cpa .pp{font-size:10.5px;color:var(--faint)}
+.cpt{text-align:right;font-variant-numeric:tabular-nums;font-size:12.5px;font-weight:600}
+.cpr.tr .cpn{font-weight:600}
+.cpfoot{padding:9px 14px 12px;border-top:1px solid var(--line);background:var(--surface-2)}
+.cpfoot p{margin:0 0 6px;font-size:11px;color:var(--faint);line-height:1.45}
+@media (max-width:860px){ .costpanel{position:fixed;inset:0;width:auto;border-radius:0;z-index:900} }
+
 /* ---------- day filter on the map ---------- */
 .dayfilter{display:flex;gap:4px;align-items:center;padding:5px;background:color-mix(in srgb,var(--surface) 95%,transparent);
   backdrop-filter:blur(8px);border:1px solid var(--line-strong);border-radius:999px;box-shadow:var(--shadow);
@@ -355,6 +395,7 @@ aside{
       </div>
       <div class="hspace"></div>
       <div class="hactions">
+        <button class="btn" id="costs" type="button" aria-expanded="false">Costs</button>
         <button class="btn" id="fit">Fit all</button>
         <button class="btn" id="home">Hillview</button>
       </div>
@@ -373,6 +414,14 @@ aside{
     </aside>
     <div style="position:relative;min-height:0">
       <div id="map"></div>
+      <div class="costpanel" id="costpanel" hidden role="dialog" aria-label="Trip cost calculator">
+        <div class="cph"><h2>Trip cost</h2><button class="cpx" id="costclose" type="button" aria-label="Close the cost calculator">&times;</button></div>
+        <div class="cpsum" id="cpsum"></div>
+        <div class="cppeople"><span>People</span><button type="button" id="pminus" aria-label="One fewer person">&minus;</button><b id="pcount">2</b><button type="button" id="pplus" aria-label="One more person">+</button></div>
+        <div class="cpbody" id="cpbody"></div>
+        <div class="cpfoot"><p>Estimates from the research, in Singapore dollars per person, at S$1 = &#8377;74.10. The iPhone and shopping are not counted. Edit any figure; changes are saved with the plan.</p>
+          <button class="linkbtn" id="costreset" type="button">Reset costs to the estimates</button></div>
+      </div>
       <div class="legend">
         <h4>Rail lines</h4>
         <ul id="llines"></ul>
@@ -990,6 +1039,10 @@ function persist(p, patch){
   const base = overrides[p._slug] || {day:p.day, opt:!!p.opt, pos:p.ord, done:false, deleted:false};
   const next = Object.assign({}, base, patch, {label:p.label});
   overrides[p._slug] = next; applyState(); render();
+  writeOverride(p);
+}
+function writeOverride(p){
+  const next = overrides[p._slug];
   if(store === 'shared' && db){
     const ref = db.doc('plan/' + p._slug);
     queues[p._slug] = (queues[p._slug] || Promise.resolve()).then(() => ref.set(next)).catch(e => {
@@ -1023,6 +1076,118 @@ resetBtn.onclick = async () => {
   toast('Back to the original plan.');
 };
 
+/* ---------- trip cost calculator ----------
+   Estimates per person come from the research (places_cost.json). Edits to a place's figure or inclusion are saved
+   with that place in the plan; the people count and each day's getting-around figure are saved as cost settings. */
+const COST = {"places":{},"transport":{}};
+const RATE = COST.rate_inr || 74.10;
+let costSettings = {people:2, transport:{}};
+const COST_LS = 'sg26-costs-v1';
+function loadCostLocal(){
+  try{ const v = JSON.parse(localStorage.getItem(COST_LS) || 'null'); if(v && typeof v === 'object') costSettings = Object.assign({people:2, transport:{}}, v); }catch(e){}
+}
+let costQueue = Promise.resolve();
+function saveCostSettings(){
+  if(store === 'shared' && db){
+    const body = JSON.parse(JSON.stringify(costSettings));
+    costQueue = costQueue.then(() => db.doc('settings/costs').set(body)).catch(e => {
+      if(e && e.code === 'invalid_argument') goLocal('readonly'); else toast('That change could not be saved. Check your connection and try again.');
+    });
+  } else { try{ localStorage.setItem(COST_LS, JSON.stringify(costSettings)); }catch(e){} }
+}
+const costInfo = p => (COST.places || {})[p.label] || null;
+const isExcluded = p => { const c = costInfo(p); return /^Apple /.test(p.label) || !!(c && c.kind === 'excluded'); };  // the iPhone is never part of the trip cost
+function ppOf(p){ const o = overrides[p._slug] || {}; if(typeof o.cost === 'number') return o.cost; const c = costInfo(p); return c ? c.pp : 0; }
+function inCost(p){
+  if(p._del || isExcluded(p) || !p._day) return false;
+  const o = overrides[p._slug] || {}; return typeof o.inCost === 'boolean' ? o.inCost : !p._opt;
+}
+function transportOf(d){ const v = costSettings.transport[d]; if(typeof v === 'number') return v; const t = (COST.transport || {})[d]; return t ? t.amount : 0; }
+const sgd = n => 'S$' + Math.round(n).toLocaleString('en-SG');
+const inr = n => '₹' + Math.round(n * RATE).toLocaleString('en-IN');
+function costChip(p){
+  if(isExcluded(p)) return '<span class="cchip off">not counted</span>';
+  const c = costInfo(p), pp = ppOf(p);
+  if(!c && typeof (overrides[p._slug] || {}).cost !== 'number') return '';
+  if(pp === 0) return c && c.kind === 'shopping' ? '' : '<span class="cchip">free</span>';
+  return `<span class="cchip">${sgd(pp)} pp</span>`;
+}
+let costOpen = false;
+const costEl = document.getElementById('costpanel');
+function numInput(value, label, onSet){
+  const i = document.createElement('input');
+  i.type = 'number'; i.min = '0'; i.step = '1'; i.inputMode = 'decimal'; i.value = String(Math.round(value)); i.setAttribute('aria-label', label);
+  i.onchange = () => { const v = Math.max(0, Math.round(parseFloat(i.value) || 0)); onSet(v); };
+  i.onkeydown = e => { if(e.key === 'Enter') i.blur(); };
+  return i;
+}
+function renderCosts(){
+  if(!costOpen){ costEl.hidden = true; return; }
+  costEl.hidden = false;
+  const people = Math.max(1, Math.min(8, costSettings.people || 2));
+  document.getElementById('pcount').textContent = people;
+  const body = document.getElementById('cpbody');
+  const keep = body.scrollTop; body.innerHTML = '';
+  let total = 0;
+  DATA.days.forEach(D => {
+    const items = DATA.places.filter(p => !p._del && p._day === D.d).sort((a,b) => (a._opt - b._opt) || (a._pos - b._pos));
+    let sub = 0;
+    const sec = document.createElement('section'); sec.className = 'cpd'; sec.style.setProperty('--dot', DAY_COL[D.d]);
+    const head = document.createElement('div'); head.className = 'cpdh'; sec.appendChild(head);
+    items.forEach(p => {
+      const c = costInfo(p), on = inCost(p), pp = ppOf(p), excl = isExcluded(p);
+      const row = document.createElement('div'); row.className = 'cpr' + (on ? '' : ' off');
+      const cb = document.createElement('input'); cb.type = 'checkbox'; cb.className = 'chk'; cb.checked = on; cb.disabled = excl;
+      cb.setAttribute('aria-label', `Count ${p.label}`);
+      cb.onchange = () => persist(p, {inCost: cb.checked});
+      const nm = document.createElement('div'); nm.className = 'cpn';
+      nm.textContent = p.label + (p._opt ? ' (if time)' : '');
+      const sm = document.createElement('small');
+      sm.textContent = excl ? 'Not counted in the trip cost' : (c ? c.basis : 'No estimate yet; enter your own');
+      nm.appendChild(sm);
+      const amt = document.createElement('div'); amt.className = 'cpa';
+      if(excl){ amt.textContent = ''; }
+      else {
+        amt.append('S$', numInput(pp, `Cost per person for ${p.label}, in Singapore dollars`, v => persist(p, {cost: v})));
+        const pl = document.createElement('span'); pl.className = 'pp'; pl.textContent = 'pp'; amt.appendChild(pl);
+      }
+      const tot = document.createElement('div'); tot.className = 'cpt';
+      const line = on ? pp * people : 0; tot.textContent = excl ? '' : sgd(line); sub += line;
+      row.append(cb, nm, amt, tot); sec.appendChild(row);
+    });
+    // getting around, for the whole group
+    const tr = transportOf(D.d), tinfo = (COST.transport || {})[D.d];
+    const row = document.createElement('div'); row.className = 'cpr tr';
+    const sp = document.createElement('span'); sp.className = 'chk-spacer';
+    const nm = document.createElement('div'); nm.className = 'cpn'; nm.textContent = 'Getting around';
+    const sm = document.createElement('small'); sm.textContent = (tinfo ? tinfo.basis + '. ' : '') + 'For the whole group'; nm.appendChild(sm);
+    const amt = document.createElement('div'); amt.className = 'cpa';
+    amt.append('S$', numInput(tr, `Getting around on day ${D.d}, for the group`, v => { costSettings.transport[D.d] = v; saveCostSettings(); render(); }));
+    const tot = document.createElement('div'); tot.className = 'cpt'; tot.textContent = sgd(tr); sub += tr;
+    row.append(sp, nm, amt, tot); sec.appendChild(row);
+    head.innerHTML = `<span class="dnum">${D.d}</span><span class="cpdt"><b>${esc(D.date)}</b> ${esc(D.title)}</span><span class="cpds">${sgd(sub)}</span>`;
+    total += sub;
+    body.appendChild(sec);
+  });
+  body.scrollTop = keep;
+  document.getElementById('cpsum').innerHTML =
+    `<div class="cptotal">${sgd(total)}<small>${inr(total)}</small></div>
+     <div class="cppp">${sgd(total / people)} per person &middot; ${people} ${people === 1 ? 'person' : 'people'}</div>`;
+}
+function openCosts(open){ costOpen = open; document.getElementById('costs').setAttribute('aria-expanded', open); renderCosts(); }
+document.getElementById('costs').onclick = () => openCosts(!costOpen);
+document.getElementById('costclose').onclick = () => openCosts(false);
+document.getElementById('pminus').onclick = () => { costSettings.people = Math.max(1, (costSettings.people || 2) - 1); saveCostSettings(); render(); };
+document.getElementById('pplus').onclick = () => { costSettings.people = Math.min(8, (costSettings.people || 2) + 1); saveCostSettings(); render(); };
+let costResetArm = null;
+document.getElementById('costreset').onclick = e => {
+  const btn = e.currentTarget;
+  if(!costResetArm){ btn.textContent = 'Tap again to reset the costs'; costResetArm = setTimeout(() => { costResetArm = null; btn.textContent = 'Reset costs to the estimates'; }, 4000); return; }
+  clearTimeout(costResetArm); costResetArm = null; btn.textContent = 'Reset costs to the estimates';
+  DATA.places.forEach(p => { const o = overrides[p._slug]; if(o && ('cost' in o || 'inCost' in o)){ const n = Object.assign({}, o); delete n.cost; delete n.inCost; overrides[p._slug] = n; writeOverride(p); } });
+  costSettings = {people:2, transport:{}}; saveCostSettings(); render(); toast('Costs reset to the estimates.');
+};
+
 const matches = p => { const q = qEl.value.trim().toLowerCase();
   return !q || (p.label+' '+(p.note||'')+' '+(p.near||'')+' '+(p.addr||'')).toLowerCase().includes(q); };
 const itemsOf = (day, opt) => DATA.places.filter(p => !p._del && p._day === day && p._opt === !!opt).sort((a,b) => a._pos - b._pos);
@@ -1037,7 +1202,7 @@ function itemRow(p, i, col){
   const name = esc(p.label);
   row.innerHTML = `<span class="grip" tabindex="0" role="button" aria-label="Move ${name}: drag, or use the arrow keys">${GRIP}</span>
     <input class="chk" type="checkbox" aria-label="Done: ${name}"${p._done ? ' checked' : ''}>
-    <button class="ib" type="button"><span class="nm">${name}</span>
+    <button class="ib" type="button"><span class="nm">${name}${costChip(p)}</span>
       ${p.note?`<span class="nt">${esc(p.note)}</span>`:''}
       ${meta?`<span class="mt">${meta}${p.walk?` &middot; <b>${p.walk} min walk</b>`:''}</span>`:''}
       ${p.det && (p.det.hours || p.det.closed) ? `<span class="mt">${[p.det.hours, p.det.closed ? 'Closed ' + p.det.closed.replace(/^Closed /i,'') : ''].filter(Boolean).map(esc).join(' &middot; ')}</span>` : ''}
@@ -1178,6 +1343,7 @@ function render(){
   wireDrag();
   renderWxStrip();
   renderDayFilter();
+  renderCosts();
 }
 function pickDay(d){ setDayFilter(dayFilter===d ? null : d); }
 function setDayFilter(d){
@@ -1221,12 +1387,16 @@ sheetBtn.onclick = () => setSheet(!aside.classList.contains('open'));
 
 /* start-up: draw the plan at once, then use the shared store if this view provides one */
 const hasHost = !!(window.claude && typeof window.claude.use === 'function');
-if(!hasHost){ store = 'local'; overrides = loadLocal(); }
+if(!hasHost){ store = 'local'; overrides = loadLocal(); loadCostLocal(); }
 applyState(); updateSync(); render();
 if(hasHost){
   window.claude.use('db').then(ns => {
-    if(!ns){ goLocal('local'); return; }
+    if(!ns){ loadCostLocal(); goLocal('local'); return; }
     db = ns; store = 'shared'; updateSync();
+    db.doc('settings/costs').onSnapshot(s => {
+      costSettings = Object.assign({people:2, transport:{}}, s.exists ? s.data() : {});
+      costSettings.transport = Object.assign({}, costSettings.transport); render();
+    }, () => {});
     db.collection('plan').onSnapshot(snap => {
       const o = {};
       snap.docs.forEach(d => { if(d.exists && bySlug[d.id]) o[d.id] = Object.assign({}, d.data()); });
