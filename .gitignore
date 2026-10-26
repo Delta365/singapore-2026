@@ -7,7 +7,7 @@ __pycache__/
 # Raw OpenStreetMap downloads used to build basemap.json.
 build/osm/
 
-# Flight times used by publish/redact.py.
+# Flight times used by publish/redact.py. Stays on this machine.
 publish/flight_times.local
 
 # This repo is public: keep tickets and booking confirmations out of it.

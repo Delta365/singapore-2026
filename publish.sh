@@ -49,14 +49,26 @@ if (( ! WAIT )); then
   echo "    skipped; Vercel usually deploys within a minute"
   exit 0
 fi
-want="$(shasum -a 256 < "$SITE/singapore2026/index.html" | cut -d' ' -f1)"
+# The page sits behind a password gate, so instead of fetching it, wait for
+# Vercel to report the deployment of the pushed commit through GitHub.
+slug="$(git -C "$SITE" remote get-url origin | sed -E 's#.*github\.com[:/]##; s#\.git$##')"
+sha="$(git -C "$SITE" rev-parse HEAD)"
+state=""
 for _ in $(seq 1 30); do
-  got="$( (curl -fsSL "$URL?check=$(date +%s)" || true) | shasum -a 256 | cut -d' ' -f1)"
-  if [[ "$got" == "$want" ]]; then
-    echo "    live at $URL"
-    exit 0
+  id="$(gh api "repos/$slug/deployments?sha=$sha" --jq '.[0].id // empty' 2>/dev/null || true)"
+  if [[ -n "$id" ]]; then
+    state="$(gh api "repos/$slug/deployments/$id/statuses" --jq '.[0].state // empty' 2>/dev/null || true)"
+    [[ "$state" == success || "$state" == failure || "$state" == error ]] && break
   fi
   sleep 10
 done
-echo "    the live page still differs after 5 minutes; check the Vercel dashboard" >&2
-exit 1
+if [[ "$state" != success ]]; then
+  echo "    Vercel has not reported a successful deployment of ${sha:0:7} (state: ${state:-none}); check the Vercel dashboard" >&2
+  exit 1
+fi
+code="$(curl -s -o /dev/null -w '%{http_code}' "$URL?check=$(date +%s)")"
+case "$code" in
+  401) echo "    live at $URL behind the password gate" ;;
+  503) echo "    deployed, but the gate reports missing Vercel environment variables" >&2; exit 1 ;;
+  *)   echo "    deployed, but $URL answered $code instead of the password page" >&2; exit 1 ;;
+esac
