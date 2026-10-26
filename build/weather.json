@@ -1,0 +1,305 @@
+{
+ "fetched": "2026-10-25",
+ "hazeNow": {
+  "asOf": "2026-10-25",
+  "days": [
+   {
+    "date": "2026-10-25",
+    "psi": 68
+   },
+   {
+    "date": "2026-10-26",
+    "psi": 47
+   },
+   {
+    "date": "2026-10-27",
+    "psi": 66
+   },
+   {
+    "date": "2026-10-28",
+    "psi": 61
+   },
+   {
+    "date": "2026-10-29",
+    "psi": 47
+   }
+  ]
+ },
+ "source": "Open-Meteo forecast and ERA5 archive (2016 to 2025)",
+ "lat": 1.3521,
+ "lon": 103.8198,
+ "days": [
+  {
+   "date": "2026-11-02",
+   "code": 55,
+   "tmax": 31.7,
+   "tmin": 22.8,
+   "feels": 33.9,
+   "rain": 10.8,
+   "rainHours": 18.0,
+   "prob": 100,
+   "uv": 8.85,
+   "wind": 3.9,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 96,
+   "bands": {
+    "morning": 53,
+    "afternoon": 99,
+    "evening": 100
+   },
+   "peakHour": 18,
+   "clim": {
+    "tmax": 30.0,
+    "tmin": 24.0,
+    "rain": 16.7,
+    "wetYears": 9,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 59,
+    "worst": 69,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "code": 55,
+   "tmax": 29.3,
+   "tmin": 22.8,
+   "feels": 34.9,
+   "rain": 14.1,
+   "rainHours": 21.0,
+   "prob": 100,
+   "uv": 8.9,
+   "wind": 6.5,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 92,
+   "bands": {
+    "morning": 63,
+    "afternoon": 100,
+    "evening": 100
+   },
+   "peakHour": 17,
+   "clim": {
+    "tmax": 29.5,
+    "tmin": 24.0,
+    "rain": 11.4,
+    "wetYears": 10,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 59,
+    "worst": 66,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "code": 53,
+   "tmax": 31.4,
+   "tmin": 23.4,
+   "feels": 36.2,
+   "rain": 8.1,
+   "rainHours": 21.0,
+   "prob": 95,
+   "uv": 8.95,
+   "wind": 7.4,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 92,
+   "bands": {
+    "morning": 50,
+    "afternoon": 92,
+    "evening": 95
+   },
+   "peakHour": 18,
+   "clim": {
+    "tmax": 29.7,
+    "tmin": 23.9,
+    "rain": 9.2,
+    "wetYears": 10,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 57,
+    "worst": 64,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "code": 53,
+   "tmax": 30.2,
+   "tmin": 22.9,
+   "feels": 34.8,
+   "rain": 6.0,
+   "rainHours": 18.0,
+   "prob": 100,
+   "uv": 8.85,
+   "wind": 4.2,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 94,
+   "bands": {
+    "morning": 54,
+    "afternoon": 99,
+    "evening": 100
+   },
+   "peakHour": 18,
+   "clim": {
+    "tmax": 29.6,
+    "tmin": 23.9,
+    "rain": 9.3,
+    "wetYears": 8,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 56,
+    "worst": 59,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "code": 53,
+   "tmax": 31.4,
+   "tmin": 22.5,
+   "feels": 34.4,
+   "rain": 10.2,
+   "rainHours": 18.0,
+   "prob": 97,
+   "uv": 8.2,
+   "wind": 7.2,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 95,
+   "bands": {
+    "morning": 58,
+    "afternoon": 96,
+    "evening": 97
+   },
+   "peakHour": 18,
+   "clim": {
+    "tmax": 30.1,
+    "tmin": 24.1,
+    "rain": 12.9,
+    "wetYears": 9,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 56,
+    "worst": 59,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "code": 80,
+   "tmax": 30.6,
+   "tmin": 22.5,
+   "feels": 32.7,
+   "rain": 22.8,
+   "rainHours": 21.0,
+   "prob": 68,
+   "uv": 8.85,
+   "wind": 7.9,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 97,
+   "bands": {
+    "morning": 42,
+    "afternoon": 67,
+    "evening": 68
+   },
+   "peakHour": 18,
+   "clim": {
+    "tmax": 29.6,
+    "tmin": 24.1,
+    "rain": 16.4,
+    "wetYears": 9,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 56,
+    "worst": 58,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "code": 80,
+   "tmax": 30.7,
+   "tmin": 22.7,
+   "feels": 35.4,
+   "rain": 10.5,
+   "rainHours": 18.0,
+   "prob": 75,
+   "uv": 8.65,
+   "wind": 6.2,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 94,
+   "bands": {
+    "morning": 55,
+    "afternoon": 75,
+    "evening": 74
+   },
+   "peakHour": 16,
+   "clim": {
+    "tmax": 29.5,
+    "tmin": 23.8,
+    "rain": 9.6,
+    "wetYears": 8,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 58,
+    "worst": 62,
+    "years": 4
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "code": 53,
+   "tmax": 30.9,
+   "tmin": 22.4,
+   "feels": 35.4,
+   "rain": 3.0,
+   "rainHours": 9.0,
+   "prob": 85,
+   "uv": 8.2,
+   "wind": 12.9,
+   "sunrise": "06:46",
+   "sunset": "18:50",
+   "humidity": 75,
+   "bands": {
+    "morning": 53,
+    "afternoon": 85,
+    "evening": 82
+   },
+   "peakHour": 16,
+   "clim": {
+    "tmax": 29.7,
+    "tmin": 23.9,
+    "rain": 11.2,
+    "wetYears": 9,
+    "years": 10
+   },
+   "haze": null,
+   "hazeTypical": {
+    "psi": 58,
+    "worst": 67,
+    "years": 4
+   }
+  }
+ ]
+}

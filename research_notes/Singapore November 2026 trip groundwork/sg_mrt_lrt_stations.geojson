@@ -1,0 +1,6870 @@
+{
+ "type": "FeatureCollection",
+ "name": "Singapore MRT and LRT stations (OpenStreetMap via Overpass API)",
+ "metadata": {
+  "retrieved": "2026-10-25",
+  "source": "Overpass API (overpass-api.de)",
+  "bbox_queried": [
+   1.15,
+   103.6,
+   1.48,
+   104.1
+  ],
+  "licence": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "feature_count": 210
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8829087,
+     1.3164515
+    ]
+   },
+   "properties": {
+    "name": "Aljunied",
+    "name_zh": "阿裕尼",
+    "name_ta": "அல்ஜூனிட்",
+    "name_ms": "Aljunied",
+    "codes": [
+     "EW9"
+    ],
+    "lines": [
+     {
+      "code": "EW9",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/206477134"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8713388,
+     1.3114669
+    ]
+   },
+   "properties": {
+    "name": "Kallang",
+    "name_zh": "加冷",
+    "name_ta": "காலாங்",
+    "name_ms": "Kallang",
+    "codes": [
+     "EW10"
+    ],
+    "lines": [
+     {
+      "code": "EW10",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/206493462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8449359,
+     1.3817905
+    ]
+   },
+   "properties": {
+    "name": "Yio Chu Kang",
+    "name_zh": "杨厝港",
+    "name_ta": "இயோ சூ காங்",
+    "name_ms": "Yio Chu Kang",
+    "codes": [
+     "NS15"
+    ],
+    "lines": [
+     {
+      "code": "NS15",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/206529415"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9302175,
+     1.3239666
+    ]
+   },
+   "properties": {
+    "name": "Bedok",
+    "name_zh": "勿洛",
+    "name_ta": "பிடோக்",
+    "name_ms": "Bedok",
+    "codes": [
+     "EW5"
+    ],
+    "lines": [
+     {
+      "code": "EW5",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/207725957"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8167692,
+     1.2896353
+    ]
+   },
+   "properties": {
+    "name": "Redhill",
+    "name_zh": "红山",
+    "name_ta": "ரெட்ஹில்",
+    "name_ms": "Redhill",
+    "codes": [
+     "EW18"
+    ],
+    "lines": [
+     {
+      "code": "EW18",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/208526059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8060366,
+     1.2946226
+    ]
+   },
+   "properties": {
+    "name": "Queenstown",
+    "name_zh": "女皇镇",
+    "name_ta": "குவீன்ஸ்டவுன்",
+    "name_ms": "Queenstown",
+    "codes": [
+     "EW19"
+    ],
+    "lines": [
+     {
+      "code": "EW19",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/208527368"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7983085,
+     1.3024428
+    ]
+   },
+   "properties": {
+    "name": "Commonwealth",
+    "name_zh": "联邦",
+    "name_ta": "காமன்வெல்த்",
+    "name_ms": "Commonwealth",
+    "codes": [
+     "EW20"
+    ],
+    "lines": [
+     {
+      "code": "EW20",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/209390589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7786108,
+     1.3114155
+    ]
+   },
+   "properties": {
+    "name": "Dover",
+    "name_zh": "杜弗",
+    "name_ta": "டோவெர்",
+    "name_ms": "Dover",
+    "codes": [
+     "EW22"
+    ],
+    "lines": [
+     {
+      "code": "EW22",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/209451013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7422939,
+     1.333108
+    ]
+   },
+   "properties": {
+    "name": "Jurong East",
+    "name_zh": "裕廊东",
+    "name_ta": "ஜூரோங் கிழக்கு",
+    "name_ms": "Jurong East",
+    "codes": [
+     "NS1",
+     "EW24",
+     "JE5"
+    ],
+    "lines": [
+     {
+      "code": "NS1",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "EW24",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "JE5",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/209451066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7325474,
+     1.3424141
+    ]
+   },
+   "properties": {
+    "name": "Chinese Garden",
+    "name_zh": "裕华园",
+    "name_ta": "சீனத் தோட்டம்",
+    "name_ms": "Chinese Garden",
+    "codes": [
+     "EW25"
+    ],
+    "lines": [
+     {
+      "code": "EW25",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/209451088"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7206931,
+     1.34425
+    ]
+   },
+   "properties": {
+    "name": "Lakeside",
+    "name_zh": "湖畔",
+    "name_ta": "ஏரிக்கரை",
+    "name_ms": "Lakeside",
+    "codes": [
+     "EW26"
+    ],
+    "lines": [
+     {
+      "code": "EW26",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/209451110"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8973612,
+     1.3840465
+    ]
+   },
+   "properties": {
+    "name": "Ranggung",
+    "name_zh": "兰岗",
+    "name_ta": "ரங்கோங்",
+    "name_ms": "Ranggung",
+    "codes": [
+     "SE5"
+    ],
+    "lines": [
+     {
+      "code": "SE5",
+      "line_prefix": "SE",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/268259662"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7058124,
+     1.3385504
+    ]
+   },
+   "properties": {
+    "name": "Boon Lay",
+    "name_zh": "文礼",
+    "name_ta": "பூன் லே",
+    "name_ms": "Boon Lay",
+    "codes": [
+     "EW27",
+     "JS8"
+    ],
+    "lines": [
+     {
+      "code": "EW27",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "JS8",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/385877670"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6974103,
+     1.3375884
+    ]
+   },
+   "properties": {
+    "name": "Pioneer",
+    "name_zh": "先驱",
+    "name_ta": "பயனியர்",
+    "name_ms": "Pioneer",
+    "codes": [
+     "EW28"
+    ],
+    "lines": [
+     {
+      "code": "EW28",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/385878107"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6782221,
+     1.327735
+    ]
+   },
+   "properties": {
+    "name": "Joo Koon",
+    "name_zh": "裕群",
+    "name_ta": "ஜூ கூன்",
+    "name_ms": "Joo Koon",
+    "codes": [
+     "EW29"
+    ],
+    "lines": [
+     {
+      "code": "EW29",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/385878948"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8937904,
+     1.3962917
+    ]
+   },
+   "properties": {
+    "name": "Cheng Lim",
+    "name_zh": "振林",
+    "name_ta": "செங் லிம்",
+    "name_ms": "Cheng Lim",
+    "codes": [
+     "SW1"
+    ],
+    "lines": [
+     {
+      "code": "SW1",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/390912052"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8892243,
+     1.3971948
+    ]
+   },
+   "properties": {
+    "name": "Farmway",
+    "name_zh": "农道",
+    "name_ta": "ஃபாம்வே",
+    "name_ms": "Farmway",
+    "codes": [
+     "SW2"
+    ],
+    "lines": [
+     {
+      "code": "SW2",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/390918399"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8762794,
+     1.3919037
+    ]
+   },
+   "properties": {
+    "name": "Fernvale",
+    "name_zh": "芬微",
+    "name_ta": "ஃபொ்ன்வேல்",
+    "name_ms": "Fernvale",
+    "codes": [
+     "SW5"
+    ],
+    "lines": [
+     {
+      "code": "SW5",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391187489"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.881246,
+     1.3982038
+    ]
+   },
+   "properties": {
+    "name": "Kupang",
+    "name_zh": "古邦",
+    "name_ta": "கூப்பாங்",
+    "name_ms": "Kupang",
+    "codes": [
+     "SW3"
+    ],
+    "lines": [
+     {
+      "code": "SW3",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391188031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8756345,
+     1.3973334
+    ]
+   },
+   "properties": {
+    "name": "Thanggam",
+    "name_zh": "丹甘",
+    "name_ta": "தங்கம்",
+    "name_ms": "Thanggam",
+    "codes": [
+     "SW4"
+    ],
+    "lines": [
+     {
+      "code": "SW4",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391188200"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8800319,
+     1.3920846
+    ]
+   },
+   "properties": {
+    "name": "Layar",
+    "name_zh": "拉雅",
+    "name_ta": "லாயார்",
+    "name_ms": "Layar",
+    "codes": [
+     "SW6"
+    ],
+    "lines": [
+     {
+      "code": "SW6",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391189258"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8858267,
+     1.3894081
+    ]
+   },
+   "properties": {
+    "name": "Tongkang",
+    "name_zh": "同港",
+    "name_ta": "தொங்காங்",
+    "name_ms": "Tongkang",
+    "codes": [
+     "SW7"
+    ],
+    "lines": [
+     {
+      "code": "SW7",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391189922"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8905331,
+     1.3867294
+    ]
+   },
+   "properties": {
+    "name": "Renjong",
+    "name_zh": "仁宗",
+    "name_ta": "ரெஞ்சோங்",
+    "name_ms": "Renjong",
+    "codes": [
+     "SW8"
+    ],
+    "lines": [
+     {
+      "code": "SW8",
+      "line_prefix": "SW",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/391190166"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6606551,
+     1.3196353
+    ]
+   },
+   "properties": {
+    "name": "Gul Circle",
+    "name_zh": "卡尔圈",
+    "name_ta": "கல் சர்க்கல்",
+    "name_ms": "Gul Circle",
+    "codes": [
+     "EW30"
+    ],
+    "lines": [
+     {
+      "code": "EW30",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1547412240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6489064,
+     1.3211582
+    ]
+   },
+   "properties": {
+    "name": "Tuas Crescent",
+    "name_zh": "大士弯",
+    "name_ta": "துவாஸ் கிரசண்ட்",
+    "name_ms": "Tuas Crescent",
+    "codes": [
+     "EW31"
+    ],
+    "lines": [
+     {
+      "code": "EW31",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1547515539"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6395694,
+     1.3300518
+    ]
+   },
+   "properties": {
+    "name": "Tuas West Road",
+    "name_zh": "大士西路",
+    "name_ta": "துவாஸ் வெஸ்ட் ரோடு",
+    "name_ms": "Tuas West Road",
+    "codes": [
+     "EW32"
+    ],
+    "lines": [
+     {
+      "code": "EW32",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1547519833"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6367718,
+     1.3402939
+    ]
+   },
+   "properties": {
+    "name": "Tuas Link",
+    "name_zh": "大士连路",
+    "name_ta": "துவாஸ் லிங்க்",
+    "name_ms": "Tuas Link",
+    "codes": [
+     "EW33"
+    ],
+    "lines": [
+     {
+      "code": "EW33",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1547550796"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9129269,
+     1.3210321
+    ]
+   },
+   "properties": {
+    "name": "Kembangan",
+    "name_zh": "景万岸",
+    "name_ta": "கெம்பாங்கான்",
+    "name_ms": "Kembangan",
+    "codes": [
+     "EW6"
+    ],
+    "lines": [
+     {
+      "code": "EW6",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1619228568"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.953371,
+     1.3431881
+    ]
+   },
+   "properties": {
+    "name": "Simei",
+    "name_zh": "四美",
+    "name_ta": "ஸீமெய்",
+    "name_ms": "Simei",
+    "codes": [
+     "EW3"
+    ],
+    "lines": [
+     {
+      "code": "EW3",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1767623973"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7495906,
+     1.3490572
+    ]
+   },
+   "properties": {
+    "name": "Bukit Batok",
+    "name_zh": "武吉巴督",
+    "name_ta": "புக்கிட் பாத்தோக்",
+    "name_ms": "Bukit Batok",
+    "codes": [
+     "NS2"
+    ],
+    "lines": [
+     {
+      "code": "NS2",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1839617627"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8009592,
+     1.4406369
+    ]
+   },
+   "properties": {
+    "name": "Admiralty",
+    "name_zh": "海军部",
+    "name_ta": "அட்மிரல்ட்டி",
+    "name_ms": "Admiralty",
+    "codes": [
+     "NS10"
+    ],
+    "lines": [
+     {
+      "code": "NS10",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733395"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7518249,
+     1.3588929
+    ]
+   },
+   "properties": {
+    "name": "Bukit Gombak",
+    "name_zh": "武吉甘柏",
+    "name_ta": "புக்கிட் கோம்பாக்",
+    "name_ms": "Bukit Gombak",
+    "codes": [
+     "NS3"
+    ],
+    "lines": [
+     {
+      "code": "NS3",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733403"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7619891,
+     1.4252189
+    ]
+   },
+   "properties": {
+    "name": "Kranji",
+    "name_zh": "克兰芝",
+    "name_ta": "கிராஞ்சி",
+    "name_ms": "Kranji",
+    "codes": [
+     "NS7"
+    ],
+    "lines": [
+     {
+      "code": "NS7",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733423"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7741243,
+     1.4325704
+    ]
+   },
+   "properties": {
+    "name": "Marsiling",
+    "name_zh": "马西岭",
+    "name_ta": "மார்சிலிங்",
+    "name_ms": "Marsiling",
+    "codes": [
+     "NS8"
+    ],
+    "lines": [
+     {
+      "code": "NS8",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733426"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8200555,
+     1.4490928
+    ]
+   },
+   "properties": {
+    "name": "Sembawang",
+    "name_zh": "三巴旺",
+    "name_ta": "செம்பாவாங்",
+    "name_ms": "Sembawang",
+    "codes": [
+     "NS11"
+    ],
+    "lines": [
+     {
+      "code": "NS11",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733438"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7474009,
+     1.3974608
+    ]
+   },
+   "properties": {
+    "name": "Yew Tee",
+    "name_zh": "油池",
+    "name_ta": "இயூ டீ",
+    "name_ms": "Yew Tee",
+    "codes": [
+     "NS5"
+    ],
+    "lines": [
+     {
+      "code": "NS5",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733455"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8350282,
+     1.4293839
+    ]
+   },
+   "properties": {
+    "name": "Yishun",
+    "name_zh": "义顺",
+    "name_ta": "யீஷூன்",
+    "name_ms": "Yishun",
+    "codes": [
+     "NS13"
+    ],
+    "lines": [
+     {
+      "code": "NS13",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/1840733456"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.905418,
+     1.3880083
+    ]
+   },
+   "properties": {
+    "name": "Bakau",
+    "name_zh": "码高",
+    "name_ta": "பக்காவ்",
+    "name_ms": "Bakau",
+    "codes": [
+     "SE3"
+    ],
+    "lines": [
+     {
+      "code": "SE3",
+      "line_prefix": "SE",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/1840734571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9004349,
+     1.394518
+    ]
+   },
+   "properties": {
+    "name": "Compassvale",
+    "name_zh": "康埔桦",
+    "name_ta": "கம்பஸ்வேல்",
+    "name_ms": "Compassvale",
+    "codes": [
+     "SE1"
+    ],
+    "lines": [
+     {
+      "code": "SE1",
+      "line_prefix": "SE",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/1840734575"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9022055,
+     1.3839286
+    ]
+   },
+   "properties": {
+    "name": "Kangkar",
+    "name_zh": "港脚",
+    "name_ta": "கங்கார்",
+    "name_ms": "Kangkar",
+    "codes": [
+     "SE4"
+    ],
+    "lines": [
+     {
+      "code": "SE4",
+      "line_prefix": "SE",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/1840734595"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9059729,
+     1.3914749
+    ]
+   },
+   "properties": {
+    "name": "Rumbia",
+    "name_zh": "棕美",
+    "name_ta": "ரூம்பியா",
+    "name_ms": "Rumbia",
+    "codes": [
+     "SE2"
+    ],
+    "lines": [
+     {
+      "code": "SE2",
+      "line_prefix": "SE",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "node/1840734605"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.744325,
+     1.3853167
+    ]
+   },
+   "properties": {
+    "name": "Choa Chu Kang",
+    "name_zh": "蔡厝港",
+    "name_ta": "சுவா சூ காங்",
+    "name_ms": "Choa Chu Kang",
+    "codes": [
+     "NS4"
+    ],
+    "lines": [
+     {
+      "code": "NS4",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/2440006258"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9028891,
+     1.3198016
+    ]
+   },
+   "properties": {
+    "name": "Eunos",
+    "name_zh": "友诺士",
+    "name_ta": "யூனுஸ்",
+    "name_ms": "Eunos",
+    "codes": [
+     "EW7"
+    ],
+    "lines": [
+     {
+      "code": "EW7",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/2957207984"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8330179,
+     1.4173597
+    ]
+   },
+   "properties": {
+    "name": "Khatib",
+    "name_zh": "卡迪",
+    "name_ta": "காதிப்",
+    "name_ms": "Khatib",
+    "codes": [
+     "NS14"
+    ],
+    "lines": [
+     {
+      "code": "NS14",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/4538914740"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7395472,
+     1.3456411
+    ]
+   },
+   "properties": {
+    "name": "Bukit Batok West",
+    "name_zh": "武吉巴督西",
+    "name_ta": "புக்கிட் பாத்தோக் வெஸ்ட்",
+    "name_ms": null,
+    "codes": [
+     "JE3"
+    ],
+    "lines": [
+     {
+      "code": "JE3",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629901679"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7334543,
+     1.3573381
+    ]
+   },
+   "properties": {
+    "name": "Tengah Plantation",
+    "name_zh": "登加种植",
+    "name_ta": "தெங்கா தோட்டம்",
+    "name_ms": null,
+    "codes": [
+     "JE1"
+    ],
+    "lines": [
+     {
+      "code": "JE1",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629901708"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7368054,
+     1.3522936
+    ]
+   },
+   "properties": {
+    "name": "Tengah Park",
+    "name_zh": "登加园",
+    "name_ta": "தெங்கா பூங்கா",
+    "name_ms": null,
+    "codes": [
+     "JE2"
+    ],
+    "lines": [
+     {
+      "code": "JE2",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629901713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6918893,
+     1.3506557
+    ]
+   },
+   "properties": {
+    "name": "Tawas",
+    "name_zh": "大华士",
+    "name_ta": null,
+    "name_ms": null,
+    "codes": [
+     "JW2"
+    ],
+    "lines": [
+     {
+      "code": "JW2",
+      "line_prefix": "JW",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903684"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6981073,
+     1.3483481
+    ]
+   },
+   "properties": {
+    "name": "Gek Poh",
+    "name_zh": "玉宝",
+    "name_ta": "ஜெக் போ",
+    "name_ms": null,
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903700"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7448363,
+     1.3205275
+    ]
+   },
+   "properties": {
+    "name": "Pandan Reservoir",
+    "name_zh": "班丹蓄水池",
+    "name_ta": "பாண்டன் ரெசவோர்",
+    "name_ms": null,
+    "codes": [
+     "JE7"
+    ],
+    "lines": [
+     {
+      "code": "JE7",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903715"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6786291,
+     1.3430157
+    ]
+   },
+   "properties": {
+    "name": "Peng Kang Hill",
+    "name_zh": "秉光山",
+    "name_ta": "பெங் காங் ஹில்",
+    "name_ms": null,
+    "codes": [
+     "JW5"
+    ],
+    "lines": [
+     {
+      "code": "JW5",
+      "line_prefix": "JW",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903933"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6809758,
+     1.3485314
+    ]
+   },
+   "properties": {
+    "name": "Nanyang Crescent",
+    "name_zh": "南洋弯",
+    "name_ta": "நன்யாங் க்ரெஸ்ஸன்",
+    "name_ms": null,
+    "codes": [
+     "JW4"
+    ],
+    "lines": [
+     {
+      "code": "JW4",
+      "line_prefix": "JW",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6866009,
+     1.3537008
+    ]
+   },
+   "properties": {
+    "name": "Nanyang Gateway",
+    "name_zh": "南洋门",
+    "name_ta": "நன்யாங் கேட்வே",
+    "name_ms": null,
+    "codes": [
+     "JW3"
+    ],
+    "lines": [
+     {
+      "code": "JW3",
+      "line_prefix": "JW",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629903991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7451883,
+     1.3263481
+    ]
+   },
+   "properties": {
+    "name": "Jurong Town Hall",
+    "name_zh": "裕廊镇大会堂",
+    "name_ta": "ஜுராங் டவுன் ஹால்",
+    "name_ms": null,
+    "codes": [
+     "JE6"
+    ],
+    "lines": [
+     {
+      "code": "JE6",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7425268,
+     1.3399496
+    ]
+   },
+   "properties": {
+    "name": "Toh Guan",
+    "name_zh": "卓源",
+    "name_ta": "டோ குவான்",
+    "name_ms": null,
+    "codes": [
+     "JE4"
+    ],
+    "lines": [
+     {
+      "code": "JE4",
+      "line_prefix": "JE",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904070"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7103341,
+     1.3131494
+    ]
+   },
+   "properties": {
+    "name": "Jurong Pier",
+    "name_zh": "裕廊渡头",
+    "name_ta": "ஜூரோங் பியர்",
+    "name_ms": null,
+    "codes": [
+     "JS12"
+    ],
+    "lines": [
+     {
+      "code": "JS12",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904186"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7102155,
+     1.3185911
+    ]
+   },
+   "properties": {
+    "name": "Jurong Hill",
+    "name_zh": "裕廊山",
+    "name_ta": "ஜூரோங் ஹில்",
+    "name_ms": null,
+    "codes": [
+     "JS11"
+    ],
+    "lines": [
+     {
+      "code": "JS11",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7092472,
+     1.325406
+    ]
+   },
+   "properties": {
+    "name": "Tukang",
+    "name_zh": "都康",
+    "name_ta": "துக்காங்",
+    "name_ms": null,
+    "codes": [
+     "JS10"
+    ],
+    "lines": [
+     {
+      "code": "JS10",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904220"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7085878,
+     1.3327314
+    ]
+   },
+   "properties": {
+    "name": "Enterprise",
+    "name_zh": "事业",
+    "name_ta": "எண்டர்பிரைஸ்",
+    "name_ms": null,
+    "codes": [
+     "JS9"
+    ],
+    "lines": [
+     {
+      "code": "JS9",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904413"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7082891,
+     1.3491904
+    ]
+   },
+   "properties": {
+    "name": "Jurong West",
+    "name_zh": "裕廊西",
+    "name_ta": "ஜூரோங் வெஸ்ட்",
+    "name_ms": null,
+    "codes": [
+     "JS6"
+    ],
+    "lines": [
+     {
+      "code": "JS6",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7138458,
+     1.3529982
+    ]
+   },
+   "properties": {
+    "name": "Corporation",
+    "name_zh": "企业",
+    "name_ta": "கார்ப்பரெஷன்",
+    "name_ms": null,
+    "codes": [
+     "JS5"
+    ],
+    "lines": [
+     {
+      "code": "JS5",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904470"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7300838,
+     1.3663957
+    ]
+   },
+   "properties": {
+    "name": "Tengah",
+    "name_zh": "登加",
+    "name_ta": "தெங்கா",
+    "name_ms": null,
+    "codes": [
+     "JS3"
+    ],
+    "lines": [
+     {
+      "code": "JS3",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7261176,
+     1.358065
+    ]
+   },
+   "properties": {
+    "name": "Hong Kah",
+    "name_zh": "丰嘉",
+    "name_ta": "ஹோங் காஹ்",
+    "name_ms": null,
+    "codes": [
+     "JS4"
+    ],
+    "lines": [
+     {
+      "code": "JS4",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904474"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7399997,
+     1.379215
+    ]
+   },
+   "properties": {
+    "name": "Choa Chu Kang West",
+    "name_zh": "蔡厝港西",
+    "name_ta": "சுவா சூ காங் வெஸ்ட்",
+    "name_ms": null,
+    "codes": [
+     "JS2"
+    ],
+    "lines": [
+     {
+      "code": "JS2",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904494"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7023562,
+     1.3458098
+    ]
+   },
+   "properties": {
+    "name": "Bahar Junction",
+    "name_zh": "巴哈路口",
+    "name_ta": null,
+    "name_ms": null,
+    "codes": [
+     "JS7"
+    ],
+    "lines": [
+     {
+      "code": "JS7",
+      "line_prefix": "JS",
+      "line_name": "Jurong Region Line",
+      "colour": "#0099aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "node/5629904571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8495228,
+     1.3700803
+    ]
+   },
+   "properties": {
+    "name": "Ang Mo Kio",
+    "name_zh": "宏茂桥",
+    "name_ta": "அங் மோ கியோ",
+    "name_ms": "Ang Mo Kio",
+    "codes": [
+     "NS16"
+    ],
+    "lines": [
+     {
+      "code": "NS16",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/7678872567"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8215518,
+     1.265362
+    ]
+   },
+   "properties": {
+    "name": "HarbourFront",
+    "name_zh": "港湾",
+    "name_ta": "துறைமுகம்",
+    "name_ms": "HarbourFront",
+    "codes": [
+     "CC29",
+     "NE1"
+    ],
+    "lines": [
+     {
+      "code": "CC29",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "NE1",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "node/10538809251"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7621858,
+     1.4662412
+    ]
+   },
+   "properties": {
+    "name": "Bukit Chagar",
+    "name_zh": "武吉查卡",
+    "name_ta": null,
+    "name_ms": "Bukit Chagar",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": null,
+    "operator": null,
+    "osm_id": "node/13377979326"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8753512,
+     1.3028724
+    ]
+   },
+   "properties": {
+    "name": "Stadium",
+    "name_zh": "体育场",
+    "name_ta": "ஸ்டேடியம்",
+    "name_ms": "Stadium",
+    "codes": [
+     "CC6"
+    ],
+    "lines": [
+     {
+      "code": "CC6",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/172473528"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9885325,
+     1.357573
+    ]
+   },
+   "properties": {
+    "name": "Changi Airport",
+    "name_zh": "樟宜机场",
+    "name_ta": "சாங்கி விமானநிலையம்",
+    "name_ms": "Changi Airport",
+    "codes": [
+     "CG2"
+    ],
+    "lines": [
+     {
+      "code": "CG2",
+      "line_prefix": "CG",
+      "line_name": "East West Line (Changi Airport Branch)",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/231290543"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9423087,
+     1.3128339
+    ]
+   },
+   "properties": {
+    "name": "Bayshore",
+    "name_zh": "碧湾",
+    "name_ta": "பேஷோர்",
+    "name_ms": null,
+    "codes": [
+     "TE29"
+    ],
+    "lines": [
+     {
+      "code": "TE29",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087542"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.949051,
+     1.3164414
+    ]
+   },
+   "properties": {
+    "name": "Bedok South",
+    "name_zh": "勿洛南",
+    "name_ta": "பிடோக் சவுத்",
+    "name_ms": null,
+    "codes": [
+     "TE30"
+    ],
+    "lines": [
+     {
+      "code": "TE30",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087544"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8679453,
+     1.2792306
+    ]
+   },
+   "properties": {
+    "name": "Gardens by the Bay",
+    "name_zh": "滨海湾花园",
+    "name_ta": "கரையோரப் பூந்தோட்டங்கள்",
+    "name_ms": "Taman di Pesisiran",
+    "codes": [
+     "TE22"
+    ],
+    "lines": [
+     {
+      "code": "TE22",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "Land Transport Authority (Singapore)",
+    "osm_id": "way/298087552"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8333413,
+     1.294615
+    ]
+   },
+   "properties": {
+    "name": "Great World",
+    "name_zh": "大世界",
+    "name_ta": "கிரேட் வோர்ல்ட்",
+    "name_ms": null,
+    "codes": [
+     "TE15"
+    ],
+    "lines": [
+     {
+      "code": "TE15",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087553"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.833674,
+     1.2885493
+    ]
+   },
+   "properties": {
+    "name": "Havelock",
+    "name_zh": "合乐",
+    "name_ta": "ஹவ்லாக்",
+    "name_ms": null,
+    "codes": [
+     "TE16"
+    ],
+    "lines": [
+     {
+      "code": "TE16",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087555"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8734592,
+     1.2973432
+    ]
+   },
+   "properties": {
+    "name": "Tanjong Rhu",
+    "name_zh": "丹戎禺",
+    "name_ta": "தஞ்சோங் ரூ",
+    "name_ms": null,
+    "codes": [
+     "TE23"
+    ],
+    "lines": [
+     {
+      "code": "TE23",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087557"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8862178,
+     1.2979605
+    ]
+   },
+   "properties": {
+    "name": "Katong Park",
+    "name_zh": "加东公园",
+    "name_ta": "காத்தோங் பார்க்",
+    "name_ms": null,
+    "codes": [
+     "TE24"
+    ],
+    "lines": [
+     {
+      "code": "TE24",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087559"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.83637,
+     1.3847492
+    ]
+   },
+   "properties": {
+    "name": "Lentor",
+    "name_zh": "伦多",
+    "name_ta": "லென்ட்டோர்",
+    "name_ms": null,
+    "codes": [
+     "TE5"
+    ],
+    "lines": [
+     {
+      "code": "TE5",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087561"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.85531,
+     1.2754714
+    ]
+   },
+   "properties": {
+    "name": "Marina Bay",
+    "name_zh": "滨海湾",
+    "name_ta": "மரீனா பே",
+    "name_ms": "Marina Bay",
+    "codes": [
+     "NS27",
+     "TE20",
+     "CC33"
+    ],
+    "lines": [
+     {
+      "code": "NS27",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "TE20",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     },
+     {
+      "code": "CC33",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087574"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8628857,
+     1.274314
+    ]
+   },
+   "properties": {
+    "name": "Marina South",
+    "name_zh": "滨海南",
+    "name_ta": "மரினா சவுத்",
+    "name_ms": null,
+    "codes": [
+     "TE21"
+    ],
+    "lines": [
+     {
+      "code": "TE21",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087575"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9070729,
+     1.303709
+    ]
+   },
+   "properties": {
+    "name": "Marine Parade",
+    "name_zh": "马林百列",
+    "name_ta": "மரீன் பரேட்",
+    "name_ms": null,
+    "codes": [
+     "TE26"
+    ],
+    "lines": [
+     {
+      "code": "TE26",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087577"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9150613,
+     1.3066048
+    ]
+   },
+   "properties": {
+    "name": "Marine Terrace",
+    "name_zh": "马林台",
+    "name_ta": "மரீன் டெரஸ்",
+    "name_ms": null,
+    "codes": [
+     "TE27"
+    ],
+    "lines": [
+     {
+      "code": "TE27",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8438816,
+     1.2806224
+    ]
+   },
+   "properties": {
+    "name": "Maxwell",
+    "name_zh": "麦士威",
+    "name_ta": "மெச்ஸ்வெல்",
+    "name_ms": null,
+    "codes": [
+     "TE18"
+    ],
+    "lines": [
+     {
+      "code": "TE18",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8368946,
+     1.3722318
+    ]
+   },
+   "properties": {
+    "name": "Mayflower",
+    "name_zh": "美华",
+    "name_ta": "மேஃபிளவர்",
+    "name_ms": null,
+    "codes": [
+     "TE6"
+    ],
+    "lines": [
+     {
+      "code": "TE6",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087580"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8351769,
+     1.3285726
+    ]
+   },
+   "properties": {
+    "name": "Mount Pleasant",
+    "name_zh": "快乐山",
+    "name_ta": "மவுண்ட் பிளசண்ட்",
+    "name_ms": null,
+    "codes": [
+     "TE10"
+    ],
+    "lines": [
+     {
+      "code": "TE10",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8191494,
+     1.3067154
+    ]
+   },
+   "properties": {
+    "name": "Napier",
+    "name_zh": "纳比雅",
+    "name_ta": "நேப்பியர்",
+    "name_ms": null,
+    "codes": [
+     "TE12"
+    ],
+    "lines": [
+     {
+      "code": "TE12",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087582"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8238667,
+     1.3031879
+    ]
+   },
+   "properties": {
+    "name": "Orchard Boulevard",
+    "name_zh": "乌节大道",
+    "name_ta": "ஆர்ச்சர்ட் பொலிவார்ட்",
+    "name_ms": null,
+    "codes": [
+     "TE13"
+    ],
+    "lines": [
+     {
+      "code": "TE13",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8314155,
+     1.3031258
+    ]
+   },
+   "properties": {
+    "name": "Orchard",
+    "name_zh": "乌节",
+    "name_ta": "ஆர்ச்சர்ட்",
+    "name_ms": "Orchard",
+    "codes": [
+     "NS22",
+     "TE14"
+    ],
+    "lines": [
+     {
+      "code": "NS22",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "TE14",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8509192,
+     1.2775343
+    ]
+   },
+   "properties": {
+    "name": "Shenton Way",
+    "name_zh": "珊顿道",
+    "name_ta": "ஷென்ட்டன் வே",
+    "name_ms": null,
+    "codes": [
+     "TE19"
+    ],
+    "lines": [
+     {
+      "code": "TE19",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9300245,
+     1.3095907
+    ]
+   },
+   "properties": {
+    "name": "Siglap",
+    "name_zh": "实乞纳",
+    "name_ta": "சிக்லாப்",
+    "name_ms": null,
+    "codes": [
+     "TE28"
+    ],
+    "lines": [
+     {
+      "code": "TE28",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8178577,
+     1.3981667
+    ]
+   },
+   "properties": {
+    "name": "Springleaf",
+    "name_zh": "春叶",
+    "name_ta": "ஸ்பிரிங்லீஃவ்",
+    "name_ms": null,
+    "codes": [
+     "TE4"
+    ],
+    "lines": [
+     {
+      "code": "TE4",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087594"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8257629,
+     1.3199757
+    ]
+   },
+   "properties": {
+    "name": "Stevens",
+    "name_zh": "史蒂芬",
+    "name_ta": "ஸ்டீவன்ஸ்",
+    "name_ms": "Stevens",
+    "codes": [
+     "DT10",
+     "TE11"
+    ],
+    "lines": [
+     {
+      "code": "DT10",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     },
+     {
+      "code": "TE11",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/298087596"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9572601,
+     1.3203915
+    ]
+   },
+   "properties": {
+    "name": "Sungei Bedok",
+    "name_zh": "双溪勿洛",
+    "name_ta": "சுங்கை பிடோக்",
+    "name_ms": null,
+    "codes": [
+     "TE31",
+     "DT37"
+    ],
+    "lines": [
+     {
+      "code": "TE31",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     },
+     {
+      "code": "DT37",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087598"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8328271,
+     1.354569
+    ]
+   },
+   "properties": {
+    "name": "Upper Thomson",
+    "name_zh": "汤申路上段",
+    "name_ta": "அப்பர் தாம்சன்",
+    "name_ms": null,
+    "codes": [
+     "TE8"
+    ],
+    "lines": [
+     {
+      "code": "TE8",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087600"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.834818,
+     1.3630633
+    ]
+   },
+   "properties": {
+    "name": "Bright Hill",
+    "name_zh": "光明山",
+    "name_ta": "பிரைட் ஹில்",
+    "name_ms": "Bright Hill",
+    "codes": [
+     "TE7",
+     "CR6"
+    ],
+    "lines": [
+     {
+      "code": "TE7",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     },
+     {
+      "code": "CR6",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/298087602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7857125,
+     1.4482886
+    ]
+   },
+   "properties": {
+    "name": "Woodlands North",
+    "name_zh": "兀兰北",
+    "name_ta": "உட்லண்ட்ஸ் நார்த்",
+    "name_ms": "Woodlands North",
+    "codes": [
+     "TE1"
+    ],
+    "lines": [
+     {
+      "code": "TE1",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087604"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7937804,
+     1.4267326
+    ]
+   },
+   "properties": {
+    "name": "Woodlands South",
+    "name_zh": "兀兰南",
+    "name_ta": "உட்லண்ட்ஸ் சவுத்",
+    "name_ms": "Woodlands South",
+    "codes": [
+     "TE3"
+    ],
+    "lines": [
+     {
+      "code": "TE3",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087605"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7874624,
+     1.4359096
+    ]
+   },
+   "properties": {
+    "name": "Woodlands",
+    "name_zh": "兀兰",
+    "name_ta": "ஊட்லண்ட்ஸ்",
+    "name_ms": "Woodlands",
+    "codes": [
+     "TE2",
+     "NS9"
+    ],
+    "lines": [
+     {
+      "code": "TE2",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     },
+     {
+      "code": "NS9",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/298087607"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9440831,
+     1.3542293
+    ]
+   },
+   "properties": {
+    "name": "Tampines",
+    "name_zh": "淡滨尼",
+    "name_ta": "தெம்பினிஸ்",
+    "name_ms": "Tampines",
+    "codes": [
+     "DT32",
+     "EW2"
+    ],
+    "lines": [
+     {
+      "code": "DT32",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     },
+     {
+      "code": "EW2",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (EWL)/SBS Transit (DTL)",
+    "osm_id": "way/397901195"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.862725,
+     1.313636
+    ]
+   },
+   "properties": {
+    "name": "Bendemeer",
+    "name_zh": "明地迷亚",
+    "name_ta": "பெண்டிமியர்",
+    "name_ms": "Bendemeer",
+    "codes": [
+     "DT23"
+    ],
+    "lines": [
+     {
+      "code": "DT23",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/398116869"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9083722,
+     1.3350694
+    ]
+   },
+   "properties": {
+    "name": "Kaki Bukit",
+    "name_zh": "加基武吉",
+    "name_ta": "காக்கி புக்கிட்",
+    "name_ms": "Kaki Bukit",
+    "codes": [
+     "DT28"
+    ],
+    "lines": [
+     {
+      "code": "DT28",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/398116872"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8296301,
+     1.4432131
+    ]
+   },
+   "properties": {
+    "name": "Canberra",
+    "name_zh": "坎贝拉",
+    "name_ta": "கென்பரா",
+    "name_ms": "Canberra",
+    "codes": [
+     "NS12"
+    ],
+    "lines": [
+     {
+      "code": "NS12",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/429057527"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8689681,
+     1.290923
+    ]
+   },
+   "properties": {
+    "name": "Founders' Memorial",
+    "name_zh": "建国元勋纪念堂",
+    "name_ta": "தேச நிறுவனர்கள் நினைவிட நிலையம்",
+    "name_ms": null,
+    "codes": [
+     "TE22A"
+    ],
+    "lines": [
+     {
+      "code": "TE22A",
+      "line_prefix": "TEA",
+      "line_name": null,
+      "colour": null
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/467689347"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8833398,
+     1.326848
+    ]
+   },
+   "properties": {
+    "name": "Mattar",
+    "name_zh": "玛达",
+    "name_ta": "மாத்தார்",
+    "name_ms": "Mattar",
+    "codes": [
+     "DT25"
+    ],
+    "lines": [
+     {
+      "code": "DT25",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060662"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8895601,
+     1.326231
+    ]
+   },
+   "properties": {
+    "name": "MacPherson",
+    "name_zh": "麦波申",
+    "name_ta": "மெக்பர்சன்",
+    "name_ms": "MacPherson",
+    "codes": [
+     "CC10",
+     "DT26"
+    ],
+    "lines": [
+     {
+      "code": "CC10",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "DT26",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (CCL)/SBS Transit (DTL)",
+    "osm_id": "way/534060665"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8992487,
+     1.3299411
+    ]
+   },
+   "properties": {
+    "name": "Ubi",
+    "name_zh": "乌美",
+    "name_ta": "உபி",
+    "name_ms": "Ubi",
+    "codes": [
+     "DT27"
+    ],
+    "lines": [
+     {
+      "code": "DT27",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060668"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9385284,
+     1.3457034
+    ]
+   },
+   "properties": {
+    "name": "Tampines West",
+    "name_zh": "淡滨尼西",
+    "name_ta": "தெம்பினிஸ் வெஸ்ட்",
+    "name_ms": "Tampines West",
+    "codes": [
+     "DT31"
+    ],
+    "lines": [
+     {
+      "code": "DT31",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060671"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9547313,
+     1.3559944
+    ]
+   },
+   "properties": {
+    "name": "Tampines East",
+    "name_zh": "淡滨尼东",
+    "name_ta": "தெம்பினிஸ் ஈஸ்ட்",
+    "name_ms": "Tampines East",
+    "codes": [
+     "DT33"
+    ],
+    "lines": [
+     {
+      "code": "DT33",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060674"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9614705,
+     1.3419019
+    ]
+   },
+   "properties": {
+    "name": "Upper Changi",
+    "name_zh": "樟宜上段",
+    "name_ta": "அப்பர் சாங்கி",
+    "name_ms": "Upper Changi",
+    "codes": [
+     "DT34"
+    ],
+    "lines": [
+     {
+      "code": "DT34",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060678"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9626603,
+     1.3350774
+    ]
+   },
+   "properties": {
+    "name": "Expo",
+    "name_zh": "博览",
+    "name_ta": "எக்ஸ்போ",
+    "name_ms": "Expo",
+    "codes": [
+     "DT35",
+     "CG1"
+    ],
+    "lines": [
+     {
+      "code": "DT35",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     },
+     {
+      "code": "CG1",
+      "line_prefix": "CG",
+      "line_name": "East West Line (Changi Airport Branch)",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (EWL)/SBS Transit (DTL)",
+    "osm_id": "way/534060681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9183122,
+     1.3345988
+    ]
+   },
+   "properties": {
+    "name": "Bedok North",
+    "name_zh": "勿洛北",
+    "name_ta": "பிடோக் நார்த்",
+    "name_ms": "Bedok North",
+    "codes": [
+     "DT29"
+    ],
+    "lines": [
+     {
+      "code": "DT29",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/534060687"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9101169,
+     1.4149656
+    ]
+   },
+   "properties": {
+    "name": "Punggol Coast",
+    "name_zh": "榜鹅海岸",
+    "name_ta": "பொங்கோல் கோஸ்ட்",
+    "name_ms": "Punggol Coast",
+    "codes": [
+     "NE18"
+    ],
+    "lines": [
+     {
+      "code": "NE18",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/557899832"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6918893,
+     1.3506589
+    ]
+   },
+   "properties": {
+    "name": "Tawas",
+    "name_zh": "大华士",
+    "name_ta": "தாவாஸ்",
+    "name_ms": null,
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/589568939"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9324653,
+     1.3366043
+    ]
+   },
+   "properties": {
+    "name": "Bedok Reservoir",
+    "name_zh": "勿洛蓄水池",
+    "name_ta": "பிடோக் ரெசவோர்",
+    "name_ms": "Bedok Reservoir",
+    "codes": [
+     "DT30"
+    ],
+    "lines": [
+     {
+      "code": "DT30",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/607376584"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8719586,
+     1.3215052
+    ]
+   },
+   "properties": {
+    "name": "Geylang Bahru",
+    "name_zh": "芽笼峇鲁",
+    "name_ta": "கேலாங் பாரு",
+    "name_ms": "Geylang Bahru",
+    "codes": [
+     "DT24"
+    ],
+    "lines": [
+     {
+      "code": "DT24",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/627548969"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8457124,
+     1.2766096
+    ]
+   },
+   "properties": {
+    "name": "Tanjong Pagar",
+    "name_zh": "丹戎巴葛",
+    "name_ta": "தஞ்சோங் பகார்",
+    "name_ms": "Tanjong Pagar",
+    "codes": [
+     "EW15"
+    ],
+    "lines": [
+     {
+      "code": "EW15",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/640462128"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8398137,
+     1.3373669
+    ]
+   },
+   "properties": {
+    "name": "Caldecott",
+    "name_zh": "加利谷",
+    "name_ta": "கால்டிகாட்",
+    "name_ms": "Caldecott",
+    "codes": [
+     "CC17",
+     "TE9"
+    ],
+    "lines": [
+     {
+      "code": "CC17",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "TE9",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/663177167"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8628203,
+     1.2714463
+    ]
+   },
+   "properties": {
+    "name": "Marina South Pier",
+    "name_zh": "滨海南码头",
+    "name_ta": "மரினா சவுத் படகுத்துறை",
+    "name_ms": "Marina South Pier",
+    "codes": [
+     "NS28"
+    ],
+    "lines": [
+     {
+      "code": "NS28",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/665451220"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8490389,
+     1.3509891
+    ]
+   },
+   "properties": {
+    "name": "Bishan",
+    "name_zh": "碧山",
+    "name_ta": "பீஷான்",
+    "name_ms": "Bishan",
+    "codes": [
+     "NS17",
+     "CC15"
+    ],
+    "lines": [
+     {
+      "code": "NS17",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "CC15",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/665452427"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8469229,
+     1.3403018
+    ]
+   },
+   "properties": {
+    "name": "Braddell",
+    "name_zh": "布莱德",
+    "name_ta": "பிரேடல்",
+    "name_ms": "Braddell",
+    "codes": [
+     "NS18"
+    ],
+    "lines": [
+     {
+      "code": "NS18",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/665452428"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8378403,
+     1.3130638
+    ]
+   },
+   "properties": {
+    "name": "Newton",
+    "name_zh": "纽顿",
+    "name_ta": "நியூட்டன்",
+    "name_ms": "Newton",
+    "codes": [
+     "NS21",
+     "DT11"
+    ],
+    "lines": [
+     {
+      "code": "NS21",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "DT11",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (NSL)/SBS Transit (DTL)",
+    "osm_id": "way/665452941"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9726574,
+     1.3717336
+    ]
+   },
+   "properties": {
+    "name": "Loyang",
+    "name_zh": "罗央",
+    "name_ta": "லோயாங்",
+    "name_ms": "Loyang",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/711069359"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.960534,
+     1.3670709
+    ]
+   },
+   "properties": {
+    "name": "Pasir Ris East",
+    "name_zh": "巴西立东",
+    "name_ta": "பாசிர் ரிஸ் ஈஸ்ட்",
+    "name_ms": "Pasir Ris East",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/711069360"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9381213,
+     1.3693637
+    ]
+   },
+   "properties": {
+    "name": "Tampines North",
+    "name_zh": "淡滨尼北",
+    "name_ta": "தெம்பினிஸ் நார்த்",
+    "name_ms": "Tampines North",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/715734164"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8455539,
+     1.2996015
+    ]
+   },
+   "properties": {
+    "name": "Dhoby Ghaut",
+    "name_zh": "多美歌",
+    "name_ta": "டோபி காட்",
+    "name_ms": "Dhoby Ghaut",
+    "codes": [
+     "NS24",
+     "NE6",
+     "CC1"
+    ],
+    "lines": [
+     {
+      "code": "NS24",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "NE6",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "CC1",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (NSL/CCL)/SBS Transit (NEL)",
+    "osm_id": "way/739472746"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8524654,
+     1.3039433
+    ]
+   },
+   "properties": {
+    "name": "Rochor",
+    "name_zh": "梧槽",
+    "name_ta": "ரோச்சோர்",
+    "name_ms": "Rochor",
+    "codes": [
+     "DT13"
+    ],
+    "lines": [
+     {
+      "code": "DT13",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/739472747"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8555634,
+     1.3053738
+    ]
+   },
+   "properties": {
+    "name": "Jalan Besar",
+    "name_zh": "惹兰勿刹",
+    "name_ta": "ஜாலான் புசார்",
+    "name_ms": "Jalan Besar",
+    "codes": [
+     "DT22"
+    ],
+    "lines": [
+     {
+      "code": "DT22",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/739472748"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7615337,
+     1.3791013
+    ]
+   },
+   "properties": {
+    "name": "Bukit Panjang",
+    "name_zh": "武吉班让",
+    "name_ta": "புக்கிட் பாஞ்சாங்",
+    "name_ms": "Bukit Panjang",
+    "codes": [
+     "DT1"
+    ],
+    "lines": [
+     {
+      "code": "DT1",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit (DTL)/SMRT (BPLRT)",
+    "osm_id": "way/743551048"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7964104,
+     1.3117308
+    ]
+   },
+   "properties": {
+    "name": "Holland Village",
+    "name_zh": "荷兰村",
+    "name_ta": "ஹாலந்து வில்லேஜ்",
+    "name_ms": "Holland Village",
+    "codes": [
+     "CC21"
+    ],
+    "lines": [
+     {
+      "code": "CC21",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743554288"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8074893,
+     1.3174554
+    ]
+   },
+   "properties": {
+    "name": "Farrer Road",
+    "name_zh": "花拉路",
+    "name_ta": "ஃபேரர் சாலை",
+    "name_ms": "Farrer Road",
+    "codes": [
+     "CC20"
+    ],
+    "lines": [
+     {
+      "code": "CC20",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743554290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8156468,
+     1.3221033
+    ]
+   },
+   "properties": {
+    "name": "Botanic Gardens",
+    "name_zh": "植物园",
+    "name_ta": "பூ மலை",
+    "name_ms": "Kebun Bunga",
+    "codes": [
+     "CC19",
+     "DT9"
+    ],
+    "lines": [
+     {
+      "code": "CC19",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "DT9",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (CCL)/SBS Transit (DTL)",
+    "osm_id": "way/743554291"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8269565,
+     1.2861318
+    ]
+   },
+   "properties": {
+    "name": "Tiong Bahru",
+    "name_zh": "中峇鲁",
+    "name_ta": "தியோங் பாரு",
+    "name_ms": "Tiong Bahru",
+    "codes": [
+     "EW17"
+    ],
+    "lines": [
+     {
+      "code": "EW17",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743561351"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8517605,
+     1.2834767
+    ]
+   },
+   "properties": {
+    "name": "Raffles Place",
+    "name_zh": "萊佛士坊",
+    "name_ta": "ராஃபிள்ஸ் பிளேஸ்",
+    "name_ms": "Raffles Place",
+    "codes": [
+     "NS26",
+     "EW14"
+    ],
+    "lines": [
+     {
+      "code": "NS26",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "EW14",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743563592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8562753,
+     1.2999465
+    ]
+   },
+   "properties": {
+    "name": "Bugis",
+    "name_zh": "武吉士",
+    "name_ta": "பூகிஸ்",
+    "name_ms": "Bugis",
+    "codes": [
+     "EW12",
+     "DT14"
+    ],
+    "lines": [
+     {
+      "code": "EW12",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "DT14",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (EWL)/SBS Transit (DTL)",
+    "osm_id": "way/743564833"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8491743,
+     1.3068795
+    ]
+   },
+   "properties": {
+    "name": "Little India",
+    "name_zh": "小印度",
+    "name_ta": "லிட்டில் இந்தியா",
+    "name_ms": "Little India",
+    "codes": [
+     "NE7",
+     "DT12"
+    ],
+    "lines": [
+     {
+      "code": "NE7",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "DT12",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743566214"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8543375,
+     1.3124898
+    ]
+   },
+   "properties": {
+    "name": "Farrer Park",
+    "name_zh": "花拉公园",
+    "name_ta": "ஃபேரர் பார்க்",
+    "name_ms": "Farrer Park",
+    "codes": [
+     "NE8"
+    ],
+    "lines": [
+     {
+      "code": "NE8",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743566215"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8615549,
+     1.3191325
+    ]
+   },
+   "properties": {
+    "name": "Boon Keng",
+    "name_zh": "文庆",
+    "name_ta": "பூன் கெங்",
+    "name_ms": "Boon Keng",
+    "codes": [
+     "NE9"
+    ],
+    "lines": [
+     {
+      "code": "NE9",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743566216"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8627743,
+     1.3073608
+    ]
+   },
+   "properties": {
+    "name": "Lavender",
+    "name_zh": "劳明达",
+    "name_ta": "லவண்டர்",
+    "name_ms": "Lavender",
+    "codes": [
+     "EW11"
+    ],
+    "lines": [
+     {
+      "code": "EW11",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743596794"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8527907,
+     1.2795107
+    ]
+   },
+   "properties": {
+    "name": "Downtown",
+    "name_zh": "市中心",
+    "name_ta": "டௌன்டவுன்",
+    "name_ms": "Downtown",
+    "codes": [
+     "DT17"
+    ],
+    "lines": [
+     {
+      "code": "DT17",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743599218"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8441354,
+     1.2846877
+    ]
+   },
+   "properties": {
+    "name": "Chinatown",
+    "name_zh": "牛车水",
+    "name_ta": "சைனாடவுன்",
+    "name_ms": "Chinatown",
+    "codes": [
+     "NE4",
+     "DT19"
+    ],
+    "lines": [
+     {
+      "code": "NE4",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "DT19",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743599219"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8465975,
+     1.2882602
+    ]
+   },
+   "properties": {
+    "name": "Clarke Quay",
+    "name_zh": "克拉码头",
+    "name_ta": "கிளார்க் கீ",
+    "name_ms": "Clarke Quay",
+    "codes": [
+     "NE5"
+    ],
+    "lines": [
+     {
+      "code": "NE5",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743599220"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8526183,
+     1.2930474
+    ]
+   },
+   "properties": {
+    "name": "City Hall",
+    "name_zh": "政府大廈",
+    "name_ta": "நகர மண்டபம்",
+    "name_ms": "City Hall",
+    "codes": [
+     "NS25",
+     "EW13"
+    ],
+    "lines": [
+     {
+      "code": "NS25",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     },
+     {
+      "code": "EW13",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743621008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8482749,
+     1.2823549
+    ]
+   },
+   "properties": {
+    "name": "Telok Ayer",
+    "name_zh": "直落亚逸",
+    "name_ta": "தெலுக் ஆயர்",
+    "name_ms": "Telok Ayer",
+    "codes": [
+     "DT18"
+    ],
+    "lines": [
+     {
+      "code": "DT18",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743622458"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8596807,
+     1.2826023
+    ]
+   },
+   "properties": {
+    "name": "Bayfront",
+    "name_zh": "海湾舫",
+    "name_ta": "பேஃபிரண்ட்",
+    "name_ms": "Bayfront",
+    "codes": [
+     "CC34",
+     "DT16"
+    ],
+    "lines": [
+     {
+      "code": "CC34",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "DT16",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (CCL)/SBS Transit (DTL)",
+    "osm_id": "way/743622459"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8690386,
+     1.3314333
+    ]
+   },
+   "properties": {
+    "name": "Potong Pasir",
+    "name_zh": "波东巴西",
+    "name_ta": "போத்தோங் பாசிர்",
+    "name_ms": "Potong Pasir",
+    "codes": [
+     "NE10"
+    ],
+    "lines": [
+     {
+      "code": "NE10",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8707517,
+     1.3392017
+    ]
+   },
+   "properties": {
+    "name": "Woodleigh",
+    "name_zh": "兀里",
+    "name_ta": "உட் லீ",
+    "name_ms": "Woodleigh",
+    "codes": [
+     "NE11"
+    ],
+    "lines": [
+     {
+      "code": "NE11",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648500"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8726779,
+     1.3498065
+    ]
+   },
+   "properties": {
+    "name": "Serangoon",
+    "name_zh": "实龙岗",
+    "name_ta": "சிராங்கூன்",
+    "name_ms": "Serangoon",
+    "codes": [
+     "CC13",
+     "NE12"
+    ],
+    "lines": [
+     {
+      "code": "CC13",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "NE12",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit (NEL)/SMRT (CCL)",
+    "osm_id": "way/743648501"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8850002,
+     1.3602101
+    ]
+   },
+   "properties": {
+    "name": "Kovan",
+    "name_zh": "高文",
+    "name_ta": "கோவன்",
+    "name_ms": "Kovan",
+    "codes": [
+     "NE13"
+    ],
+    "lines": [
+     {
+      "code": "NE13",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8797036,
+     1.3429074
+    ]
+   },
+   "properties": {
+    "name": "Bartley",
+    "name_zh": "巴特礼",
+    "name_ta": "பார்ட்லி",
+    "name_ms": "Bartley",
+    "codes": [
+     "CC12"
+    ],
+    "lines": [
+     {
+      "code": "CC12",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743648503"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8886155,
+     1.3084315
+    ]
+   },
+   "properties": {
+    "name": "Dakota",
+    "name_zh": "达科达",
+    "name_ta": "டகோட்டா",
+    "name_ms": "Dakota",
+    "codes": [
+     "CC8"
+    ],
+    "lines": [
+     {
+      "code": "CC8",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743648507"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7913536,
+     1.2761997
+    ]
+   },
+   "properties": {
+    "name": "Pasir Panjang",
+    "name_zh": "巴西班让",
+    "name_ta": "பாசிர் பாஞ்சாங்",
+    "name_ms": "Pasir Panjang",
+    "codes": [
+     "CC26"
+    ],
+    "lines": [
+     {
+      "code": "CC26",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743648511"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7647302,
+     1.3693605
+    ]
+   },
+   "properties": {
+    "name": "Cashew",
+    "name_zh": "凯秀",
+    "name_ta": "முந்திரி",
+    "name_ms": "Cashew",
+    "codes": [
+     "DT2"
+    ],
+    "lines": [
+     {
+      "code": "DT2",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648512"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7674628,
+     1.3623489
+    ]
+   },
+   "properties": {
+    "name": "Hillview",
+    "name_zh": "山景",
+    "name_ta": "ஹில்வியூ",
+    "name_ms": "Hillview",
+    "codes": [
+     "DT3"
+    ],
+    "lines": [
+     {
+      "code": "DT3",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648513"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7758776,
+     1.3410913
+    ]
+   },
+   "properties": {
+    "name": "Beauty World",
+    "name_zh": "美世界",
+    "name_ta": "பியூட்டி வோர்ல்ட்",
+    "name_ms": "Beauty World",
+    "codes": [
+     "DT5"
+    ],
+    "lines": [
+     {
+      "code": "DT5",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648514"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8072601,
+     1.3259029
+    ]
+   },
+   "properties": {
+    "name": "Tan Kah Kee",
+    "name_zh": "陈嘉庚",
+    "name_ta": "டான் கா கீ",
+    "name_ms": "Tan Kah Kee",
+    "codes": [
+     "DT8"
+    ],
+    "lines": [
+     {
+      "code": "DT8",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648515"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8443455,
+     1.2924885
+    ]
+   },
+   "properties": {
+    "name": "Fort Canning",
+    "name_zh": "福康宁",
+    "name_ta": "ஃபோர்ட் கெனிங்",
+    "name_ms": "Fort Canning",
+    "codes": [
+     "DT20"
+    ],
+    "lines": [
+     {
+      "code": "DT20",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/743648516"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8438709,
+     1.3205156
+    ]
+   },
+   "properties": {
+    "name": "Novena",
+    "name_zh": "诺维娜",
+    "name_ta": "நொவீனா",
+    "name_ms": "Novena",
+    "codes": [
+     "NS20"
+    ],
+    "lines": [
+     {
+      "code": "NS20",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743655241"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8471407,
+     1.332617
+    ]
+   },
+   "properties": {
+    "name": "Toa Payoh",
+    "name_zh": "大巴窑",
+    "name_ta": "தோ பாயோ",
+    "name_ms": "Toa Payoh",
+    "codes": [
+     "NS19"
+    ],
+    "lines": [
+     {
+      "code": "NS19",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743655242"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8508947,
+     1.2968762
+    ]
+   },
+   "properties": {
+    "name": "Bras Basah",
+    "name_zh": "百胜",
+    "name_ta": "பிராஸ் பாசா",
+    "name_ms": "Bras Basah",
+    "codes": [
+     "CC2"
+    ],
+    "lines": [
+     {
+      "code": "CC2",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/743763992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.839134,
+     1.3003304
+    ]
+   },
+   "properties": {
+    "name": "Somerset",
+    "name_zh": "索美塞",
+    "name_ta": "சாமர்செட்",
+    "name_ms": "Somerset",
+    "codes": [
+     "NS23"
+    ],
+    "lines": [
+     {
+      "code": "NS23",
+      "line_prefix": "NS",
+      "line_name": "North South Line",
+      "colour": "#d42e12"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/796380532"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8931346,
+     1.3829743
+    ]
+   },
+   "properties": {
+    "name": "Buangkok",
+    "name_zh": "万国",
+    "name_ta": "புவாங்கோக்",
+    "name_ms": "Buangkok",
+    "codes": [
+     "NE15"
+    ],
+    "lines": [
+     {
+      "code": "NE15",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/796799968"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.790345,
+     1.3066258
+    ]
+   },
+   "properties": {
+    "name": "Buona Vista",
+    "name_zh": "波那维斯达",
+    "name_ta": "புவன விஸ்தா",
+    "name_ms": "Buona Vista",
+    "codes": [
+     "CC22",
+     "EW21"
+    ],
+    "lines": [
+     {
+      "code": "CC22",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "EW21",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823046125"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8926569,
+     1.3174981
+    ]
+   },
+   "properties": {
+    "name": "Paya Lebar",
+    "name_zh": "巴耶利峇",
+    "name_ta": "பாய லேபார்",
+    "name_ms": "Paya Lebar",
+    "codes": [
+     "CC9",
+     "EW8"
+    ],
+    "lines": [
+     {
+      "code": "CC9",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "EW8",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8555276,
+     1.2934413
+    ]
+   },
+   "properties": {
+    "name": "Esplanade",
+    "name_zh": "滨海中心",
+    "name_ta": "எஸ்பிளனேட்",
+    "name_ms": "Esplanade",
+    "codes": [
+     "CC3"
+    ],
+    "lines": [
+     {
+      "code": "CC3",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759102"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8605649,
+     1.2931139
+    ]
+   },
+   "properties": {
+    "name": "Promenade",
+    "name_zh": "宝门廊",
+    "name_ta": "புரொமனாட்",
+    "name_ms": "Promenade",
+    "codes": [
+     "CC4",
+     "DT15"
+    ],
+    "lines": [
+     {
+      "code": "CC4",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     },
+     {
+      "code": "DT15",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (CCL)/SBS Transit (DTL)",
+    "osm_id": "way/823759103"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8638662,
+     1.299838
+    ]
+   },
+   "properties": {
+    "name": "Nicoll Highway",
+    "name_zh": "尼诰大道",
+    "name_ta": "நிக்கல் நெடுஞ்சாலை",
+    "name_ms": "Nicoll Highway",
+    "codes": [
+     "CC5"
+    ],
+    "lines": [
+     {
+      "code": "CC5",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759104"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8824425,
+     1.3063929
+    ]
+   },
+   "properties": {
+    "name": "Mountbatten",
+    "name_zh": "蒙巴登",
+    "name_ta": "மவுண்ட்பேட்டன்",
+    "name_ms": "Mountbatten",
+    "codes": [
+     "CC7"
+    ],
+    "lines": [
+     {
+      "code": "CC7",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759105"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8882093,
+     1.335401
+    ]
+   },
+   "properties": {
+    "name": "Tai Seng",
+    "name_zh": "大成",
+    "name_ta": "தை செங்",
+    "name_ms": "Tai Seng",
+    "codes": [
+     "CC11"
+    ],
+    "lines": [
+     {
+      "code": "CC11",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759106"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.863958,
+     1.3515985
+    ]
+   },
+   "properties": {
+    "name": "Lorong Chuan",
+    "name_zh": "罗弄泉",
+    "name_ta": "லோரோங் சுவான்",
+    "name_ms": "Lorong Chuan",
+    "codes": [
+     "CC14"
+    ],
+    "lines": [
+     {
+      "code": "CC14",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759107"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8395447,
+     1.3486303
+    ]
+   },
+   "properties": {
+    "name": "Marymount",
+    "name_zh": "玛丽蒙",
+    "name_ta": "மேரிமவுண்ட்",
+    "name_ms": "Marymount",
+    "codes": [
+     "CC16"
+    ],
+    "lines": [
+     {
+      "code": "CC16",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759108"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7873872,
+     1.2996498
+    ]
+   },
+   "properties": {
+    "name": "one-north",
+    "name_zh": "纬壹",
+    "name_ta": "ஒன்-நார்த்",
+    "name_ms": "one-north",
+    "codes": [
+     "CC23"
+    ],
+    "lines": [
+     {
+      "code": "CC23",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759109"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7846807,
+     1.2932797
+    ]
+   },
+   "properties": {
+    "name": "Kent Ridge",
+    "name_zh": "肯特岗",
+    "name_ta": "கெண்ட் ரிஜ்",
+    "name_ms": "Kent Ridge",
+    "codes": [
+     "CC24"
+    ],
+    "lines": [
+     {
+      "code": "CC24",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759110"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7817679,
+     1.2824693
+    ]
+   },
+   "properties": {
+    "name": "Haw Par Villa",
+    "name_zh": "虎豹别墅",
+    "name_ta": "ஹா பர் வில்லா",
+    "name_ms": "Haw Par Villa",
+    "codes": [
+     "CC25"
+    ],
+    "lines": [
+     {
+      "code": "CC25",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823759111"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8029947,
+     1.2722512
+    ]
+   },
+   "properties": {
+    "name": "Labrador Park",
+    "name_zh": "拉柏多公园",
+    "name_ta": "லாப்ரடார் பூங்கா",
+    "name_ms": "Labrador Park",
+    "codes": [
+     "CC27"
+    ],
+    "lines": [
+     {
+      "code": "CC27",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823789585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8098738,
+     1.2708897
+    ]
+   },
+   "properties": {
+    "name": "Telok Blangah",
+    "name_zh": "直落布兰雅",
+    "name_ta": "தெலுக் பிளாங்கா",
+    "name_ms": "Telok Blangah",
+    "codes": [
+     "CC28"
+    ],
+    "lines": [
+     {
+      "code": "CC28",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/823789586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8954828,
+     1.3916988
+    ]
+   },
+   "properties": {
+    "name": "Sengkang",
+    "name_zh": "盛港",
+    "name_ta": "செங்காங்",
+    "name_ms": "Sengkang",
+    "codes": [
+     "NE16",
+     "STC"
+    ],
+    "lines": [
+     {
+      "code": "NE16",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "STC",
+      "line_prefix": "STC",
+      "line_name": "Sengkang LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/824237598"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7838261,
+     1.3356633
+    ]
+   },
+   "properties": {
+    "name": "King Albert Park",
+    "name_zh": "阿尔柏王园",
+    "name_ta": "கிங் ஆல்பர்ட் பார்க்",
+    "name_ms": "King Albert Park",
+    "codes": [
+     "DT6"
+    ],
+    "lines": [
+     {
+      "code": "DT6",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/824481775"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7972459,
+     1.331095
+    ]
+   },
+   "properties": {
+    "name": "Sixth Avenue",
+    "name_zh": "第六道",
+    "name_ta": "சிக்ஸ்த் அவென்யூ",
+    "name_ms": "Sixth Avenue",
+    "codes": [
+     "DT7"
+    ],
+    "lines": [
+     {
+      "code": "DT7",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/824481777"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8502804,
+     1.2985197
+    ]
+   },
+   "properties": {
+    "name": "Bencoolen",
+    "name_zh": "明古连",
+    "name_ta": "பென்கூலன்",
+    "name_ms": "Bencoolen",
+    "codes": [
+     "DT21"
+    ],
+    "lines": [
+     {
+      "code": "DT21",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/824481778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.0035168,
+     1.3701715
+    ]
+   },
+   "properties": {
+    "name": "Aviation Park",
+    "name_zh": "航空园",
+    "name_ta": "ஏவியேஷன் பார்க்",
+    "name_ms": "Taman Penerbangan",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/824832472"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9494734,
+     1.3712899
+    ]
+   },
+   "properties": {
+    "name": "Pasir Ris",
+    "name_zh": "巴西立",
+    "name_ta": "பாசிர் ரிஸ்",
+    "name_ms": "Pasir Ris",
+    "codes": [
+     "EW1",
+     "CR5"
+    ],
+    "lines": [
+     {
+      "code": "EW1",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "CR5",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/824832473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8990153,
+     1.3623844
+    ]
+   },
+   "properties": {
+    "name": "Defu",
+    "name_zh": "德福",
+    "name_ta": "டெஃபு",
+    "name_ms": "Defu",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Cross Island Line",
+    "operator": "not yet",
+    "osm_id": "way/824832474"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8740841,
+     1.3704321
+    ]
+   },
+   "properties": {
+    "name": "Serangoon North",
+    "name_zh": "实龙岗北",
+    "name_ta": "சிராங்கூன் நார்த்",
+    "name_ms": "Serangoon North",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/824832476"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8635875,
+     1.3700755
+    ]
+   },
+   "properties": {
+    "name": "Tavistock",
+    "name_zh": "达维士笃",
+    "name_ta": "தெவிஸ்தொக்",
+    "name_ms": "Tavistock",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/824832477"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.850883,
+     1.3691873
+    ]
+   },
+   "properties": {
+    "name": "Ang Mo Kio",
+    "name_zh": "宏茂桥",
+    "name_ta": "அங் மோ கியோ",
+    "name_ms": "Ang Mo Kio",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/824832478"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8434457,
+     1.3655557
+    ]
+   },
+   "properties": {
+    "name": "Teck Ghee",
+    "name_zh": "德义",
+    "name_ta": "டெக் கீ",
+    "name_ms": "Teck Ghee",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/824832479"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8973782,
+     1.2995936
+    ]
+   },
+   "properties": {
+    "name": "Tanjong Katong",
+    "name_zh": "丹戎加东",
+    "name_ta": "தஞ்சோங் காத்தோங்",
+    "name_ms": null,
+    "codes": [
+     "TE25"
+    ],
+    "lines": [
+     {
+      "code": "TE25",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/857650977"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.830708,
+     1.2704618
+    ]
+   },
+   "properties": {
+    "name": "Keppel",
+    "name_zh": "吉宝",
+    "name_ta": "கெப்பல்",
+    "name_ms": "Keppel",
+    "codes": [
+     "CC30"
+    ],
+    "lines": [
+     {
+      "code": "CC30",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/1008913156"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8370618,
+     1.2731071
+    ]
+   },
+   "properties": {
+    "name": "Cantonment",
+    "name_zh": "广东民",
+    "name_ta": "கெண்டொன்மன்",
+    "name_ms": null,
+    "codes": [
+     "CC31"
+    ],
+    "lines": [
+     {
+      "code": "CC31",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/1008913157"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8470995,
+     1.273286
+    ]
+   },
+   "properties": {
+    "name": "Prince Edward Road",
+    "name_zh": "爱德华太子路",
+    "name_ta": "பிரின்ஸ் எட்வர்ட் ரோடு",
+    "name_ms": null,
+    "codes": [
+     "CC32"
+    ],
+    "lines": [
+     {
+      "code": "CC32",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "way/1008913158"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8306803,
+     1.3337433
+    ]
+   },
+   "properties": {
+    "name": "Bukit Brown",
+    "name_zh": "武吉布朗",
+    "name_ta": "புக்கிட் பிரவுன்",
+    "name_ms": "Bukit Brown",
+    "codes": [
+     "CC18"
+    ],
+    "lines": [
+     {
+      "code": "CC18",
+      "line_prefix": "CC",
+      "line_name": "Circle Line",
+      "colour": "#fa9e0d"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1008913159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7942085,
+     1.3408563
+    ]
+   },
+   "properties": {
+    "name": "Turf City",
+    "name_zh": "马城",
+    "name_ta": "டர்ஃப் சிட்­டி­யில்",
+    "name_ms": "Turf City",
+    "codes": [
+     "CR14"
+    ],
+    "lines": [
+     {
+      "code": "CR14",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1096259938"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7396327,
+     1.3270799
+    ]
+   },
+   "properties": {
+    "name": "Jurong Lake District",
+    "name_zh": "裕廊湖区",
+    "name_ta": "ஜூரோங் லேக் வட்­டா­ரம்",
+    "name_ms": null,
+    "codes": [
+     "CR19"
+    ],
+    "lines": [
+     {
+      "code": "CR19",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "public_transport",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1096259940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7827498,
+     1.3341043
+    ]
+   },
+   "properties": {
+    "name": "King Albert Park",
+    "name_zh": "阿尔柏王园",
+    "name_ta": "கிங் ஆல்பர்ட் பார்க்",
+    "name_ms": "King Albert Park",
+    "codes": [
+     "CR15"
+    ],
+    "lines": [
+     {
+      "code": "CR15",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1096259941"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7767054,
+     1.3281488
+    ]
+   },
+   "properties": {
+    "name": "Maju",
+    "name_zh": "马裕",
+    "name_ta": "மாஜு",
+    "name_ms": "Maju",
+    "codes": [
+     "CR16"
+    ],
+    "lines": [
+     {
+      "code": "CR16",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1096259942"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7659042,
+     1.3161343
+    ]
+   },
+   "properties": {
+    "name": "Clementi",
+    "name_zh": "金文泰",
+    "name_ta": "கிளிமெண்டி",
+    "name_ms": "Clementi",
+    "codes": [
+     "EW23",
+     "CR17"
+    ],
+    "lines": [
+     {
+      "code": "EW23",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "CR17",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/1096259943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.75809,
+     1.3105397
+    ]
+   },
+   "properties": {
+    "name": "West Coast",
+    "name_zh": "西海岸",
+    "name_ta": "வெஸ்ட் கோஸ்ட்",
+    "name_ms": "West Coast",
+    "codes": [
+     "CR18"
+    ],
+    "lines": [
+     {
+      "code": "CR18",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1096259944"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7866218,
+     1.4478101
+    ]
+   },
+   "properties": {
+    "name": "Woodlands North RTS",
+    "name_zh": "兀兰北捷运系统",
+    "name_ta": "உட்லண்ட்ஸ் நார்த் விரைவுப் போக்குவரத்து அமைப்பு",
+    "name_ms": "Sistem Transit Aliran Woodlands Utara",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "light_rail",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1101862890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9026401,
+     1.4053834
+    ]
+   },
+   "properties": {
+    "name": "Punggol",
+    "name_zh": "榜鹅",
+    "name_ta": "பொங்கோல்",
+    "name_ms": "Punggol",
+    "codes": [
+     "NE17",
+     "CP4",
+     "PTC"
+    ],
+    "lines": [
+     {
+      "code": "NE17",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "CP4",
+      "line_prefix": "CP",
+      "line_name": "Cross Island Line (Punggol Extension)",
+      "colour": "#97C616"
+     },
+     {
+      "code": "PTC",
+      "line_prefix": "PTC",
+      "line_name": "Punggol LRT",
+      "colour": "#748477"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "North East Line (NEL)/Punggol LRT",
+    "operator": "SBS Transit",
+    "osm_id": "way/1113644053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9155071,
+     1.3958354
+    ]
+   },
+   "properties": {
+    "name": "Riviera",
+    "name_zh": "里维拉",
+    "name_ta": "ரிவியாரா",
+    "name_ms": "Riviera",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1113652042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9393552,
+     1.383189
+    ]
+   },
+   "properties": {
+    "name": "Elias",
+    "name_zh": "伊莱雅",
+    "name_ta": "இலியாஸ்",
+    "name_ms": "Elias",
+    "codes": [],
+    "lines": [],
+    "interchange": false,
+    "station_type": "subway",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1113659202"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7691242,
+     1.3544682
+    ]
+   },
+   "properties": {
+    "name": "Hume",
+    "name_zh": "谦道",
+    "name_ta": "ஹியூம்",
+    "name_ms": "Hume",
+    "codes": [
+     "DT4"
+    ],
+    "lines": [
+     {
+      "code": "DT4",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "way/1218269603"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.946592,
+     1.3272044
+    ]
+   },
+   "properties": {
+    "name": "Tanah Merah",
+    "name_zh": "丹那美拉",
+    "name_ta": "தானா மேரா",
+    "name_ms": "Tanah Merah",
+    "codes": [
+     "EW4",
+     "CG"
+    ],
+    "lines": [
+     {
+      "code": "EW4",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "CG",
+      "line_prefix": "CG",
+      "line_name": "East West Line (Changi Airport Branch)",
+      "colour": "#009645"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT",
+    "osm_id": "way/1335904251"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.7256201,
+     1.3237562
+    ]
+   },
+   "properties": {
+    "name": null,
+    "name_zh": null,
+    "name_ta": null,
+    "name_ms": null,
+    "codes": [
+     "CR20"
+    ],
+    "lines": [
+     {
+      "code": "CR20",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "public_transport",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1546902345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.712223,
+     1.3141891
+    ]
+   },
+   "properties": {
+    "name": null,
+    "name_zh": null,
+    "name_ta": null,
+    "name_ms": null,
+    "codes": [
+     "CR21"
+    ],
+    "lines": [
+     {
+      "code": "CR21",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "public_transport",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1546945487"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6728876,
+     1.3122425
+    ]
+   },
+   "properties": {
+    "name": null,
+    "name_zh": null,
+    "name_ta": null,
+    "name_ms": null,
+    "codes": [
+     "CR22"
+    ],
+    "lines": [
+     {
+      "code": "CR22",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "public_transport",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1546945488"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6614338,
+     1.3172057
+    ]
+   },
+   "properties": {
+    "name": "Gul Circle",
+    "name_zh": "卡尔圈",
+    "name_ta": "கல் சர்க்கல்",
+    "name_ms": "Gul Circle",
+    "codes": [
+     "CR23"
+    ],
+    "lines": [
+     {
+      "code": "CR23",
+      "line_prefix": "CR",
+      "line_name": "Cross Island Line",
+      "colour": "#97C616"
+     }
+    ],
+    "interchange": false,
+    "station_type": "public_transport",
+    "network": null,
+    "operator": null,
+    "osm_id": "way/1546945489"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8392552,
+     1.2806944
+    ]
+   },
+   "properties": {
+    "name": "Outram Park",
+    "name_zh": "欧南园",
+    "name_ta": "ஊட்ரம் பார்க்",
+    "name_ms": "Outram Park",
+    "codes": [
+     "EW16",
+     "NE3",
+     "TE17"
+    ],
+    "lines": [
+     {
+      "code": "EW16",
+      "line_prefix": "EW",
+      "line_name": "East West Line",
+      "colour": "#009645"
+     },
+     {
+      "code": "NE3",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     },
+     {
+      "code": "TE17",
+      "line_prefix": "TE",
+      "line_name": "Thomson-East Coast Line",
+      "colour": "#9D5B25"
+     }
+    ],
+    "interchange": true,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SMRT (EWL)/SBS Transit (NEL)",
+    "osm_id": "relation/13853747"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8912425,
+     1.3707784
+    ]
+   },
+   "properties": {
+    "name": "Hougang",
+    "name_zh": "后港",
+    "name_ta": "ஹவ்காங்",
+    "name_ms": "Hougang",
+    "codes": [
+     "NE14"
+    ],
+    "lines": [
+     {
+      "code": "NE14",
+      "line_prefix": "NE",
+      "line_name": "North East Line",
+      "colour": "#9900aa"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": "SBS Transit",
+    "osm_id": "relation/19196652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.9648995,
+     1.3286564
+    ]
+   },
+   "properties": {
+    "name": "Xilin",
+    "name_zh": "锡林",
+    "name_ta": "ஸீலின்",
+    "name_ms": null,
+    "codes": [
+     "DT36"
+    ],
+    "lines": [
+     {
+      "code": "DT36",
+      "line_prefix": "DT",
+      "line_name": "Downtown Line",
+      "colour": "#005ec4"
+     }
+    ],
+    "interchange": false,
+    "station_type": "subway",
+    "network": "Mass Rapid Transit",
+    "operator": null,
+    "osm_id": "relation/21185135"
+   }
+  }
+ ]
+}

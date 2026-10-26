@@ -1,0 +1,588 @@
+{
+ "Hillview MRT": {
+  "hours": "City-bound first train 5:34am (5:54am Sun and PH), last 11:38pm. Last train to Hillview 12:45am",
+  "warn": "The last train back from the city leaves earlier than 12:45am; check MyTransport.SG",
+  "confidence": "high"
+ },
+ "Maxwell Food Centre": {
+  "hours": "Stalls vary: rojak 11:30am to 8:30pm, oyster cake 9am to 8pm, Fu Shun 11am to 8pm",
+  "closed": "Rojak stall Wed; oyster cake and Fu Shun Sun; Ah Tai Tue. No NEA closure in the trip",
+  "price": "Oyster cake S$2 to S$2.50; Old Nyonya laksa S$5 or S$7; Fu Shun plates from S$3.50",
+  "order": "Rojak Popiah & Cockle #01-56, Fuzhou Oyster Cake #01-05, Fu Shun #01-71, Old Nyonya #01-04",
+  "warn": "Ah Tai #01-07 is closed on Tuesdays, but scheduled for Tue 3 Nov. Use Tian Tian #01-10/11",
+  "confidence": "medium"
+ },
+ "Amoy Street Food Centre": {
+  "hours": "J2 Famous Crispy Curry Puff #01-21: Mon to Fri 8am to 3pm",
+  "closed": "J2 closed Saturdays and Sundays. No NEA closure in the trip (next 12 to 13 Dec)",
+  "price": "J2 puffs about S$1.40 to S$2 each",
+  "order": "J2 Famous Crispy Curry Puff #01-21; Han Kee Fish Soup #02-129 (weekdays 11am to 3pm)",
+  "warn": "J2 sells out quickly, so an afternoon visit after Maxwell may find it sold out",
+  "confidence": "high"
+ },
+ "Old Airport Road Food Centre": {
+  "hours": "Hougang Otah daily 8am to 9pm (2026 unconfirmed)",
+  "closed": "No NEA closure in the trip; next 7 to 10 Dec. Nam Sing closes on random days",
+  "price": "Oats pancake S$1.20 to S$1.40 (2023); Hougang Otah nasi lemak S$1.50 (2024)",
+  "order": "Aunty Oats Pancake (middle aisle), Hougang Otah #01-166, Nam Sing Hokkien Mee #01-32",
+  "warn": "Aunty Oats Pancake hours are not in the notes; check it is open at dinner",
+  "confidence": "medium"
+ },
+ "Golden Mile Food Centre": {
+  "hours": "Chef Lup Roasted #B1-56: 10:30am to 2pm or until sold out",
+  "closed": "Chef Lup closed Wednesdays. NEA cleaning 26 to 29 Oct, before the trip",
+  "price": "Char siew rice S$5; 2-meat S$6.80; 3-meat S$8.80 (Sep 2025)",
+  "order": "Chef Lup Roasted #B1-56, crystal char siew rice",
+  "warn": "Char siu ends by about 2pm, but Golden Mile comes late in the Sun 8 Nov plan. Go by lunch",
+  "confidence": "medium"
+ },
+ "Tiong Bahru Market": {
+  "hours": "Chicken rice #02-82: 10am to 8pm (one source 9pm), or until the chickens sell out",
+  "closed": "Chicken rice stall closed Mondays. NEA cleaning is 16 Nov, after the trip",
+  "price": "Chicken rice about S$3 a plate (older price)",
+  "order": "Tiong Bahru Hainanese Boneless Chicken Rice #02-82, white or roast; Jian Bo Shui Kueh",
+  "warn": "Chicken rice opens at 10am, so it is not a breakfast stop. Reviews of the chicken are mixed",
+  "confidence": "high"
+ },
+ "Lau Pa Sat": {
+  "hours": "Satay Street from about 7pm, when Boon Tat Street closes to traffic",
+  "price": "Best Satay Set A S$31.20: 10 chicken, 10 mutton or beef, 6 prawn sticks (May 2026)",
+  "order": "Best Satay at stalls 7 and 8; expect about 30 minutes' wait with a buzzer at peak",
+  "warn": "Reviewers call the satay average; the setting is the draw. No recent crab review found",
+  "confidence": "medium"
+ },
+ "Newton Food Centre": {
+  "closed": "No NEA cleaning closure in the trip; the next is 7 to 8 Dec",
+  "price": "About S$20 each for dinner without crab (budget estimate)",
+  "confidence": "medium"
+ },
+ "Takashimaya / Ngee Ann City": {
+  "hours": "Food Hall, Basement 2: daily 10am to 9:30pm (Jan 2024)",
+  "order": "B2 Japanese food street, Ebisu Sando wagyu sandwich S$28; Books Kinokuniya is in the building",
+  "confidence": "medium"
+ },
+ "Jewel Changi Airport": {
+  "hours": "Tokyo Milk Cheese Factory daily 10am to 10pm (or to 9:30pm); Devil Chicken daily 12pm to 9:30pm",
+  "order": "Tokyo Milk Cheese Factory #B2-265 and Devil Chicken #B2-258, landside; LiXin at Food Republic",
+  "warn": "Out of the airport by about 20:45 leaves under an hour before Devil Chicken closes at 9:30pm",
+  "confidence": "medium"
+ },
+ "Gardens by the Bay": {
+  "hours": "Domes daily 9am to 9pm (Cloud Forest last entry 8pm); outdoor gardens 5am to 2am",
+  "closed": "Floral Fantasy 3 Nov, Skyway 4 Nov, Observatory 5 Nov. Both domes open all week",
+  "price": "S$46 for both domes; there is no single-dome ticket for tourists",
+  "book": "Book timed dome entry online; Klook was reported at about S$29",
+  "order": "Cloud Forest and Flower Dome; free Garden Rhapsody, Garden Waltz, at 7:45pm and 8:45pm",
+  "warn": "Sat 7 Nov opens the holiday weekend, so expect crowds in the domes",
+  "confidence": "high"
+ },
+ "Merlion Park": {
+  "order": "The original Merlion at One Fullerton, with the Marina Bay Sands skyline behind",
+  "warn": "Busiest from 7pm; quietest around 7am to 8am",
+  "confidence": "medium"
+ },
+ "Chinatown": {
+  "hours": "Chinatown Heritage Centre, 48 Pagoda St: daily 10am to 7pm, last entry 6pm",
+  "price": "Heritage Centre about S$25 tourist adult (reseller figure)",
+  "order": "Pagoda Street shophouses; Masjid Jamae; Mei Heong Yuen desserts (closed Mondays)",
+  "confidence": "medium"
+ },
+ "Buddha Tooth Relic Temple": {
+  "hours": "Daily 9am to 5pm per the temple; other guides give 7am to 5pm or 7pm",
+  "price": "Free; donations welcome",
+  "warn": "Cover shoulders and knees; sarongs at the entrance. No photos in the fourth-floor relic chamber",
+  "confidence": "high"
+ },
+ "Sri Mariamman Temple": {
+  "warn": "Official hours not found. Shoes off, shoulders and knees covered. Very busy on Deepavali",
+  "confidence": "low"
+ },
+ "Thian Hock Keng Temple": {
+  "hours": "Daily 7:30am to 5pm (one guide)",
+  "warn": "Official hours and dress rules not verified; dress modestly",
+  "confidence": "low"
+ },
+ "Sultan Mosque": {
+  "hours": "Sat to Thu 10am to 12pm and 2pm to 4pm; Fri 2:30pm to 4pm",
+  "price": "Free",
+  "order": "Free robes at the counter; the prayer hall only with a mosque official",
+  "warn": "Closed to visitors 12:30pm to 2pm and 4pm to 5pm for prayers. Hours are undated",
+  "confidence": "medium"
+ },
+ "Arab Street": {
+  "hours": "Tarik (92 Arab St): daily 8am to 10pm, but reported as irregular",
+  "price": "Tarik saffron tea S$2 (older listing)",
+  "order": "Textile and rug shops; saffron tea at Tarik; Malay Heritage Centre (Tue to Sun 10am to 6pm)",
+  "confidence": "low"
+ },
+ "Haji Lane": {
+  "order": "Murals and small shops; photograph before about 11am, before the shops open",
+  "confidence": "medium"
+ },
+ "Singapore Zoo": {
+  "price": "S$49 tourist adult on weekdays",
+  "book": "Zoo plus Night Safari pass S$98 each saves S$9 each",
+  "warn": "Opening hours are not in the notes; check Mandai. Khatib shuttle M2 from 8:30am, S$2.50",
+  "confidence": "high"
+ },
+ "Singapore Botanic Gardens": {
+  "hours": "Daily 5am to midnight",
+  "closed": "Healing Garden closed Tuesdays; Heritage Museum shuts on the last Monday of the month",
+  "price": "Free; only the National Orchid Garden is ticketed",
+  "order": "Enter at Bukit Timah Gate by the MRT; Learning Forest, Swan Lake, Bandstand, Heritage Museum",
+  "confidence": "high"
+ },
+ "National Orchid Garden": {
+  "hours": "Daily 8:30am to 7pm, last ticket and entry 6pm",
+  "price": "S$15 for tourists",
+  "book": "No need to prebook; Klook charges the gate price",
+  "confidence": "high"
+ },
+ "Changi Village": {
+  "order": "Hawker centre, Changi Point Coastal Walk and the bumboat to Pulau Ubin",
+  "warn": "About 1 hour 45 minutes from Hillview: DTL to Upper Changi, then bus 2",
+  "confidence": "medium"
+ },
+ "Clarke Quay": {
+  "hours": "River cruises about 10am to 10pm Fri to Sun and PH",
+  "price": "River cruise about S$25 to S$28 an adult (resellers)",
+  "order": "Bumboat cruise after 7:30pm; desserts at Cat & the Fiddle, Overscoop, Dopa Dopa",
+  "confidence": "low"
+ },
+ "Fort Canning Park": {
+  "hours": "Battlebox: Tue to Sun including PH, 10am to 6pm, last entry 5pm",
+  "price": "Battlebox S$20 tourist adult, with a 40-minute audio tour",
+  "book": "Book Battlebox slots online; a Sat 9:30am guided walk with Battlebox is S$40",
+  "order": "Tree Tunnel spiral staircase early, then Fort Gate and the Battlebox",
+  "confidence": "high"
+ },
+ "Tanjong Pagar Railway Station": {
+  "order": "1932 station building, now above Cantonment MRT (CC31), which opened 12 Jul 2026",
+  "warn": "No source says it is open to visitors. It is at 30 Keppel Rd; the pin is near Tanjong Pagar MRT",
+  "confidence": "medium"
+ },
+ "National Gallery Singapore": {
+  "price": "S$20 for other nationalities",
+  "order": "Odette, three Michelin stars, is in the building",
+  "warn": "Opening hours were not confirmed from the gallery's own site",
+  "confidence": "high"
+ },
+ "Marina Bay Sands": {
+  "hours": "CATS at Sands Theatre: Sat 7 Nov at 2pm and 8pm",
+  "price": "CATS tickets S$68 to S$238 before booking fees",
+  "book": "Book CATS now; dated shows are the likeliest to sell out",
+  "confidence": "medium"
+ },
+ "Esplanade Theatres on the Bay": {
+  "hours": "Free Soundtracks shows on the Concourse at 6:45pm and 7:45pm, 30 minutes each, 2 to 5 Nov",
+  "price": "Free; no registration stated",
+  "order": "Tue 3 Nov programme: As Heard on TV!",
+  "warn": "No free Soundtracks shows from 6 to 9 Nov",
+  "confidence": "high"
+ },
+ "Baba House": {
+  "closed": "Closed for restoration, reopening 2027 (an NUS Alumni page says 2028)",
+  "confidence": "high"
+ },
+ "Koon Seng Road": {
+  "order": "Pastel Peranakan terraces, the most photogenic domestic architecture on the list",
+  "warn": "No heritage walk in the window; the Stories in Stone tour runs on 21 Nov",
+  "confidence": "medium"
+ },
+ "Blair Road": {
+  "order": "Conservation shophouses and terraces; pairs with Everton Park cafes and Duxton Hill",
+  "warn": "NUS Baba House nearby at 157 Neil Road is closed for restoration until 2027",
+  "confidence": "medium"
+ },
+ "Emerald Hill": {
+  "order": "Peranakan terraces in the Emerald Hill Conservation Area, a five-minute walk from Orchard",
+  "confidence": "medium"
+ },
+ "Dempsey Hill": {
+  "order": "Black and white bungalows (1903 to 1941), now cafes; a walk from Tanglin Gate",
+  "confidence": "medium"
+ },
+ "Rochester Park": {
+  "order": "Black and white bungalows, some now restaurants; a smaller cluster than Dempsey",
+  "confidence": "medium"
+ },
+ "East Coast Park": {
+  "order": "13 km coastal park; Cyclist Park in Area D; East Coast Lagoon Food Village",
+  "warn": "Bus 401 runs only at weekends and on PH; on Fri 6 Nov take 36, 48 or 196",
+  "confidence": "high"
+ },
+ "Sungei Buloh Wetland Reserve": {
+  "hours": "Daily 7am to 7pm, last entry 6:30pm",
+  "price": "Treated as free; no 2026 fee found",
+  "order": "Migratory Bird Trail, Coastal Trail, Mangrove Boardwalk; migrants Aug to Apr",
+  "warn": "No guided walk on Thu 5 Nov; free walks are on Saturdays. Keep clear of crocodiles",
+  "confidence": "high"
+ },
+ "Singapore Indoor Stadium": {
+  "hours": "LANY soft world tour, Wed 4 Nov, 8pm",
+  "price": "From S$138 face value (one source); resale from about S$77",
+  "book": "Buy only from the official agent; the venue will not honour resold tickets",
+  "warn": "Same evening as the Keng Eng Kee crab dinner. Getting home needs a Circle Line to DTL change",
+  "confidence": "medium"
+ },
+ "Bugis Street": {
+  "order": "Budget clothing, souvenirs and snacks; a crowded market, not a heritage stop",
+  "confidence": "low"
+ },
+ "Ann Siang Road": {
+  "order": "Kokuyo stationery shop at 31 and 33 Ann Siang Road: Campus notebooks, Harinacs staplers",
+  "warn": "The Kokuyo shop is confirmed (opened 28 Nov 2025), but its opening hours were not found",
+  "confidence": "medium"
+ },
+ "Funan": {
+  "price": "GV standard S$16 Fri to Sun; GV Funan is a Deluxe Plus site and may cost more",
+  "order": "GV Funan cinema; Wild Rice theatre, though nothing runs there 2 to 9 Nov",
+  "confidence": "medium"
+ },
+ "ION Orchard": {
+  "hours": "LiXin at Food Opera, B4: daily 10am to 10pm",
+  "order": "LiXin Teochew Fishball Noodles at Food Opera, B4",
+  "warn": "LiXin's Bib Gourmand stall in Toa Payoh is shut to 13 Dec; this is a food-court outlet",
+  "confidence": "medium"
+ },
+ "VivoCity": {
+  "price": "GV standard S$11.50 Mon to Thu, S$16 Fri to Sun and PH",
+  "order": "GV VivoCity; Birds of Paradise gelato; LiXin at Food Republic",
+  "confidence": "medium"
+ },
+ "Henderson Waves": {
+  "hours": "Lit 7pm to 2am daily",
+  "price": "Free",
+  "order": "274 m deck, Singapore's tallest pedestrian bridge; it starts at Mount Faber Plaza",
+  "warn": "Waiting for the 7pm lights means finishing the ridge walk in the dark",
+  "confidence": "high"
+ },
+ "Night Safari": {
+  "hours": "7:15pm to midnight, last entry 11:15pm",
+  "price": "S$58 tourist adult on regular nights, Sun to Thu",
+  "book": "Zoo plus Night Safari pass S$98 each saves S$9 each",
+  "order": "Tram ride first (about 40 minutes), then the walking trails",
+  "warn": "The last M2 shuttle leaves about midnight; budget a taxi home to Hillview",
+  "confidence": "medium"
+ },
+ "The Rail Mall": {
+  "hours": "Hours vary by store; dining and Cold Storage (464/472) open 24 hours",
+  "closed": "Acqua e Farina (400) closed Mondays, but open on public-holiday Mondays",
+  "order": "Springleaf Prata Place (394/396), 24 hours; Jew Kit Chicken Rice (450); Ya Kun (478)",
+  "warn": "No pharmacy or ATM confirmed at either Hillview mall",
+  "confidence": "high"
+ },
+ "HillV2": {
+  "hours": "CS Fresh #02-07: Mon to Thu 9am to 10pm, Fri to Sun 9am to 11pm",
+  "book": "iO Italian Osteria #02-01 takes Chope reservations",
+  "order": "iO Italian Osteria (pistachio tiramisu), New Nanyang #02-02, 7-Eleven #01-03",
+  "warn": "Unit numbers conflict between sources; no pharmacy or ATM confirmed",
+  "confidence": "medium"
+ },
+ "Dairy Farm Nature Park": {
+  "hours": "Daily 7am to 7pm; Wallace Education Centre 8:30am to 5pm",
+  "closed": "Wallace Education Centre closed Mondays",
+  "book": "No booking needed for ordinary visitors",
+  "order": "Wallace Trail (about 2.2 km return, unofficial) and Singapore Quarry",
+  "confidence": "high"
+ },
+ "Bukit Timah Nature Reserve": {
+  "hours": "Daily 7am to 7pm",
+  "order": "Bukit Timah Hill summit, 163 m, Singapore's highest natural point",
+  "warn": "Summit demolition works Jul 2026 to Mar 2028; access said to stay open (unofficial)",
+  "confidence": "medium"
+ },
+ "Singapore Quarry": {
+  "hours": "Daily 8am to 6:30pm (NParks; older guides say 5:30pm)",
+  "confidence": "high"
+ },
+ "Chestnut Nature Park": {
+  "hours": "Daily 7am to 7pm",
+  "warn": "Part of Blue Quail Trail closed for slope repair, reopening due 4Q26. Bikers share trails",
+  "confidence": "high"
+ },
+ "Bukit Batok Town Park": {
+  "order": "Little Guilin: a flooded granite quarry viewpoint",
+  "warn": "About 1.4 km away; a bus is easier than walking through Bukit Batok town",
+  "confidence": "medium"
+ },
+ "Bukit Timah Railway Station": {
+  "order": "Station gallery, signal room levers, 1932 Story cafe in the staff quarters",
+  "warn": "Gallery and cafe hours not found. The Rail Corridor is unlit, so leave by nightfall",
+  "confidence": "medium"
+ },
+ "Former Ford Factory": {
+  "hours": "Tue to Sun 9am to 5:30pm",
+  "closed": "Mondays",
+  "order": "The boardroom where Percival surrendered on 15 Feb 1942; Art Deco building",
+  "confidence": "high"
+ },
+ "Little India": {
+  "hours": "Light-up nightly 7pm to midnight; Campbell Lane Festival Village from 7pm, to 8 Nov",
+  "warn": "On Deepavali many shops close or cut hours, and the bazaar may not trade normally",
+  "confidence": "medium"
+ },
+ "Chinatown Complex Food Centre": {
+  "hours": "Ann Chin 8am to 8pm; Old Amoy Chendol 10:30am to 8:30pm or 9pm; CMY Satay 9am to 7pm",
+  "closed": "168 CMY Satay closed Mondays. NEA cleaning is 16 to 17 Nov, after the trip",
+  "price": "Chendol S$2 to S$2.80; popiah about S$1.60 a roll (older); satay S$0.60 a stick (2021)",
+  "order": "Ann Chin Popiah #02-112, Old Amoy Chendol #02-008, 168 CMY Satay #02-168, Hawker Chan #02-126",
+  "warn": "CMY Satay closes at 7pm, so make it lunch or tea, not dinner",
+  "confidence": "medium"
+ },
+ "Victoria Theatre & Concert Hall": {
+  "hours": "Classic Memories concert, Fri 6 Nov 7:30pm, Victoria Concert Hall",
+  "price": "S$35 and S$45 on SISTIC",
+  "warn": "The only event found is on Fri 6 Nov; nothing is listed for Sat 7 Nov",
+  "confidence": "medium"
+ },
+ "Changi Chapel & Museum": {
+  "hours": "Tue to Sun 9:30am to 5:30pm, last admission 5pm; open on PH Mondays",
+  "closed": "Mondays except public holidays: open Mon 9 Nov, closed Mon 2 Nov",
+  "price": "S$9 adult plus GST; cashless only",
+  "book": "Pre-booking a timeslot is encouraged",
+  "confidence": "high"
+ },
+ "Kampong Lorong Buangkok": {
+  "order": "About 30 Malay and Chinese households on land bought in 1956",
+  "warn": "Private homes: keep to the lane, and no photos of homes or people without asking",
+  "confidence": "medium"
+ },
+ "Hundred Grains": {
+  "hours": "11am to 3pm and 5pm to 9pm; days of the week not confirmed",
+  "price": "S$3.98 per 100 g, 150 g minimum; rice and drinks free-flow (Oct 2023)",
+  "order": "Pay-by-weight Sichuan, Hunan and Cantonese dishes at #02-20 Alexandra Retail Centre",
+  "warn": "The Mon to Sat pattern in the plan is not confirmed by the notes",
+  "confidence": "low"
+ },
+ "Heap Seng Leong": {
+  "hours": "Sources conflict: 5am to 4pm (2022) or 4am to 8pm",
+  "closed": "No weekly rest day or holiday policy found",
+  "price": "Kopi gu you about S$1.10 (older); nasi lemak S$3",
+  "order": "Kopi gu you, charcoal kaya-butter toast; the Malay stall at the front for curry puffs",
+  "warn": "Opening on Deepavali, Sun 8 Nov, is unconfirmed; call 6292 2368",
+  "confidence": "low"
+ },
+ "Uncle Chieng ice cream": {
+  "hours": "From 1pm to around 10pm",
+  "price": "About S$1.50 (older figure S$1.20)",
+  "order": "Ice cream block in a wafer or a slice of bread",
+  "warn": "Notes put the cart outside Takashimaya, not Scotts Square. Open to about 10pm, so evening works",
+  "confidence": "low"
+ },
+ "328 Katong Laksa": {
+  "hours": "216 East Coast Rd daily 9:30am to 10pm; flagship at 51 daily 10am to 10pm",
+  "closed": "No rest day found",
+  "price": "Small S$6.30, large S$7.50 to S$8.30",
+  "order": "Laksa in a thick, coconut-rich broth; the laksa hotpot is only at 216",
+  "warn": "The pin is the 216 East Coast Rd branch; the flagship is at 51, beside rival Janggut at 50",
+  "confidence": "medium"
+ },
+ "Joo Chiat Road": {
+  "book": "The Intan, 69 Joo Chiat Terrace, is by appointment only: book now, S$300 for two",
+  "order": "Peranakan shophouses; Cat Socrates stationery at 448; Eurasian Heritage Gallery (S$5)",
+  "confidence": "medium"
+ },
+ "Hawker Chan": {
+  "hours": "Daily 10am to 8pm (Time Out, undated)",
+  "price": "Soy sauce chicken rice about S$6.80 (outlet and date unclear)",
+  "order": "Soya sauce chicken rice at Chinatown Complex #02-126",
+  "warn": "The pin is at 78 Smith Street; the notes place the stall at Chinatown Complex #02-126",
+  "confidence": "medium"
+ },
+ "Changi Village Hawker Centre": {
+  "hours": "Nasi lemak stall: Mon, Fri 6pm to 9:30pm; Tue to Thu also lunch; Sun 4pm to 9pm",
+  "closed": "Nasi lemak stall: Saturday (Seth Lui) or Monday (Women's Weekly)",
+  "order": "International Muslim Food Stall Nasi Lemak #01-03; rival Sri Sujana in the same centre",
+  "warn": "NEA Q4 cleaning date is TBC. Call the stall on 8400 6882 before the long trip",
+  "confidence": "low"
+ },
+ "Mount Faber Park": {
+  "order": "Mount Faber Merlion; Marang Trail stairs from HarbourFront; Henderson Waves begins here",
+  "confidence": "medium"
+ },
+ "HortPark": {
+  "order": "Midpoint of the Southern Ridges; Alexandra Arch is about 200 m away",
+  "warn": "Forest Walk east section and Earth Trail were shut for slope repair; reopening after Jul 2026 unconfirmed",
+  "confidence": "medium"
+ },
+ "Pulau Ubin": {
+  "hours": "Bumboats about 6am to 7pm; they leave when 9 to 12 people are aboard",
+  "price": "Bumboat S$4 each way, cash; S$2 extra per bicycle",
+  "confidence": "high"
+ },
+ "Tiong Bahru Estate": {
+  "hours": "Woods in the Books (3 Yong Siak St): Tue to Sat 11am to 8pm, Sun 11am to 6pm",
+  "closed": "Woods in the Books lists no Monday hours",
+  "order": "1936 SIT blocks on Tiong Poh Rd, Yong Siak St and Eng Hoon St; Block 81 airship, 82 ocean liner",
+  "confidence": "medium"
+ },
+ "Ya Kun Kaya Toast": {
+  "hours": "Saturday 7:30am to 3pm or 8:30am to 5pm (sources conflict)",
+  "closed": "One 2020 source says it closes on public holidays",
+  "price": "About S$6.20 a kaya toast set (2026)",
+  "order": "Kaya toast set: kaya butter toast, two soft-boiled eggs, kopi or teh",
+  "warn": "Saturday opening time is unconfirmed; 8:30am is safe on both listings",
+  "confidence": "medium"
+ },
+ "Changi Airport Terminal 3": {
+  "hours": "Check-in closes 40 minutes before departure; GST refund counters open 24 hours",
+  "price": "Taxi from Hillview about S$55 to S$85 at 04:30, shared",
+  "book": "Pre-book a ComfortDelGro taxi the evening before (S$8 advance booking fee)",
+  "order": "Ya Kun and Kopitiam in B2, 24 hours; Singapore Food Street, airside Level 3, from 6am",
+  "warn": "Trains start 5:54am on the holiday, too late. Use the eTRS kiosk before bag drop",
+  "confidence": "high"
+ },
+ "Singapore Chinese Cultural Centre": {
+  "hours": "Clay Festival: 6 and 7 Nov 11am to 9pm, 8 Nov 11am to 6pm",
+  "price": "Drop-in workshops from S$10",
+  "book": "Tickets through singaporeclayfest.com",
+  "order": "Clay Festival in the Level 7 Multi-Purpose Hall; Pan dance in the Auditorium 6 and 7 Nov",
+  "confidence": "high"
+ },
+ "GV Capitol": {
+  "price": "GV standard about S$16 Fri to Sun, S$11.50 Mon to Thu (Jun 2026)",
+  "warn": "GV Funan is inside Funan itself, so this is not the nearest cinema to Funan",
+  "confidence": "medium"
+ },
+ "Food Playground": {
+  "hours": "Daily 9:30am to 12:30pm, Monday to Sunday",
+  "price": "S$120 nett each for two or more, valid to 30 Jun 2027",
+  "book": "Book ahead; live slots could not be checked",
+  "order": "Tuesday menu: curry chicken, roti jala, ondeh ondeh",
+  "confidence": "high"
+ },
+ "GoCycling C4 bike hire": {
+  "hours": "Daily 8am to 10pm; last hourly return 30 minutes before closing",
+  "price": "S$10 an hour, tandem S$20; S$50 cash deposit",
+  "book": "Start before 5pm on a weekday for a possibly free second hour (undated report)",
+  "confidence": "high"
+ },
+ "Chick-fil-A": {
+  "hours": "Mon to Sat 10am to 10pm",
+  "closed": "Sundays",
+  "order": "Singapore-only Spicy Chilli Sauce",
+  "confidence": "high"
+ },
+ "Sushidan (Parkway Parade)": {
+  "hours": "Daily 11am to 10pm",
+  "price": "Sushi from S$1.99++, omakase from S$19.90++",
+  "order": "Unit #01-10, 35 seats, opened 5 Sep 2026",
+  "confidence": "high"
+ },
+ "Sushidan (Raffles City)": {
+  "price": "Sushi from S$1.99++, omakase from S$19.90++",
+  "order": "Basement 1; LiXin fishball noodles at The Food Place in the same mall",
+  "confidence": "medium"
+ },
+ "Candlenut": {
+  "price": "Tasting menu from about S$65 to S$70 a head (dated); about S$118++ each with drinks",
+  "book": "Book now; starred tables likely need booking well ahead",
+  "warn": "2026 prices, dress code and booking window not confirmed. Address is 17A Dempsey Rd",
+  "confidence": "medium"
+ },
+ "Hill Street Tai Hwa Pork Noodle": {
+  "order": "Singapore's only Michelin-starred hawker stall in the 2026 guide",
+  "warn": "Address and hours were not retrieved in the notes",
+  "confidence": "medium"
+ },
+ "Kent Ridge Park": {
+  "hours": "Reflections at Bukit Chandu: Tue to Sun 9:30am to 5pm, closed Mondays except PH",
+  "order": "Canopy Walk, a 280 m boardwalk to Reflections at Bukit Chandu",
+  "confidence": "medium"
+ },
+ "Tanglin Crispy Curry Puff": {
+  "hours": "Mon to Sat 7am to 4pm (stall #02-34, Hong Lim Food Centre)",
+  "closed": "Sundays",
+  "price": "About S$2 a puff (undated)",
+  "order": "Classic chicken curry or sardine puff; potato chicken with egg",
+  "warn": "Rival stall #02-36 is next door; 'Since 1952' is #02-34. Puffs sell out, so go before noon",
+  "confidence": "medium"
+ },
+ "Bee Cheng Hiang": {
+  "hours": "69 Pagoda St daily 9am to 8pm; 189 New Bridge Rd 9am to 10pm",
+  "price": "About S$29.50 to S$35 per 500 g (2024; CNY prices are higher)",
+  "order": "Vacuum-sealed packs of minced or sliced pork bak kwa",
+  "warn": "No official Indian passenger rule found; declare it at Mumbai customs or skip it",
+  "confidence": "medium"
+ },
+ "Hwa Kee Chicken Rice": {
+  "hours": "Mon to Sat 10:30am to 5pm (Feb 2024)",
+  "closed": "Sundays",
+  "price": "Set for two S$20; soy sauce chicken rice S$5 (Feb 2024)",
+  "order": "Lemon chicken and steamed chicken set with achar, #01-12 Peninsula Shopping Centre",
+  "warn": "A mall shop, not a hawker stall. Whether roast chicken is still sold is unconfirmed",
+  "confidence": "medium"
+ },
+ "Keng Eng Kee": {
+  "hours": "Daily 11am to 2pm and 5pm to 10pm",
+  "price": "Chilli crab about S$100 a kilo, market priced",
+  "book": "Book for dinner; crab often sells out for walk-ins. Tel 6272 1038",
+  "order": "Chilli crab with mantou. Lina Confectionery #01-138: bika ambon, kueh kosui, ang ku kueh",
+  "warn": "Confirm the crab's weight and total before cooking. Lina closes 8pm on weekdays",
+  "confidence": "medium"
+ },
+ "Geylang Claypot Rice": {
+  "hours": "Sat to Wed 12pm to 2:30pm and 5pm to 10pm; Thu and Fri from 11:30am (Mar 2026)",
+  "book": "Call +65 6744 4574 ahead to order; each pot is cooked to order",
+  "order": "Charcoal-cooked claypot rice",
+  "warn": "One listing says daily 11am to 8:30pm, so do not arrive late",
+  "confidence": "medium"
+ },
+ "Hjh Maimunah": {
+  "hours": "Mon to Sat 7:30am to 7pm (Michelin); Time Out says 7am to 8pm",
+  "closed": "Sundays; Saturday is disputed",
+  "order": "Nasi padang; go before 1pm, as dishes run out",
+  "warn": "Closed on Sun 8 Nov regardless of Deepavali",
+  "confidence": "medium"
+ },
+ "Keng Wah Sung": {
+  "hours": "Mon to Sat 5:30am to 11pm (another source 6am to midnight)",
+  "closed": "Sundays",
+  "order": "Kopi, charcoal kaya toast and handmade sugar doughnuts",
+  "warn": "Sources date from 2020 to 2022. The pin is at 781 Geylang Rd, next door",
+  "confidence": "medium"
+ },
+ "Standing Sushi Bar": {
+  "hours": "Mon to Fri 12pm to 2:30pm and 6pm to 10:30pm; Sat, Sun and PH 12pm to 10:30pm",
+  "price": "Salmon Madness: five slices of salmon sashimi S$3.90, Mon and Thu dinner",
+  "warn": "Hours unconfirmed; another version says 5:30pm to 9pm. Treat the deal as dinner only",
+  "confidence": "medium"
+ },
+ "Sun with Moon": {
+  "book": "Book for dinner; seats are hard to get",
+  "order": "Kamameshi; sushi moriawase and uni",
+  "warn": "The notes did not verify hours, so the plan's daily to 9:30pm is unconfirmed",
+  "confidence": "medium"
+ },
+ "Kou Teppan": {
+  "hours": "Daily 11:30am to 3pm and 6pm to 10pm",
+  "price": "About S$70 each at lunch, S$82 to S$105 at dinner, after service and GST",
+  "book": "Book the counter",
+  "warn": "The group-of-five promotion was not checked; the 2026 dinner price is unclear",
+  "confidence": "medium"
+ },
+ "City Bakery": {
+  "hours": "Daily 9am to 9:30pm",
+  "price": "Pretzel croissant S$5; bakes S$3.80 to S$8; hot chocolate S$8.70",
+  "book": "Restaurant reservations online",
+  "order": "Pretzel croissant, giant cookie S$4.50, hot chocolate",
+  "warn": "Unit disputed: likely #02-05 to #02-07 on level two of Mandarin Gallery",
+  "confidence": "high"
+ },
+ "NUS Frontier canteen": {
+  "hours": "Chef's Wok Mon to Fri 7am to 7pm, Sat 7am to 12pm; Uncle Penyet Mon to Fri 9am to 8pm",
+  "closed": "Sundays; Saturday service is limited",
+  "price": "S$2.30 to S$5.90 a dish (Oct 2025)",
+  "order": "Chef's Wok hor fun or duck noodles S$2.30, lemon chicken rice S$2.60; Ayam Penyet set S$5.90",
+  "warn": "Late-term crowds: go before 11:45am or after 1:30pm. Public access was not confirmed",
+  "confidence": "medium"
+ },
+ "Apple Marina Bay Sands": {
+  "warn": "No store details in the notes. For goods in hand luggage, claim GST at the eTRS kiosk after immigration",
+  "confidence": "low"
+ },
+ "Apple Orchard Road": {
+  "confidence": "low"
+ }
+}

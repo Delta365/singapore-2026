@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.vercel/
+
+# Raw OpenStreetMap downloads used to build basemap.json.
+build/osm/
+
+# Flight times used by publish/redact.py.
+publish/flight_times.local
+
+# This repo is public: keep tickets and booking confirmations out of it.
+# Force-add a PDF with `git add -f` if it belongs here.
+*.pdf

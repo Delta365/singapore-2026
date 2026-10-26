@@ -1,0 +1,955 @@
+[
+ {
+  "lat": 1.362888,
+  "lon": 103.767781,
+  "addr": "510 Upper Bukit Timah Road Hillview Mrt Station",
+  "matched": "HILLVIEW MRT STATION",
+  "src": "OneMap",
+  "label": "Hillview MRT",
+  "cat": "stay",
+  "note": "Your base, Downtown Line DT3"
+ },
+ {
+  "lat": 1.280331,
+  "lon": 103.844747,
+  "addr": "1 Kadayanallur Street Maxwell Food Centre Singapore 069184",
+  "matched": "MAXWELL FOOD CENTRE",
+  "src": "OneMap",
+  "label": "Maxwell Food Centre",
+  "cat": "hawker",
+  "note": "Rojak, popiah, cockles, fuzhou oyster cake"
+ },
+ {
+  "lat": 1.27934,
+  "lon": 103.846652,
+  "addr": "7 Maxwell Road Amoy Street Food Centre",
+  "matched": "AMOY STREET FOOD CENTRE",
+  "src": "OneMap",
+  "label": "Amoy Street Food Centre",
+  "cat": "hawker",
+  "note": "Curry puff. Breakfast and lunch only, quiet weekends"
+ },
+ {
+  "lat": 1.308252,
+  "lon": 103.885809,
+  "addr": "51 Old Airport Road 51 Old Airport Road Food Centre And Shopping Mall Singapore 390051",
+  "matched": "51 OLD AIRPORT ROAD FOOD CENTRE AND SHOPPING MALL",
+  "src": "OneMap",
+  "label": "Old Airport Road Food Centre",
+  "cat": "hawker",
+  "note": "One of the great hawker centres"
+ },
+ {
+  "lat": 1.303142,
+  "lon": 103.863878,
+  "addr": "505 Beach Road Golden Mile Food Centre Singapore 199583",
+  "matched": "GOLDEN MILE FOOD CENTRE",
+  "src": "OneMap",
+  "label": "Golden Mile Food Centre",
+  "cat": "hawker",
+  "note": "Char siu"
+ },
+ {
+  "lat": 1.284786,
+  "lon": 103.832182,
+  "addr": "30 Seng Poh Road Tiong Bahru Market Singapore 168898",
+  "matched": "TIONG BAHRU MARKET",
+  "src": "OneMap",
+  "label": "Tiong Bahru Market",
+  "cat": "hawker",
+  "note": "Hainanese chicken rice"
+ },
+ {
+  "lat": 1.280594,
+  "lon": 103.850408,
+  "addr": "18 Raffles Quay Lau Pa Sat Singapore 048582",
+  "matched": "LAU PA SAT",
+  "src": "OneMap",
+  "label": "Lau Pa Sat",
+  "cat": "hawker",
+  "note": "Satay street opens evening. Crab too"
+ },
+ {
+  "lat": 1.311916,
+  "lon": 103.83957,
+  "addr": "500 Clemenceau Avenue North Newton Food Centre Singapore 229495",
+  "matched": "NEWTON FOOD CENTRE",
+  "src": "OneMap",
+  "label": "Newton Food Centre",
+  "cat": "hawker",
+  "note": "Direct from Hillview, no change of train"
+ },
+ {
+  "lat": 1.302242,
+  "lon": 103.835182,
+  "addr": "391 Orchard Road Ngee Ann City Singapore 238872",
+  "matched": "NGEE ANN CITY",
+  "src": "OneMap",
+  "label": "Takashimaya / Ngee Ann City",
+  "cat": "shop",
+  "note": "Japanese food hall in the basement"
+ },
+ {
+  "lat": 1.360341,
+  "lon": 103.989078,
+  "addr": "78 Airport Boulevard Jewel Changi Airport Singapore 819666",
+  "matched": "JEWEL CHANGI AIRPORT",
+  "src": "OneMap",
+  "label": "Jewel Changi Airport",
+  "cat": "site",
+  "note": "Rain Vortex light show 8pm and 9pm on Mondays, waterfall until 10pm. Food Republic to 11pm; Tokyo Milk Cheese Factory and Devil Chicken in B2. 24-hour bag storage"
+ },
+ {
+  "lat": 1.281149,
+  "lon": 103.86496,
+  "addr": "Gardens by the Bay, Central Region",
+  "matched": "Gardens by the Bay",
+  "src": "OSM",
+  "label": "Gardens by the Bay",
+  "cat": "site",
+  "note": "Supertrees, Cloud Forest, Flower Dome"
+ },
+ {
+  "lat": 1.286811,
+  "lon": 103.854535,
+  "addr": "21 Esplanade Drive Merlion Park (One Fullerton)",
+  "matched": "MERLION PARK (ONE FULLERTON)",
+  "src": "OneMap",
+  "label": "Merlion Park",
+  "cat": "site",
+  "note": "The original Merlion"
+ },
+ {
+  "lat": 1.283964,
+  "lon": 103.843142,
+  "addr": "151 New Bridge Road Chinatown Mrt Station",
+  "matched": "CHINATOWN MRT STATION",
+  "src": "OneMap",
+  "label": "Chinatown",
+  "cat": "site",
+  "note": "Temples, shophouses, food. Direct from Hillview"
+ },
+ {
+  "lat": 1.281509,
+  "lon": 103.844189,
+  "addr": "Buddha Tooth Relic Temple, 288, South Bridge Road, Chinatown, Civic District, Outram, Central Region",
+  "matched": "Buddha Tooth Relic Temple",
+  "src": "OSM",
+  "label": "Buddha Tooth Relic Temple",
+  "cat": "site",
+  "note": "Chinatown. Dress modestly"
+ },
+ {
+  "lat": 1.282676,
+  "lon": 103.845155,
+  "addr": "244 South Bridge Road Sri Mariamman Temple Singapore 058793",
+  "matched": "SRI MARIAMMAN TEMPLE",
+  "src": "OneMap",
+  "label": "Sri Mariamman Temple",
+  "cat": "site",
+  "note": "Oldest Hindu temple in Singapore"
+ },
+ {
+  "lat": 1.281418,
+  "lon": 103.847448,
+  "addr": "Thian Hock Keng Temple, Amoy Street, Chinatown, Tanjong Pagar, Outram, Central Region",
+  "matched": "Thian Hock Keng Temple",
+  "src": "OSM",
+  "label": "Thian Hock Keng Temple",
+  "cat": "site",
+  "note": "Telok Ayer Street, 1840s"
+ },
+ {
+  "lat": 1.303433,
+  "lon": 103.859697,
+  "addr": "Before Sultan Mosque, North Bridge Road, Kampong Glam, Little India, Rochor, Central Region",
+  "matched": "Before Sultan Mosque",
+  "src": "OSM",
+  "label": "Sultan Mosque",
+  "cat": "site",
+  "note": "Kampong Glam centrepiece"
+ },
+ {
+  "lat": 1.301664,
+  "lon": 103.858846,
+  "addr": "Arab Street Arab Street",
+  "matched": "ARAB STREET",
+  "src": "OneMap",
+  "label": "Arab Street",
+  "cat": "site",
+  "note": "Textiles, rugs, cafes"
+ },
+ {
+  "lat": 1.300888,
+  "lon": 103.858978,
+  "addr": "Haji Lane",
+  "matched": "HAJI LANE",
+  "src": "OneMap",
+  "label": "Haji Lane",
+  "cat": "site",
+  "note": "Narrow lane, murals, small shops"
+ },
+ {
+  "lat": 1.403708,
+  "lon": 103.794037,
+  "addr": "Singapore Zoo, 80, Mandai Lake Road, Central Water Catchment, Mandai Nature Precinct, Central Water Catchment, North Region",
+  "matched": "Singapore Zoo",
+  "src": "OSM",
+  "label": "Singapore Zoo",
+  "cat": "site",
+  "note": "Mandai. Bus from Khatib or Choa Chu Kang"
+ },
+ {
+  "lat": 1.313479,
+  "lon": 103.81318,
+  "addr": "1 Cluny Road Singapore Botanic Gardens Singapore 259569",
+  "matched": "SINGAPORE BOTANIC GARDENS",
+  "src": "OneMap",
+  "label": "Singapore Botanic Gardens",
+  "cat": "site",
+  "note": "Direct from Hillview, no change. UNESCO site"
+ },
+ {
+  "lat": 1.312767,
+  "lon": 103.813725,
+  "addr": "Singapore Botanic Gardens (National Orchid Garden)",
+  "matched": "SINGAPORE BOTANIC GARDENS (NATIONAL ORCHID GARDEN)",
+  "src": "OneMap",
+  "label": "National Orchid Garden",
+  "cat": "site",
+  "note": "Inside the Botanic Gardens, ticketed"
+ },
+ {
+  "lat": 1.389659,
+  "lon": 103.988082,
+  "addr": "Changi Village, East Region",
+  "matched": "Changi Village",
+  "src": "OSM",
+  "label": "Changi Village",
+  "cat": "site",
+  "note": "Hawker centre, coastal walk, Pulau Ubin ferry"
+ },
+ {
+  "lat": 1.291878,
+  "lon": 103.844228,
+  "addr": "Clarke Quay",
+  "matched": "CLARKE QUAY",
+  "src": "OneMap",
+  "label": "Clarke Quay",
+  "cat": "site",
+  "note": "Riverside. Evening only"
+ },
+ {
+  "lat": 1.292516,
+  "lon": 103.847682,
+  "addr": "Fort Canning Park",
+  "matched": "FORT CANNING PARK",
+  "src": "OneMap",
+  "label": "Fort Canning Park",
+  "cat": "site",
+  "note": "Tree tunnel, Battlebox, hilltop gardens"
+ },
+ {
+  "lat": 1.273823,
+  "lon": 103.831808,
+  "addr": "30 Keppel Road, above Cantonment MRT",
+  "matched": "Tanjong Pagar",
+  "src": "OSM",
+  "label": "Tanjong Pagar Railway Station",
+  "cat": "site",
+  "note": "1932 railway station under restoration; see the facade from outside, it is not open to visitors"
+ },
+ {
+  "lat": 1.290655,
+  "lon": 103.851708,
+  "addr": "1 Saint Andrew'S Road National Gallery Singapore Singapore 178957",
+  "matched": "NATIONAL GALLERY SINGAPORE",
+  "src": "OneMap",
+  "label": "National Gallery Singapore",
+  "cat": "site",
+  "note": "Civic District. Good for sketching"
+ },
+ {
+  "lat": 1.283994,
+  "lon": 103.859451,
+  "addr": "Marina Bay Sands",
+  "matched": "MARINA BAY SANDS",
+  "src": "OneMap",
+  "label": "Marina Bay Sands",
+  "cat": "site",
+  "note": "Bayfront, direct from Hillview"
+ },
+ {
+  "lat": 1.290205,
+  "lon": 103.855567,
+  "addr": "1 Esplanade Drive Esplanade - Theatres On The Bay Singapore 038981",
+  "matched": "ESPLANADE - THEATRES ON THE BAY",
+  "src": "OneMap",
+  "label": "Esplanade Theatres on the Bay",
+  "cat": "activity",
+  "note": "Free Soundtracks performances on the Concourse, 2 to 5 Nov at 6:45pm and 7:45pm. Nothing free on Sat 7 Nov"
+ },
+ {
+  "lat": 1.277212,
+  "lon": 103.837345,
+  "addr": "157 Neil Road Nus Baba House",
+  "matched": "NUS BABA HOUSE",
+  "src": "OneMap",
+  "label": "Baba House",
+  "cat": "site",
+  "note": "Closed for restoration, reopening 2027 at the earliest"
+ },
+ {
+  "lat": 1.310702,
+  "lon": 103.903098,
+  "addr": "Koon Seng Road, Geylang East, Joo Chiat, Geylang, Central Region",
+  "matched": "Koon Seng Road",
+  "src": "OSM",
+  "label": "Koon Seng Road",
+  "cat": "site",
+  "note": "The Peranakan terrace houses, Katong"
+ },
+ {
+  "lat": 1.276113,
+  "lon": 103.836121,
+  "addr": "Blair Road",
+  "matched": "BLAIR ROAD",
+  "src": "OneMap",
+  "label": "Blair Road",
+  "cat": "site",
+  "note": "Conservation shophouses, quiet"
+ },
+ {
+  "lat": 1.304,
+  "lon": 103.839593,
+  "addr": "Emerald Hill Road",
+  "matched": "EMERALD HILL ROAD",
+  "src": "OneMap",
+  "label": "Emerald Hill",
+  "cat": "site",
+  "note": "Peranakan terraces just off Orchard"
+ },
+ {
+  "lat": 1.304504,
+  "lon": 103.810057,
+  "addr": "Dempsey Hill, Tanglin, Central Region",
+  "matched": "Dempsey Hill",
+  "src": "OSM",
+  "label": "Dempsey Hill",
+  "cat": "site",
+  "note": "Former barracks, black and white buildings, cafes"
+ },
+ {
+  "lat": 1.305507,
+  "lon": 103.787763,
+  "addr": "37 Rochester Drive Park Avenue Rochester Singapore 138640",
+  "matched": "PARK AVENUE ROCHESTER",
+  "src": "OneMap",
+  "label": "Rochester Park",
+  "cat": "site",
+  "note": "Black and white colonial bungalows"
+ },
+ {
+  "lat": 1.313266,
+  "lon": 103.924569,
+  "addr": "38 Third Street East Coast Park Singapore 455513",
+  "matched": "EAST COAST PARK",
+  "src": "OneMap",
+  "label": "East Coast Park",
+  "cat": "activity",
+  "note": "Cycling. On a weekday take bus 36, 48 or 196 to Marine Parade and walk through the underpass. Hire bikes at GoCycling C4"
+ },
+ {
+  "lat": 1.445351,
+  "lon": 103.732143,
+  "addr": "301 Neo Tiew Crescent Sungei Buloh Wetland Reserve Singapore 718925",
+  "matched": "SUNGEI BULOH WETLAND RESERVE",
+  "src": "OneMap",
+  "label": "Sungei Buloh Wetland Reserve",
+  "cat": "activity",
+  "note": "Migratory birds peak in November"
+ },
+ {
+  "lat": 1.300868,
+  "lon": 103.874351,
+  "addr": "Singapore Indoor Stadium, Stadium Crescent, Tanjong Rhu, Crawford, Kallang, Central Region",
+  "matched": "Singapore Indoor Stadium",
+  "src": "OSM",
+  "label": "Singapore Indoor Stadium",
+  "cat": "activity",
+  "note": "LANY plays here Wed 4 Nov"
+ },
+ {
+  "lat": 1.300674,
+  "lon": 103.854831,
+  "addr": "261 Victoria Street Bugis Street Singapore 189876",
+  "matched": "BUGIS STREET",
+  "src": "OneMap",
+  "label": "Bugis Street",
+  "cat": "shop",
+  "note": "Market stalls. Direct from Hillview"
+ },
+ {
+  "lat": 1.280887,
+  "lon": 103.845844,
+  "addr": "Ann Siang Road",
+  "matched": "ANN SIANG ROAD",
+  "src": "OneMap",
+  "label": "Ann Siang Road",
+  "cat": "shop",
+  "note": "Kokuyo stationery at 31 and 33 Ann Siang Road, opened November 2025"
+ },
+ {
+  "lat": 1.291313,
+  "lon": 103.849947,
+  "addr": "Funan, 107, North Bridge Road, City Hall, Civic District, Downtown Core, Central Region",
+  "matched": "Funan",
+  "src": "OSM",
+  "label": "Funan",
+  "cat": "shop",
+  "note": "Unusual tenants and GV Funan cinema inside. Tickets about S$16 at weekends"
+ },
+ {
+  "lat": 1.30398,
+  "lon": 103.832032,
+  "addr": "2 Orchard Turn Ion Orchard Singapore 238801",
+  "matched": "ION ORCHARD",
+  "src": "OneMap",
+  "label": "ION Orchard",
+  "cat": "shop",
+  "note": "Orchard Road"
+ },
+ {
+  "lat": 1.264293,
+  "lon": 103.822305,
+  "addr": "1 Harbourfront Walk Vivocity Singapore 098585",
+  "matched": "VIVOCITY",
+  "src": "OneMap",
+  "label": "VivoCity",
+  "cat": "shop",
+  "note": "Biggest mall, best cinema screens"
+ },
+ {
+  "lat": 1.276027,
+  "lon": 103.8155,
+  "addr": "Henderson Waves",
+  "matched": "HENDERSON WAVES",
+  "src": "OneMap",
+  "label": "Henderson Waves",
+  "cat": "site",
+  "note": "The wave-shaped bridge, 36 m up. Lit from 7pm"
+ },
+ {
+  "lat": 1.401633,
+  "lon": 103.784335,
+  "addr": "80 Mandai Lake Road Night Safari Singapore 729826",
+  "matched": "NIGHT SAFARI",
+  "src": "OneMap",
+  "label": "Night Safari",
+  "cat": "decide",
+  "note": "Undecided. Getting home to Hillview late is the problem"
+ },
+ {
+  "lat": 1.357811,
+  "lon": 103.768081,
+  "addr": "384 Upper Bukit Timah Road The Rail Mall Singapore 678042",
+  "matched": "THE RAIL MALL",
+  "src": "OneMap",
+  "label": "The Rail Mall",
+  "cat": "local",
+  "note": "Walk from your door. 24h prata and Cold Storage"
+ },
+ {
+  "lat": 1.363327,
+  "lon": 103.76427,
+  "addr": "Young Dancers Studio, 4, Hillview Rise, Hillview, Bukit Batok, West Region",
+  "matched": "Young Dancers Studio",
+  "src": "OSM",
+  "label": "HillV2",
+  "cat": "local",
+  "note": "Mall beside Hillview station, Exit B"
+ },
+ {
+  "lat": 1.362688,
+  "lon": 103.774087,
+  "addr": "Dairy Farm Nature Park",
+  "matched": "DAIRY FARM NATURE PARK",
+  "src": "OneMap",
+  "label": "Dairy Farm Nature Park",
+  "cat": "local",
+  "note": "On your doorstep"
+ },
+ {
+  "lat": 1.354431,
+  "lon": 103.778073,
+  "addr": "Bukit Timah Nature Reserve",
+  "matched": "BUKIT TIMAH NATURE RESERVE",
+  "src": "OneMap",
+  "label": "Bukit Timah Nature Reserve",
+  "cat": "local",
+  "note": "Highest hill in Singapore. Summit works on"
+ },
+ {
+  "lat": 1.356117,
+  "lon": 103.771839,
+  "addr": "Singapore Quarry, Bukit Panjang, West Region",
+  "matched": "Singapore Quarry",
+  "src": "OSM",
+  "label": "Singapore Quarry",
+  "cat": "local",
+  "note": "Inside Dairy Farm Nature Park"
+ },
+ {
+  "lat": 1.376873,
+  "lon": 103.779438,
+  "addr": "Chestnut Nature Park",
+  "matched": "CHESTNUT NATURE PARK",
+  "src": "OneMap",
+  "label": "Chestnut Nature Park",
+  "cat": "local",
+  "note": "Trails. Part closed for slope repair"
+ },
+ {
+  "lat": 1.357579,
+  "lon": 103.755727,
+  "addr": "Bukit Batok Town Park",
+  "matched": "BUKIT BATOK TOWN PARK",
+  "src": "OneMap",
+  "label": "Bukit Batok Town Park",
+  "cat": "local",
+  "note": "Little Guilin. Quarry lake"
+ },
+ {
+  "lat": 1.334268,
+  "lon": 103.78113,
+  "addr": "Bukit Timah Railway Station, 1005, Bukit Timah Road, Holland Road, Bukit Timah, Central Region",
+  "matched": "Bukit Timah Railway Station",
+  "src": "OSM",
+  "label": "Bukit Timah Railway Station",
+  "cat": "local",
+  "note": "Restored halt on the Rail Corridor"
+ },
+ {
+  "lat": 1.352826,
+  "lon": 103.76884,
+  "addr": "351 Upper Bukit Timah Road Former Ford Factory",
+  "matched": "FORMER FORD FACTORY",
+  "src": "OneMap",
+  "label": "Former Ford Factory",
+  "cat": "local",
+  "note": "1.1km from Hillview. WWII surrender site"
+ },
+ {
+  "lat": 1.307244,
+  "lon": 103.849842,
+  "addr": "60 Bukit Timah Road Little India Mrt Station",
+  "matched": "LITTLE INDIA MRT STATION",
+  "src": "OneMap",
+  "label": "Little India",
+  "cat": "flag",
+  "note": "You ruled it out. Deepavali light-up is here"
+ },
+ {
+  "lat": 1.282275,
+  "lon": 103.843239,
+  "addr": "335 Smith Street Chinatown Complex Singapore 050335",
+  "matched": "CHINATOWN COMPLEX",
+  "src": "OneMap",
+  "label": "Chinatown Complex Food Centre",
+  "cat": "hawker",
+  "note": "Bakeries, Michelin stalls, popiah"
+ },
+ {
+  "lat": 1.28834,
+  "lon": 103.851652,
+  "addr": "11 Empress Place Victoria Concert Hall",
+  "matched": "VICTORIA CONCERT HALL",
+  "src": "OneMap",
+  "label": "Victoria Theatre & Concert Hall",
+  "cat": "activity",
+  "note": "Classic Memories concert on Fri 6 Nov at 7:30pm (S$35 to S$45); nothing listed for Sat 7 Nov"
+ },
+ {
+  "lat": 1.362043,
+  "lon": 103.974006,
+  "addr": "1000 Upper Changi Road North Changi Chapel & Museum Singapore 507707",
+  "matched": "CHANGI CHAPEL & MUSEUM",
+  "src": "OneMap",
+  "label": "Changi Chapel & Museum",
+  "cat": "decide",
+  "note": "Undecided. Far east, combine with Changi Village"
+ },
+ {
+  "lat": 1.383418,
+  "lon": 103.877972,
+  "addr": "5 Lorong Buang Kok Kampong Lorong Buang Kok Singapore 547556",
+  "matched": "KAMPONG LORONG BUANG KOK",
+  "src": "OneMap",
+  "label": "Kampong Lorong Buangkok",
+  "cat": "site",
+  "note": "Singapore's last surviving kampong village"
+ },
+ {
+  "lat": 1.274149,
+  "lon": 103.801399,
+  "addr": "460 Alexandra Road Alexandra Retail Centre (Arc)",
+  "matched": "ALEXANDRA RETAIL CENTRE (ARC)",
+  "src": "OneMap",
+  "label": "Hundred Grains",
+  "cat": "hawker",
+  "note": "Chinese food by weight, S$3.98 per 100g. Mon to Sat 11am to 3pm, 5pm to 9pm. Beside HortPark"
+ },
+ {
+  "lat": 1.305399,
+  "lon": 103.86374,
+  "addr": "Heap Seng Leong, North Bridge Road, Crawford, Kallang, Central Region",
+  "matched": "Heap Seng Leong",
+  "src": "OSM",
+  "label": "Heap Seng Leong",
+  "cat": "hawker",
+  "note": "1970s kopitiam. Kopi gu you, butter coffee. Curry puffs next door"
+ },
+ {
+  "lat": 1.302542,
+  "lon": 103.835482,
+  "addr": "Usually outside Takashimaya, Orchard Road",
+  "matched": "SCOTTS SQUARE",
+  "src": "OneMap",
+  "label": "Uncle Chieng ice cream",
+  "cat": "hawker",
+  "note": "Ice cream block in a wafer or a slice of bread, around S$2. The cart is usually outside Takashimaya, roughly 1pm to 10pm"
+ },
+ {
+  "lat": 1.305096,
+  "lon": 103.903211,
+  "addr": "51 East Coast Road (the original shop)",
+  "matched": "328 Katong Laksa",
+  "src": "OSM",
+  "label": "328 Katong Laksa",
+  "cat": "hawker",
+  "note": "The Katong laksa everyone argues about"
+ },
+ {
+  "lat": 1.309883,
+  "lon": 103.90205,
+  "addr": "Joo Chiat Road",
+  "matched": "JOO CHIAT ROAD",
+  "src": "OneMap",
+  "label": "Joo Chiat Road",
+  "cat": "site",
+  "note": "Peranakan shophouse street, runs to Koon Seng Road"
+ },
+ {
+  "lat": 1.282525,
+  "lon": 103.842989,
+  "addr": "#02-126 Chinatown Complex, 335 Smith Street",
+  "matched": "Hawker Chan",
+  "src": "OSM",
+  "label": "Hawker Chan",
+  "cat": "hawker",
+  "note": "Michelin starred soya sauce chicken rice, 335 Smith St"
+ },
+ {
+  "lat": 1.389152,
+  "lon": 103.988245,
+  "addr": "2 Changi Village Road Market & Hawker Centre (Blks 2 & 3 Changi Village Road) Singapore 500002",
+  "matched": "MARKET & HAWKER CENTRE (BLKS 2 & 3 CHANGI VILLAGE ROAD)",
+  "src": "OneMap",
+  "label": "Changi Village Hawker Centre",
+  "cat": "hawker",
+  "note": "Famous nasi lemak"
+ },
+ {
+  "lat": 1.275116,
+  "lon": 103.818435,
+  "addr": "Mount Faber Park",
+  "matched": "MOUNT FABER PARK",
+  "src": "OneMap",
+  "label": "Mount Faber Park",
+  "cat": "decide",
+  "note": "Southern Ridges start, for Henderson Waves"
+ },
+ {
+  "lat": 1.279263,
+  "lon": 103.797934,
+  "addr": "Hortpark",
+  "matched": "HORTPARK",
+  "src": "OneMap",
+  "label": "HortPark",
+  "cat": "site",
+  "note": "Gardens midway along the Southern Ridges"
+ },
+ {
+  "lat": 1.413448,
+  "lon": 103.965943,
+  "addr": "Pulau Ubin",
+  "matched": "Pulau Ubin",
+  "src": "OSM",
+  "label": "Pulau Ubin",
+  "cat": "site",
+  "note": "Bumboat from Changi Point. Old kampong island"
+ },
+ {
+  "lat": 1.283235,
+  "lon": 103.833681,
+  "addr": "82 Tiong Poh Road Tiong Bahru Estate Singapore 160082",
+  "matched": "TIONG BAHRU ESTATE",
+  "src": "OneMap",
+  "label": "Tiong Bahru Estate",
+  "cat": "site",
+  "note": "1930s streamline moderne flats, cafes, bookshop"
+ },
+ {
+  "label": "Ya Kun Kaya Toast",
+  "cat": "hawker",
+  "note": "The original kaya toast shop, Far East Square",
+  "lat": 1.283383,
+  "lon": 103.848376,
+  "addr": "Far East Square, 18 China Street",
+  "src": "OneMap"
+ },
+ {
+  "label": "Changi Airport Terminal 3",
+  "cat": "activity",
+  "note": "Your flight home leaves early on Mon 9 Nov. Taxi from Hillview at about 04:30",
+  "lat": 1.356626,
+  "lon": 103.986562,
+  "addr": "65 Airport Boulevard Changi Airport Terminal 3 Building Singapore 819663",
+  "src": "OneMap"
+ },
+ {
+  "label": "Singapore Chinese Cultural Centre",
+  "cat": "activity",
+  "note": "Singapore Clay Festival 6 to 8 Nov, drop-in workshops from S$10",
+  "lat": 1.275829,
+  "lon": 103.849576,
+  "addr": "1 Straits Boulevard Singapore Chinese Cultural Centre Singapore 018906",
+  "src": "OneMap"
+ },
+ {
+  "label": "Food Playground",
+  "cat": "activity",
+  "note": "Cooking class daily 9:30am to 12:30pm, S$120 each. Tuesday menu: curry chicken, roti jala, ondeh ondeh",
+  "lat": 1.28192,
+  "lon": 103.84415,
+  "addr": "24A Sago Street",
+  "src": "OneMap"
+ },
+ {
+  "label": "GoCycling C4 bike hire",
+  "cat": "activity",
+  "note": "8am to 10pm. S$10 an hour, tandem S$20 an hour, S$50 cash deposit",
+  "lat": 1.30233,
+  "lon": 103.91795,
+  "addr": "1030 East Coast Parkway",
+  "src": "OneMap"
+ },
+ {
+  "label": "Chick-fil-A",
+  "cat": "hawker",
+  "note": "Opened at Bugis+ in December 2025. Closed on Sundays",
+  "lat": 1.299604,
+  "lon": 103.854242,
+  "addr": "201 Victoria Street Bugis+ Singapore 188067"
+ },
+ {
+  "label": "Sushidan (Parkway Parade)",
+  "cat": "hawker",
+  "note": "Sushi from S$1.99. Beside the Marine Parade bus stop for East Coast Park",
+  "lat": 1.30107,
+  "lon": 103.905279,
+  "addr": "80 Marine Parade Road Parkway Parade Singapore 449269"
+ },
+ {
+  "label": "Sushidan (Raffles City)",
+  "cat": "hawker",
+  "note": "Sushi from S$1.99. Also LiXin fishball noodles in the food court",
+  "lat": 1.293894,
+  "lon": 103.85312,
+  "addr": "252 North Bridge Road Raffles City Shopping Centre"
+ },
+ {
+  "label": "Candlenut",
+  "cat": "decide",
+  "note": "Michelin-starred Peranakan at Dempsey. The special dinner option for Wednesday",
+  "lat": 1.305728,
+  "lon": 103.810124,
+  "addr": "17 Dempsey Road Candlenut Dempsey Cluster (Tanglin Village)"
+ },
+ {
+  "label": "Hill Street Tai Hwa Pork Noodle",
+  "cat": "decide",
+  "note": "Michelin-starred hawker stall, Crawford Lane. Long queues",
+  "lat": 1.305084,
+  "lon": 103.862599,
+  "addr": "466 Crawford Lane Crawford Court Singapore 190466"
+ },
+ {
+  "label": "Kent Ridge Park",
+  "cat": "site",
+  "note": "Western start of the Southern Ridges walk, on to HortPark and Henderson Waves",
+  "lat": 1.285028,
+  "lon": 103.789363,
+  "addr": "Kent Ridge Park"
+ },
+ {
+  "label": "Tanglin Crispy Curry Puff",
+  "cat": "hawker",
+  "note": "The 'since 1952' stall, S$2 each. Mon to Sat 7am to 4pm, closed Sunday",
+  "lat": 1.28532,
+  "lon": 103.84578,
+  "addr": "#02-34 Hong Lim Food Centre, 531A Upper Cross St"
+ },
+ {
+  "label": "Bee Cheng Hiang",
+  "cat": "shop",
+  "note": "Bak kwa. Buy sealed packs and declare them at Mumbai customs",
+  "lat": 1.28352,
+  "lon": 103.84378,
+  "addr": "69 Pagoda Street"
+ },
+ {
+  "label": "Hwa Kee Chicken Rice",
+  "cat": "hawker",
+  "note": "Steamed and lemon chicken, set for two about S$20. Mon to Sat 10:30am to 5pm",
+  "lat": 1.29181,
+  "lon": 103.85027,
+  "addr": "#01-12 Peninsula Shopping Centre, 3 Coleman St"
+ },
+ {
+  "label": "Keng Eng Kee",
+  "cat": "hawker",
+  "note": "Chilli crab, about S$100 a kilo. Daily 11am to 2pm, 5pm to 10pm. Book. Lina Confectionery kueh next door (#01-138), closed Sundays",
+  "lat": 1.28582,
+  "lon": 103.80353,
+  "addr": "#01-136, 124 Bukit Merah Lane 1"
+ },
+ {
+  "label": "Geylang Claypot Rice",
+  "cat": "hawker",
+  "note": "Moved here from Geylang. Lunch and dinner daily. Claypot rice takes a while, so order first",
+  "lat": 1.30164,
+  "lon": 103.86189,
+  "addr": "361 Beach Road"
+ },
+ {
+  "label": "Hjh Maimunah",
+  "cat": "hawker",
+  "note": "Malay and Indonesian nasi padang. Closed Sundays",
+  "lat": 1.30311,
+  "lon": 103.85855,
+  "addr": "11 Jalan Pisang"
+ },
+ {
+  "label": "Keng Wah Sung",
+  "cat": "hawker",
+  "note": "70-year-old kopitiam: toast, eggs and kopi. Mon to Sat from about 5:30am",
+  "lat": 1.31518,
+  "lon": 103.89155,
+  "addr": "783 Geylang Road (pin is next door)"
+ },
+ {
+  "label": "Standing Sushi Bar",
+  "cat": "hawker",
+  "note": "Five slices of salmon sashimi for S$3.90 on Mondays and Thursdays",
+  "lat": 1.29625,
+  "lon": 103.85319,
+  "addr": "#01-04 Odeon Towers, 331 North Bridge Rd"
+ },
+ {
+  "label": "Sun with Moon",
+  "cat": "hawker",
+  "note": "Japanese. Book for dinner and order the kamameshi. Daily to 9:30pm",
+  "lat": 1.30468,
+  "lon": 103.83064,
+  "addr": "#03-15 Wheelock Place, 501 Orchard Rd"
+ },
+ {
+  "label": "Kou Teppan",
+  "cat": "decide",
+  "note": "Teppanyaki omakase, about S$140 for two at lunch, S$165 to S$210 at dinner. The half-price deal needs five people",
+  "lat": 1.29342,
+  "lon": 103.83202,
+  "addr": "#B1-134 Great World, 1 Kim Seng Promenade"
+ },
+ {
+  "label": "City Bakery",
+  "cat": "hawker",
+  "note": "The New York bakery, opened August 2026. Pretzel croissant S$5. Daily 9am to 9:30pm",
+  "lat": 1.302,
+  "lon": 103.83658,
+  "addr": "Mandarin Gallery, 333A Orchard Rd"
+ },
+ {
+  "label": "NUS Frontier canteen",
+  "cat": "hawker",
+  "note": "Your canteen pick. About 590 m from Kent Ridge MRT. Late term, so go before noon or after 1:30pm. The Deck at Arts is the second choice",
+  "lat": 1.29652,
+  "lon": 103.78046,
+  "addr": "Faculty of Science, NUS Kent Ridge"
+ },
+ {
+  "label": "Apple Marina Bay Sands",
+  "cat": "shop",
+  "note": "The iPhone stop. For the 9% GST refund, keep the box sealed and claim at the kiosk after immigration at Changi; declare it at Mumbai (allowance Rs 75,000 per person)",
+  "lat": 1.283311,
+  "lon": 103.857571,
+  "addr": "Apple Marina Bay Sands, 2, Bayfront Avenue, Bayfront Subzone, Civic District, Downtown Core, Central Region"
+ },
+ {
+  "label": "Apple Orchard Road",
+  "cat": "shop",
+  "note": "Backup for the iPhone on Thursday evening. Same refund rule: keep the box sealed",
+  "lat": 1.302983,
+  "lon": 103.836284,
+  "addr": "270 Orchard Road Knightsbridge"
+ },
+ {
+  "label": "Pretty Good Muffins",
+  "cat": "hawker",
+  "note": "Muffins S$1.40 to S$4.50, matcha lattes. Mon to Sat 9:30am to 3:30pm",
+  "lat": 1.28439,
+  "lon": 103.8461,
+  "addr": "#02-57B Hong Lim Complex, 531 Upper Cross St"
+ },
+ {
+  "label": "Rise Bakehouse",
+  "cat": "hawker",
+  "note": "Bakery in a shophouse. Mon to Thu 11:30am to 8:30pm, Fri to Sun to 10:30pm",
+  "lat": 1.28184,
+  "lon": 103.84528,
+  "addr": "273 South Bridge Road"
+ },
+ {
+  "label": "Dome Bakery",
+  "cat": "hawker",
+  "note": "Fudge-filled bakes. Daily 11am to 9:30pm",
+  "lat": 1.28269,
+  "lon": 103.8458,
+  "addr": "#01-01, 227 South Bridge Road"
+ },
+ {
+  "label": "Tarik",
+  "cat": "hawker",
+  "note": "Saffron teh tarik, Teh Zafran. Hours are irregular",
+  "lat": 1.30165,
+  "lon": 103.85904,
+  "addr": "92 Arab Street (some sources say 78)"
+ },
+ {
+  "label": "Fort Canning walking tour",
+  "cat": "activity",
+  "note": "Saturday 9:30am Fort Canning and Battlebox walk, about S$40 each. Book ahead",
+  "lat": 1.29522,
+  "lon": 103.84677,
+  "addr": "Fort Canning Centre"
+ },
+ {
+  "label": "Birds of Paradise (Katong)",
+  "cat": "hawker",
+  "note": "Botanical gelato: pandan, white chrysanthemum, strawberry basil",
+  "lat": 1.305206,
+  "lon": 103.903466,
+  "addr": "63 East Coast Road"
+ }
+]
